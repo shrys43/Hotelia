@@ -1,0 +1,264 @@
+﻿1
+00:00:00,270 --> 00:00:00,810
+‫All right, guys.
+
+2
+00:00:00,810 --> 00:00:06,270
+‫So we're going to start our first project and it's going to be a small hotel website called Hotel BT
+
+3
+00:00:06,300 --> 00:00:07,440
+‫or BT.
+
+4
+00:00:07,470 --> 00:00:10,830
+‫And we're going to be using everything that we've learned up to this point.
+
+5
+00:00:10,830 --> 00:00:16,920
+‫So everything from the HTML and the CSS sandbox, I'm not going to throw in any extra technologies like
+
+6
+00:00:16,920 --> 00:00:20,850
+‫the grid system or or media queries to make it responsive.
+
+7
+00:00:20,850 --> 00:00:23,370
+‫I only want to deal with stuff we've already learned.
+
+8
+00:00:23,370 --> 00:00:28,110
+‫Once we learn that other stuff, then we'll build projects using that other stuff.
+
+9
+00:00:28,470 --> 00:00:34,290
+‫So if any of you guys are more experienced and you're saying, Oh, why didn't you use CSS grid for
+
+10
+00:00:34,290 --> 00:00:34,650
+‫this?
+
+11
+00:00:34,650 --> 00:00:36,330
+‫Because we haven't learned that yet.
+
+12
+00:00:36,330 --> 00:00:36,920
+‫Okay.
+
+13
+00:00:37,500 --> 00:00:40,680
+‫Now notice there are some background images in this project.
+
+14
+00:00:40,680 --> 00:00:46,170
+‫There will be in this lecture in the downloads, a zip file called Image Resources.
+
+15
+00:00:46,170 --> 00:00:50,460
+‫And it's going to have all the the images that are included in this project.
+
+16
+00:00:50,460 --> 00:00:59,010
+‫And where I usually get my images is pexels.com p e x else dot com and there's tons of free really,
+
+17
+00:00:59,010 --> 00:01:01,290
+‫really high quality stock images.
+
+18
+00:01:01,560 --> 00:01:06,360
+‫So what I did is I just searched for hotel and I found my images here.
+
+19
+00:01:06,360 --> 00:01:09,240
+‫And if you click on one, you can download different sizes.
+
+20
+00:01:09,240 --> 00:01:12,030
+‫So it's a, it's a great resource, it's completely free.
+
+21
+00:01:12,030 --> 00:01:16,950
+‫And the photos are just as high quality as, as premium photos are.
+
+22
+00:01:17,250 --> 00:01:19,050
+‫So let's take a look at the project.
+
+23
+00:01:19,050 --> 00:01:24,390
+‫So up top, we have a navigation bar, we have a logo, we're just using an H one here.
+
+24
+00:01:24,390 --> 00:01:26,550
+‫But you could easily use an image if you wanted.
+
+25
+00:01:26,550 --> 00:01:32,880
+‫We have a home about contact with a background hover effect and whatever the current page is is also
+
+26
+00:01:32,880 --> 00:01:34,680
+‫going to have the background.
+
+27
+00:01:34,680 --> 00:01:37,650
+‫Then we have a showcase area with a background image.
+
+28
+00:01:37,650 --> 00:01:43,800
+‫Now this background image, I did open up in Photoshop and I faded it a little bit just so that the
+
+29
+00:01:43,800 --> 00:01:45,330
+‫text was more readable.
+
+30
+00:01:45,330 --> 00:01:49,440
+‫Now you can do this with just CSS, but we haven't gone over that yet.
+
+31
+00:01:49,440 --> 00:01:52,950
+‫So that's something we'll do in another project.
+
+32
+00:01:53,160 --> 00:01:55,920
+‫But for now we're just going to use the faded out image.
+
+33
+00:01:56,610 --> 00:01:57,840
+‫So we have some text on this.
+
+34
+00:01:57,840 --> 00:01:59,940
+‫We have a link formatted as a button.
+
+35
+00:01:59,940 --> 00:02:05,370
+‫Then down here we have some floated boxes, we have an image, we have some text here and then here
+
+36
+00:02:05,370 --> 00:02:07,770
+‫we have three boxes with some icons.
+
+37
+00:02:07,770 --> 00:02:14,190
+‫Now we haven't gone over icons yet, and the way that we're using these is with a third party service
+
+38
+00:02:14,190 --> 00:02:18,990
+‫called Font Awesome, which is really awesome and it's very popular.
+
+39
+00:02:18,990 --> 00:02:25,050
+‫It's used all the time and basically all we have to do is include their stylesheet, their CSS, and
+
+40
+00:02:25,050 --> 00:02:31,230
+‫we can just add classes to elements and we can get these cool looking icons and we can actually resize
+
+41
+00:02:31,230 --> 00:02:33,330
+‫them with certain classes and so on.
+
+42
+00:02:33,570 --> 00:02:34,620
+‫All right, so we'll do that.
+
+43
+00:02:34,620 --> 00:02:37,200
+‫And then we have a simple footer with a copyright.
+
+44
+00:02:37,290 --> 00:02:42,420
+‫And then on the about page we have some text, we have an image rounded with border radius, and then
+
+45
+00:02:42,420 --> 00:02:46,860
+‫we have a background image with some testimonials where we float the images and the text.
+
+46
+00:02:46,860 --> 00:02:52,470
+‫And then on the contact page we have a form that we're going to style and then some icons down here
+
+47
+00:02:52,470 --> 00:02:54,870
+‫with location, phone number and address.
+
+48
+00:02:54,870 --> 00:03:00,030
+‫Now, as I've said before, you can't have a contact form work with just HTML.
+
+49
+00:03:00,060 --> 00:03:05,370
+‫You need to have some kind of server side language like PHP or something like that, which is beyond
+
+50
+00:03:05,370 --> 00:03:06,930
+‫the scope of this course.
+
+51
+00:03:06,930 --> 00:03:15,780
+‫Now at the end of this course, I may include a video or a reference to a video where you can I'll show
+
+52
+00:03:15,780 --> 00:03:20,280
+‫you how to use a PHP script or something like that to submit a contact form.
+
+53
+00:03:20,490 --> 00:03:26,130
+‫But just just know that the submission of a form is out of the scope of this course.
+
+54
+00:03:26,940 --> 00:03:29,730
+‫So those are the three pages that will be creating.
+
+55
+00:03:29,730 --> 00:03:33,000
+‫Now it's this site is not completely responsive.
+
+56
+00:03:33,000 --> 00:03:38,850
+‫You'll see if I go down really small, I mean, it looks okay as far as the menu and this here, this
+
+57
+00:03:38,850 --> 00:03:40,050
+‫even looks okay.
+
+58
+00:03:40,080 --> 00:03:43,530
+‫This should actually be stacked and not in three rows.
+
+59
+00:03:43,530 --> 00:03:47,220
+‫I think they're too narrow, but we're not going to do that just yet.
+
+60
+00:03:47,220 --> 00:03:53,380
+‫We may do it later on when we get into media queries and stuff like this doesn't really look very good.
+
+61
+00:03:53,400 --> 00:03:54,660
+‫Contact page.
+
+62
+00:03:54,660 --> 00:03:56,010
+‫Contact page looks okay.
+
+63
+00:03:56,010 --> 00:03:59,100
+‫Again, these should be stacked, but we'll get into that later on.
+
+64
+00:03:59,100 --> 00:04:02,160
+‫I don't want to start to do things that we haven't talked about yet.
+
+65
+00:04:02,910 --> 00:04:04,080
+‫So that's it, guys.
+
+66
+00:04:04,080 --> 00:04:05,940
+‫Let's get started with the project.
+

@@ -1,0 +1,280 @@
+﻿1
+00:00:00,300 --> 00:00:04,680
+‫Certo, gente, vamos começar nosso primeiro projeto e vai ser um pequeno
+
+2
+00:00:04,680 --> 00:00:10,470
+‫site de hotel chamado Hotel BTE ou BTE, e vamos usar tudo o que aprendemos até
+
+3
+00:00:10,470 --> 00:00:10,840
+‫agora.
+
+4
+00:00:10,840 --> 00:00:16,920
+‫Portanto, tudo do TEMEL na sandbox, não vou lançar nenhuma tecnologia extra como o sistema de
+
+5
+00:00:16,920 --> 00:00:20,760
+‫grade ou ou consultas de mídia para torná-lo responsivo.
+
+6
+00:00:20,880 --> 00:00:23,400
+‫Só quero lidar com coisas que já aprendemos.
+
+7
+00:00:23,400 --> 00:00:28,080
+‫Assim que aprendermos essas outras coisas, construiremos projetos usando essas outras coisas.
+
+8
+00:00:28,130 --> 00:00:34,140
+‫OK, então se algum de vocês é mais experiente e você está dizendo, bem, por que não nos viu a grade para
+
+9
+00:00:34,140 --> 00:00:34,590
+‫isso?
+
+10
+00:00:34,710 --> 00:00:36,300
+‫Porque ainda não aprendemos isso.
+
+11
+00:00:36,330 --> 00:00:40,530
+‫OK, agora observe que há algumas imagens de fundo neste projeto.
+
+12
+00:00:40,830 --> 00:00:46,080
+‫Haverá nesta palestra nos downloads, um arquivo zip denominado Image Resources.
+
+13
+00:00:46,290 --> 00:00:50,340
+‫E terá todas as imagens incluídas neste projeto.
+
+14
+00:00:50,550 --> 00:00:55,860
+‫E onde normalmente obtenho minhas imagens são pixels, dotcom, PBX, eells.
+
+15
+00:00:56,520 --> 00:01:01,070
+‫Com, e há toneladas de imagens de estoque de realmente, realmente alta qualidade gratuitas.
+
+16
+00:01:01,620 --> 00:01:07,890
+‫Então o que fiz foi pesquisar por hotel e encontrei minhas imagens aqui e se você clicar em uma, pode
+
+17
+00:01:07,890 --> 00:01:09,260
+‫baixar em tamanhos diferentes.
+
+18
+00:01:09,270 --> 00:01:10,800
+‫Portanto, é um ótimo recurso.
+
+19
+00:01:10,800 --> 00:01:16,810
+‫É totalmente gratuito e as fotos são de alta qualidade tanto quanto as fotos premium.
+
+20
+00:01:17,400 --> 00:01:19,050
+‫Então, vamos dar uma olhada no projeto.
+
+21
+00:01:19,060 --> 00:01:23,010
+‫Então, no topo temos a barra de navegação, temos um logotipo.
+
+22
+00:01:23,010 --> 00:01:24,420
+‫Estamos usando apenas um H1 aqui.
+
+23
+00:01:24,420 --> 00:01:26,440
+‫Mas você pode usar uma imagem facilmente, se quiser.
+
+24
+00:01:26,610 --> 00:01:32,640
+‫Temos uma página inicial sobre contato com fundo e efeito de foco e, seja qual for a página
+
+25
+00:01:32,640 --> 00:01:34,530
+‫atual, também terá o fundo.
+
+26
+00:01:34,830 --> 00:01:37,470
+‫Em seguida, temos uma área de exibição com uma imagem de fundo.
+
+27
+00:01:37,740 --> 00:01:43,530
+‫Agora, esta imagem de fundo, eu abri no Photoshop e desbotada um pouco para que o
+
+28
+00:01:43,620 --> 00:01:45,170
+‫texto ficasse mais legível.
+
+29
+00:01:45,510 --> 00:01:49,440
+‫Agora você pode fazer isso apenas com acesso, mas não examinamos isso ainda.
+
+30
+00:01:49,440 --> 00:01:52,740
+‫Então, isso é algo que faremos em outro projeto.
+
+31
+00:01:53,250 --> 00:01:55,740
+‫Mas, por enquanto, vamos apenas usar a imagem esmaecida.
+
+32
+00:01:56,220 --> 00:01:57,870
+‫OK, então temos algum texto sobre isso.
+
+33
+00:01:57,870 --> 00:01:59,790
+‫Temos um link formatado como um botão.
+
+34
+00:02:00,060 --> 00:02:02,520
+‫Então aqui embaixo temos algumas caixas flutuantes.
+
+35
+00:02:02,520 --> 00:02:04,380
+‫Temos uma imagem, você tem algum texto aqui.
+
+36
+00:02:04,620 --> 00:02:07,650
+‫E aqui temos três caixas com alguns ícones.
+
+37
+00:02:07,860 --> 00:02:10,020
+‫Agora, não examinamos os ícones ainda.
+
+38
+00:02:10,230 --> 00:02:17,100
+‫E a forma como os estamos usando é com um serviço de terceiros chamado Font Awesome, que é realmente
+
+39
+00:02:17,100 --> 00:02:17,640
+‫incrível.
+
+40
+00:02:17,640 --> 00:02:19,020
+‫E é muito popular.
+
+41
+00:02:19,020 --> 00:02:20,130
+‫É usado o tempo todo.
+
+42
+00:02:20,820 --> 00:02:26,520
+‫E basicamente tudo o que temos que fazer é incluir sua folha de estilo, seu sucesso, e podemos apenas
+
+43
+00:02:26,520 --> 00:02:32,520
+‫adicionar classes aos elementos e podemos obter esses ícones de aparência legal e podemos redimensioná-los com certas classes e assim
+
+44
+00:02:32,520 --> 00:02:33,170
+‫por diante.
+
+45
+00:02:33,570 --> 00:02:33,990
+‫Tudo bem.
+
+46
+00:02:33,990 --> 00:02:34,650
+‫Então faremos isso.
+
+47
+00:02:34,650 --> 00:02:37,020
+‫E então temos um rodapé simples com copyright.
+
+48
+00:02:37,410 --> 00:02:39,570
+‫E então, na página sobre, temos algum texto.
+
+49
+00:02:39,570 --> 00:02:44,730
+‫Temos uma imagem arredondada com raio de borda e depois temos uma imagem de fundo com alguns
+
+50
+00:02:44,730 --> 00:02:49,770
+‫depoimentos onde flutuamos as imagens no texto e depois na página de contato, temos um formulário que
+
+51
+00:02:49,770 --> 00:02:54,670
+‫vamos estilizar e depois alguns ícones aqui embaixo com localização, número de telefone e endereço.
+
+52
+00:02:55,050 --> 00:03:00,060
+‫Agora, como eu disse antes, você não pode ter um formulário de contato funcionando apenas com HTML.
+
+53
+00:03:00,060 --> 00:03:05,400
+‫Você precisa ter algum tipo de linguagem do lado do servidor, como HP ou algo parecido, que está além
+
+54
+00:03:05,400 --> 00:03:06,710
+‫do escopo deste curso.
+
+55
+00:03:07,050 --> 00:03:15,300
+‫Agora, no final deste curso, posso incluir um vídeo ou uma referência a um vídeo onde você pode saber, vou mostrar como
+
+56
+00:03:15,300 --> 00:03:20,070
+‫usar um script ou algo parecido para enviar um formulário de contato.
+
+57
+00:03:20,640 --> 00:03:25,980
+‫Mas é só saber que o envio de um formulário está fora do escopo deste curso.
+
+58
+00:03:26,550 --> 00:03:29,590
+‫OK, então essas são as três páginas que serão criadas.
+
+59
+00:03:29,850 --> 00:03:33,060
+‫Agora, é que este site não é totalmente responsivo.
+
+60
+00:03:33,060 --> 00:03:35,130
+‫Você verá se eu cair bem pequeno.
+
+61
+00:03:35,130 --> 00:03:39,900
+‫Quer dizer, parece OK no que diz respeito ao menu aqui, até parece OK.
+
+62
+00:03:40,200 --> 00:03:43,560
+‫Na verdade, isso deve ser empilhado e não em três linhas.
+
+63
+00:03:43,560 --> 00:03:47,250
+‫Acho que são muito estreitos, mas não vamos fazer isso ainda.
+
+64
+00:03:47,250 --> 00:03:53,130
+‫Podemos fazer isso mais tarde, quando entrarmos em consultas de mídia e coisas como essas não parecem muito boas.
+
+65
+00:03:53,550 --> 00:03:54,690
+‫Página de contato.
+
+66
+00:03:54,690 --> 00:03:56,020
+‫A página de contato parece boa.
+
+67
+00:03:56,040 --> 00:03:59,130
+‫Novamente, eles devem ser empilhados, mas veremos isso mais tarde.
+
+68
+00:03:59,130 --> 00:04:01,980
+‫Não quero começar a fazer coisas sobre as quais ainda não conversamos.
+
+69
+00:04:02,440 --> 00:04:04,110
+‫OK, então é isso galera.
+
+70
+00:04:04,110 --> 00:04:05,760
+‫Vamos começar com o projeto.
+

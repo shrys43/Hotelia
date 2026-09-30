@@ -1,0 +1,248 @@
+﻿1
+00:00:00,270 --> 00:00:00,570
+‫All right.
+
+2
+00:00:00,570 --> 00:00:05,670
+‫So before we jump in and we start writing our HTML and CSS for this project, I just want to talk a
+
+3
+00:00:05,670 --> 00:00:08,460
+‫little bit about design and ideas.
+
+4
+00:00:08,580 --> 00:00:11,070
+‫So it really depends.
+
+5
+00:00:11,070 --> 00:00:16,830
+‫Sometimes you'll get a job as a front end developer and you'll have a designer on your team that will
+
+6
+00:00:16,830 --> 00:00:20,830
+‫create the UI and create the designs and then hand them off to you.
+
+7
+00:00:20,850 --> 00:00:26,670
+‫So usually it'll be like maybe a Photoshop file or a sketch file illustrator or some kind of graphic
+
+8
+00:00:26,670 --> 00:00:27,810
+‫design program.
+
+9
+00:00:27,810 --> 00:00:35,520
+‫And then it's your job to take that design and use HTML and CSS and possibly some JavaScript to recreate
+
+10
+00:00:35,520 --> 00:00:36,000
+‫that.
+
+11
+00:00:36,000 --> 00:00:40,260
+‫So, so that it actually runs in the browser as a website or a web app.
+
+12
+00:00:40,770 --> 00:00:44,910
+‫Now, a lot of the times you don't have the luxury of having a designer.
+
+13
+00:00:44,910 --> 00:00:49,560
+‫You'll have to actually create everything, come up with the ideas on your own, especially if you're
+
+14
+00:00:49,560 --> 00:00:52,450
+‫doing freelancing where you do absolutely everything.
+
+15
+00:00:52,470 --> 00:00:59,160
+‫So what I usually do is I look at other websites and other themes for inspiration, and a good way to
+
+16
+00:00:59,160 --> 00:01:01,230
+‫do that is to search like theme sites.
+
+17
+00:01:01,230 --> 00:01:05,100
+‫So, for instance, Bootstrap has a lot of really nice themes.
+
+18
+00:01:05,130 --> 00:01:09,570
+‫Bootstrap is actually a framework in each HTML, CSS framework.
+
+19
+00:01:09,570 --> 00:01:12,720
+‫I have an entire course in bootstrap if you want to learn more about it.
+
+20
+00:01:12,720 --> 00:01:18,960
+‫But let's say we search for bootstrap themes and there's going to be all types of sites that have different
+
+21
+00:01:18,960 --> 00:01:19,890
+‫themes.
+
+22
+00:01:20,040 --> 00:01:21,270
+‫Let's just go to this one here.
+
+23
+00:01:21,270 --> 00:01:26,160
+‫Themes dot get bootstrap and we can go down here and you can see some examples.
+
+24
+00:01:26,160 --> 00:01:30,720
+‫Some of them are websites and some are like admin interfaces like this.
+
+25
+00:01:30,720 --> 00:01:32,640
+‫That's not really what we're interested right now.
+
+26
+00:01:32,640 --> 00:01:36,930
+‫But let's take this site, for example, and this is actually selling for $50.
+
+27
+00:01:36,930 --> 00:01:38,910
+‫And that's another idea for you guys.
+
+28
+00:01:38,910 --> 00:01:43,500
+‫If you get good at this after this course and you can create some decent layouts, you can actually
+
+29
+00:01:43,500 --> 00:01:44,760
+‫sell them online.
+
+30
+00:01:45,180 --> 00:01:47,220
+‫But most of these sites have a live preview.
+
+31
+00:01:47,220 --> 00:01:48,600
+‫So let's take a look at that.
+
+32
+00:01:50,630 --> 00:01:55,040
+‫So what I would do is I would take a look at this layout and I would just get some ideas.
+
+33
+00:01:55,040 --> 00:02:00,260
+‫So look at the header, look at how things are laid out, how the logo looks, the background image.
+
+34
+00:02:00,260 --> 00:02:00,540
+‫Okay.
+
+35
+00:02:00,560 --> 00:02:06,890
+‫So that's that's really the, the what's popular right now is to have the main large image with just
+
+36
+00:02:06,890 --> 00:02:09,110
+‫a little bit of text and maybe some buttons.
+
+37
+00:02:09,110 --> 00:02:13,850
+‫And then underneath that, have some boxes and you'll see that over and over.
+
+38
+00:02:13,850 --> 00:02:15,710
+‫And that's really what's in right now.
+
+39
+00:02:15,710 --> 00:02:21,770
+‫It's to keep it very clean, you know, not not crazy colours, just maybe, you know, two, two or
+
+40
+00:02:21,770 --> 00:02:25,520
+‫maybe three colours with some light greys and and some dark colours.
+
+41
+00:02:25,520 --> 00:02:27,800
+‫But it's pretty simple.
+
+42
+00:02:27,800 --> 00:02:34,340
+‫And down here we have some demo pages like the services page, which again we just have a large background
+
+43
+00:02:34,340 --> 00:02:36,560
+‫with some, with some text over it.
+
+44
+00:02:36,560 --> 00:02:39,830
+‫If we go down we have three boxes with some icons.
+
+45
+00:02:39,830 --> 00:02:43,040
+‫So icons are really big down here.
+
+46
+00:02:43,040 --> 00:02:46,340
+‫You can see just have some text, some images laid out.
+
+47
+00:02:46,850 --> 00:02:50,540
+‫There's some animation in this theme, but of course you don't need to add the animation.
+
+48
+00:02:50,540 --> 00:02:56,480
+‫I'm actually not a fan of a lot of animation and again, just icons in text, just like we have right
+
+49
+00:02:56,480 --> 00:02:56,810
+‫here.
+
+50
+00:02:56,810 --> 00:02:58,760
+‫So you'll see this over and over.
+
+51
+00:02:58,760 --> 00:03:05,000
+‫So just go to different theme sites and get some ideas, get some inspiration and don't copy them.
+
+52
+00:03:05,000 --> 00:03:10,790
+‫I'm not saying just, you know, take exactly what they did and redo it, but take in some of the ideas
+
+53
+00:03:10,790 --> 00:03:14,840
+‫from maybe four or five different themes and create something of your own.
+
+54
+00:03:14,840 --> 00:03:15,950
+‫So that's what I do.
+
+55
+00:03:15,950 --> 00:03:19,040
+‫That's how I create my websites and user interfaces.
+
+56
+00:03:19,040 --> 00:03:25,520
+‫I'm far from a graphic designer, but I think I have at least some some eye for design.
+
+57
+00:03:25,520 --> 00:03:27,350
+‫And it's not that hard.
+
+58
+00:03:27,350 --> 00:03:30,800
+‫Just take some some examples for inspiration.
+
+59
+00:03:30,800 --> 00:03:31,220
+‫All right.
+
+60
+00:03:31,220 --> 00:03:31,760
+‫So that's it.
+
+61
+00:03:31,760 --> 00:03:35,060
+‫I just wanted to kind of talk a little bit about that before we get started.
+
+62
+00:03:35,060 --> 00:03:38,510
+‫So in the next video, we're going to start to write our HTML.
+

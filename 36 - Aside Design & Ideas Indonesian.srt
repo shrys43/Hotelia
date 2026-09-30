@@ -1,0 +1,196 @@
+﻿1
+00:00:00,390 --> 00:00:00,590
+‫Baiklah.
+
+2
+00:00:00,600 --> 00:00:05,610
+‫Jadi sebelum kita masuk dan mulai menulis himne dan CSX kami yang sudah tua untuk proyek ini,
+
+3
+00:00:05,610 --> 00:00:08,560
+‫saya hanya ingin berbicara sedikit tentang desain dan ide.
+
+4
+00:00:08,790 --> 00:00:15,630
+‫Jadi itu kadang-kadang tergantung Anda akan mendapatkan pekerjaan sebagai pengembang front-end dan Anda akan memiliki desainer di tim Anda
+
+5
+00:00:15,630 --> 00:00:20,880
+‫yang akan menciptakan mata Anda dan membuat desain dan kemudian menyerahkannya kepada Anda.
+
+6
+00:00:20,880 --> 00:00:26,700
+‫Jadi biasanya itu akan seperti mungkin file photoshop atau ilustrator file sketsa atau semacam
+
+7
+00:00:26,700 --> 00:00:32,970
+‫program desain grafis dan kemudian tugas Anda untuk mengambil desain itu dan menggunakan masing-masing tim Alan
+
+8
+00:00:32,970 --> 00:00:40,840
+‫CSX dan mungkin beberapa javascript untuk membuat kembali seed tersebut sehingga sebenarnya berjalan di browser sebagai situs Web atau aplikasi web.
+
+9
+00:00:40,860 --> 00:00:46,290
+‫Sekarang, sering kali Anda tidak memiliki kemewahan memiliki desainer, Anda harus benar-benar menciptakan segalanya
+
+10
+00:00:46,290 --> 00:00:51,690
+‫dengan ide-ide Anda sendiri, terutama jika Anda melakukan pekerjaan lepas di mana Anda benar-benar
+
+11
+00:00:51,690 --> 00:00:52,740
+‫melakukan segalanya.
+
+12
+00:00:52,740 --> 00:00:59,160
+‫Jadi yang biasanya saya lakukan adalah melihat situs web lain dan tema lain untuk mencari inspirasi dan cara yang baik untuk melakukannya
+
+13
+00:00:59,160 --> 00:01:01,260
+‫adalah dengan mencari seperti situs tema.
+
+14
+00:01:01,260 --> 00:01:08,010
+‫Jadi misalnya bootstrap memiliki banyak tema bootstrap yang sangat bagus sebenarnya adalah kerangka kerja di setiap kerangka
+
+15
+00:01:08,010 --> 00:01:09,640
+‫kerja tim LCROSS.
+
+16
+00:01:09,690 --> 00:01:12,590
+‫Saya memiliki seluruh kursus di bootstrap jika Anda ingin mempelajari lebih lanjut tentang itu.
+
+17
+00:01:12,870 --> 00:01:18,690
+‫Tapi katakanlah kita mencari tema bootstrap dan akan ada semua jenis situs yang memiliki tema
+
+18
+00:01:19,020 --> 00:01:19,710
+‫berbeda.
+
+19
+00:01:20,160 --> 00:01:21,260
+‫Mari kita pergi ke sini.
+
+20
+00:01:21,270 --> 00:01:26,730
+‫Tema dot dapatkan bootstrap dot com dan kami turun di sini dan Anda dapat melihat beberapa contoh beberapa
+
+21
+00:01:26,730 --> 00:01:30,790
+‫di antaranya adalah situs Web dan beberapa seperti antarmuka admin seperti ini.
+
+22
+00:01:30,900 --> 00:01:32,670
+‫Bukan itu yang kami minati saat ini.
+
+23
+00:01:32,670 --> 00:01:37,860
+‫Tapi mari kita ambil situs ini sebagai contoh dan ini sebenarnya dijual seharga 50 dolar dan itu
+
+24
+00:01:37,860 --> 00:01:42,990
+‫adalah ide lain bagi kalian jika Anda pandai dalam hal ini setelah kursus ini dan Anda
+
+25
+00:01:42,990 --> 00:01:50,740
+‫dapat membuat beberapa tata letak yang layak Anda benar-benar dapat menjualnya secara online tetapi sebagian besar situs ini memiliki pratinjau langsung jadi mari kita lihat itu.
+
+26
+00:01:50,770 --> 00:01:55,060
+‫Jadi apa yang akan saya lakukan adalah saya akan melihat tata letak ini dan saya hanya akan mendapatkan beberapa ide.
+
+27
+00:01:55,060 --> 00:01:56,250
+‫Jadi lihat tajuknya.
+
+28
+00:01:56,260 --> 00:01:58,970
+‫Lihatlah bagaimana segala sesuatunya ditata bagaimana logo terlihat.
+
+29
+00:01:59,080 --> 00:02:05,530
+‫Gambar latar K jadi itulah yang benar-benar populer saat ini adalah memiliki gambar besar utama hanya dengan
+
+30
+00:02:05,560 --> 00:02:11,740
+‫sedikit teks dan mungkin beberapa tombol dan kemudian di bawahnya ada beberapa kotak dan Anda
+
+31
+00:02:12,100 --> 00:02:13,930
+‫akan melihatnya berulang kali.
+
+32
+00:02:13,960 --> 00:02:20,200
+‫Dan itu benar-benar apa yang ada di dalam sekarang ini untuk menjaganya tetap bersih, Anda tahu bukan
+
+33
+00:02:20,200 --> 00:02:27,100
+‫warna-warna gila, mungkin Anda tahu dua atau mungkin tiga warna dengan beberapa abu-abu terang dan dalam beberapa warna gelap tetapi
+
+34
+00:02:27,100 --> 00:02:33,730
+‫cukup sederhana dan di sini kami memiliki beberapa halaman demo seperti halaman layanan yang lagi-lagi kita hanya memiliki latar
+
+35
+00:02:33,730 --> 00:02:36,570
+‫belakang besar dengan beberapa teks di atasnya.
+
+36
+00:02:36,650 --> 00:02:42,310
+‫Jika kita turun, kita memiliki tiga kotak dengan beberapa ikon sehingga ikon sangat besar.
+
+37
+00:02:42,310 --> 00:02:46,490
+‫Di sini Anda hanya dapat melihat gambar teks saja.
+
+38
+00:02:46,930 --> 00:02:50,580
+‫Ada beberapa animasi dalam tema ini tetapi Anda tahu tentu saja Anda tidak perlu menambahkan animasi.
+
+39
+00:02:50,590 --> 00:02:53,050
+‫Saya sebenarnya bukan penggemar banyak animasi.
+
+40
+00:02:53,170 --> 00:02:58,750
+‫Dan lagi hanya ikon dan teks seperti yang kita miliki di sini sehingga Anda akan melihat ini berulang-ulang.
+
+41
+00:02:58,750 --> 00:03:05,140
+‫Jadi pergi saja ke situs tema yang berbeda dan dapatkan beberapa ide dapatkan inspirasi dan jangan menyalinnya. Saya tidak
+
+42
+00:03:05,140 --> 00:03:11,500
+‫mengatakan Anda tahu persis apa yang mereka lakukan dan ulangi tetapi ambil beberapa ide dari mungkin empat atau
+
+43
+00:03:11,500 --> 00:03:16,450
+‫lima tema yang berbeda. dan membuat sesuatu milik Anda sendiri sehingga itulah yang saya
+
+44
+00:03:16,450 --> 00:03:23,710
+‫lakukan, itulah cara saya membuat situs web dan antarmuka pengguna. Saya jauh dari seorang desainer grafis, tetapi saya pikir saya memiliki
+
+45
+00:03:23,830 --> 00:03:27,360
+‫setidaknya beberapa mata untuk desain dan tidak terlalu sulit.
+
+46
+00:03:27,360 --> 00:03:30,940
+‫Ambil beberapa contoh untuk inspirasi.
+
+47
+00:03:30,970 --> 00:03:31,260
+‫Baiklah.
+
+48
+00:03:31,270 --> 00:03:35,200
+‫Jadi itu mengatakan saya hanya ingin berbicara sedikit tentang itu sebelum kita mulai.
+
+49
+00:03:35,230 --> 00:03:38,320
+‫Jadi di video berikutnya kita akan mulai menulis Tamil zaman kita.
+

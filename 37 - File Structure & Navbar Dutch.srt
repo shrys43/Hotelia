@@ -1,0 +1,1120 @@
+﻿1
+00:00:00,330 --> 00:00:04,950
+‫Oké, dus we gaan door en beginnen hier nu, ik ga het uiteindelijke project
+
+2
+00:00:04,950 --> 00:00:08,910
+‫open houden, alleen als referentie, zodat ik naar jullie kan verwijzen.
+
+3
+00:00:09,090 --> 00:00:14,450
+‫Zoals wanneer ik de optimale toegang creëer, kan ik je precies laten zien wat ik doe in het uiteindelijke project.
+
+4
+00:00:14,460 --> 00:00:18,570
+‫En zoals ik in de vorige video al zei, vaak krijg je het ontwerp van tevoren
+
+5
+00:00:18,570 --> 00:00:22,040
+‫en moet je het gewoon als referentie gebruiken en de optimale toegang creëren.
+
+6
+00:00:22,350 --> 00:00:23,870
+‫Dus we zullen een soort van aanpak volgen.
+
+7
+00:00:24,240 --> 00:00:30,390
+‫En ik ga voorlopig ook de browser en de teksteditor tegelijkertijd openen.
+
+8
+00:00:30,390 --> 00:00:36,650
+‫Ik vind het niet leuk hoe smal dit is, maar tegelijkertijd wil ik dat je ze allebei ziet, oké?
+
+9
+00:00:37,170 --> 00:00:42,150
+‫Als we op een punt komen waarop we dit soort dingen maken en het ziet er niet goed uit als het zo smal is,
+
+10
+00:00:42,150 --> 00:00:43,560
+‫dan zal ik het groter maken.
+
+11
+00:00:44,070 --> 00:00:49,830
+‫OK, dus het eerste wat we willen doen, is een projectmap maken, zodat je die overal in je systeem kunt plaatsen.
+
+12
+00:00:49,840 --> 00:00:58,980
+‫Ik ga naar mijn bureaublad en ik noem deze map wat is naar de website van Hotel Underscore?
+
+13
+00:01:00,870 --> 00:01:03,330
+‫En we kunnen deze inves-code openen.
+
+14
+00:01:03,340 --> 00:01:06,900
+‫Dus het is een open map en we willen een hotelwebsite.
+
+15
+00:01:09,430 --> 00:01:14,240
+‫OK, het is helemaal leeg en ik ga allereerst een map voor onze afbeeldingen maken en
+
+16
+00:01:14,240 --> 00:01:18,260
+‫je kunt deze afbeeldingen noemen of IMG is een andere veel voorkomende conventie.
+
+17
+00:01:18,260 --> 00:01:19,490
+‫Die ga ik dus gebruiken.
+
+18
+00:01:19,880 --> 00:01:25,160
+‫En dan willen we alle beeldbronnen hebben die je hebt gedownload in de eerste video van deze sectie,
+
+19
+00:01:25,580 --> 00:01:27,080
+‫die ik hier heb.
+
+20
+00:01:27,410 --> 00:01:30,860
+‫En die willen we in onze IMG-map plaatsen.
+
+21
+00:01:31,190 --> 00:01:35,480
+‫Dus laten we doorgaan en deze allemaal selecteren en naar IMG brengen.
+
+22
+00:01:38,290 --> 00:01:39,130
+‫Oeps, wat is er gebeurd?
+
+23
+00:01:40,030 --> 00:01:40,540
+‫Daar gaan we.
+
+24
+00:01:40,960 --> 00:01:45,850
+‫Oké, dus nu die erin zitten, kunnen we deze sluiten en teruggaan naar de Vyas-code.
+
+25
+00:01:46,000 --> 00:01:48,330
+‫En nu kun je zien dat ik alle afbeeldingen hier heb.
+
+26
+00:01:49,510 --> 00:01:52,210
+‫Dus het volgende dat we zullen doen, is onze paginastructuur maken.
+
+27
+00:01:52,210 --> 00:01:55,240
+‫Zoals je kunt zien, hebben we drie pagina's home over incontact.
+
+28
+00:01:55,600 --> 00:02:02,410
+‫Onthoud dat in het begin van de HTML-basissectie, ik zei dat wanneer je een startpagina van een website hebt,
+
+29
+00:02:02,590 --> 00:02:08,290
+‫je deze index-dot-HTML moet noemen, want als je naar iets gaat, wat voor dotcom dan ook,
+
+30
+00:02:08,290 --> 00:02:11,720
+‫het zal eruitzien voor dat bestand als de startpagina.
+
+31
+00:02:11,740 --> 00:02:18,370
+‫Dus laten we zeggen index dot html als een nieuw nieuw bestand, ik klik op dit pictogram en we kunnen net zo goed de
+
+32
+00:02:18,370 --> 00:02:19,990
+‫rest van de HTML-pagina's maken.
+
+33
+00:02:19,990 --> 00:02:24,370
+‫Dus we gaan een team maken over HTML, punt, html.
+
+34
+00:02:25,710 --> 00:02:30,160
+‫Laten we morgen contact opnemen, oké?
+
+35
+00:02:30,210 --> 00:02:35,610
+‫We hebben ook onze toegang nodig, onze stylesheet, en we gaan ons succes niet in de TML
+
+36
+00:02:35,610 --> 00:02:38,070
+‫stoppen zoals we deden in de sandbox.
+
+37
+00:02:38,260 --> 00:02:39,960
+‫Ik deed dat alleen voor het gemak.
+
+38
+00:02:39,960 --> 00:02:44,970
+‫Als je een project hebt, wil je aparte stylesheets maken en over het algemeen wil je een
+
+39
+00:02:44,970 --> 00:02:46,760
+‫aparte map die deze bevat.
+
+40
+00:02:46,770 --> 00:02:51,140
+‫Dus ik ga op dit mappictogram klikken en een map maken met de naam Access.
+
+41
+00:02:52,290 --> 00:02:57,720
+‫OK, en dan daarbinnen, ga ik een nieuw bestand maken met de naam Style Dot Access.
+
+42
+00:02:57,720 --> 00:03:00,090
+‫En de naamstijl is het niet?
+
+43
+00:03:00,090 --> 00:03:04,230
+‫Het maakt niet uit hoe je dit noemt, maar stijl mainboard-toegang.
+
+44
+00:03:04,230 --> 00:03:07,770
+‫Dit zijn algemene conventies voor de belangrijkste stylesheets.
+
+45
+00:03:07,890 --> 00:03:09,780
+‫Maar het maakt niet uit, het maakt eigenlijk niet uit.
+
+46
+00:03:10,980 --> 00:03:15,060
+‫OK, dus nu we dat hebben, is dat eigenlijk onze websitestructuur.
+
+47
+00:03:15,060 --> 00:03:17,550
+‫Dus we gaan naar de index-HTML.
+
+48
+00:03:17,910 --> 00:03:22,650
+‫We kunnen voorlopig afsluiten over incontact, maar laten we ook onze stylesheet openen.
+
+49
+00:03:22,800 --> 00:03:27,150
+‫Dus we hebben deze twee bestanden open en laten we onze head body tag genereren.
+
+50
+00:03:27,170 --> 00:03:33,840
+‫Dus uitroepteken enter tab en we veranderen de titel hier in, laten we zeggen Hotel AHO.
+
+51
+00:03:34,380 --> 00:03:39,680
+‫En meestal heb je een soort scheidingsteken, zoals een streepje of een pijpteken.
+
+52
+00:03:39,960 --> 00:03:45,990
+‫En als je dan, als je gefocust bent op zoekmachines zoals je wilt, je wilt rangschikken voor, laten we zeggen,
+
+53
+00:03:45,990 --> 00:03:50,670
+‫Boston Hotel, dan zou je zoiets hier kunnen plaatsen, zolang het maar logisch is.
+
+54
+00:03:51,810 --> 00:03:55,940
+‫Maar we gaan gewoon welkom zetten omdat het de startpagina is, oké?
+
+55
+00:03:56,400 --> 00:04:01,140
+‫En je zult hier waarschijnlijk wat metatags willen plaatsen, zoals een beschrijving.
+
+56
+00:04:02,350 --> 00:04:06,660
+‫Ik ga dit niet voor elk project doen dat we maken, maar ik doe het voor dit, alleen omdat het het
+
+57
+00:04:06,660 --> 00:04:07,290
+‫eerste is.
+
+58
+00:04:07,560 --> 00:04:14,400
+‫Dus laten we zeggen naambeschrijving en laten we inhoud gelijken.
+
+59
+00:04:14,400 --> 00:04:20,790
+‫En dan zeg ik gewoon welkom tegen de meesten.
+
+60
+00:04:23,920 --> 00:04:30,750
+‫Buitengewoon hotel in Boston.
+
+61
+00:04:33,280 --> 00:04:38,860
+‫Massachusetts, dus dat is onze beschrijving, laten we nog een metatag doen, dit zullen
+
+62
+00:04:38,860 --> 00:04:47,260
+‫onze trefwoorden zijn, dus we willen naam is gelijk aan trefwoorden en voor de inhoud zou hij waarschijnlijk zoiets doen als hotel, ongeacht
+
+63
+00:04:47,260 --> 00:04:48,160
+‫de locatie.
+
+64
+00:04:48,170 --> 00:04:56,620
+‫Dus zoiets als Boston Hotel, New England Hotel en wat het ook mag zijn, welke trefwoorden dan ook.
+
+65
+00:04:56,620 --> 00:04:58,180
+‫Beschrijf deze pagina.
+
+66
+00:04:58,900 --> 00:04:59,260
+‫Oke.
+
+67
+00:04:59,260 --> 00:05:04,090
+‫Nu willen we daarnaast onze stylesheet koppelen, dus we gebruiken een link-tag.
+
+68
+00:05:04,470 --> 00:05:10,840
+‫En als ik Emet gebruik, als ik link, enter of link tab, zal het automatisch in het Real-attribuut worden geplaatst.
+
+69
+00:05:11,350 --> 00:05:16,450
+‫Dus de Rella zal gelijk zijn aan stylesheet omdat we het alleen vertellen dat
+
+70
+00:05:16,450 --> 00:05:21,910
+‫we hier een stylesheet importeren, CSF's-bestand en dan in het vliegtuig, we willen naar dat bestand verwijzen.
+
+71
+00:05:22,210 --> 00:05:25,210
+‫Onthoud nu dat we het in een map met de naam Access plaatsen.
+
+72
+00:05:25,210 --> 00:05:28,750
+‫Dus we willen zeggen succes, stijltoegang.
+
+73
+00:05:29,890 --> 00:05:34,100
+‫OK, en dan kunnen we beginnen met het lichaam hier.
+
+74
+00:05:34,900 --> 00:05:39,020
+‫Nu is het belangrijk om te vermelden dat iedereen zijn eigen stijl heeft.
+
+75
+00:05:39,070 --> 00:05:42,960
+‫Iedereen heeft zijn eigen naamgevingsconventies en hoe ze tags willen structureren.
+
+76
+00:05:43,630 --> 00:05:50,080
+‫Wat ik bijvoorbeeld ga doen is een header-tag hebben, dus ik plaats hem gewoon in header en in mijn
+
+77
+00:05:50,080 --> 00:05:53,200
+‫hoofd, of ik wil de navigatie en de showcase.
+
+78
+00:05:53,200 --> 00:05:58,960
+‫Ik wil dat dit hele gebied de koptekst is, maar het is prima als je alleen dit
+
+79
+00:05:58,960 --> 00:06:05,230
+‫in de koptekst-tag zou hebben en dan misschien een sectie hiervoor hebt, je zult zien dat je verschillende stijlen
+
+80
+00:06:05,230 --> 00:06:10,340
+‫zult zien als je kijkt op andere HTML en je gaat je eigen stijl ontwikkelen.
+
+81
+00:06:11,260 --> 00:06:16,840
+‫Wat ik hier doe, is precies wat ik graag doe en ik denk graag dat het oké is.
+
+82
+00:06:17,050 --> 00:06:22,300
+‫En hopelijk vinden jullie het niet erg hoe ik dingen doe, maar ik wil gewoon Ik wil dat
+
+83
+00:06:22,300 --> 00:06:29,010
+‫ik duidelijk wil maken dat elke ontwikkelaar zijn eigen stijl heeft om dingen te doen en niet alleen HTML, elke vorm van programmeren, iets
+
+84
+00:06:29,020 --> 00:06:29,880
+‫als Dat.
+
+85
+00:06:30,550 --> 00:06:33,580
+‫Dus zoals ik al zei, ik wil de navigatie, de navigatiebalk hier.
+
+86
+00:06:33,580 --> 00:06:42,610
+‫Dus ik ga een navigatie-tag maken en ik ga dit een idee geven van de navigatiebalk en in de
+
+87
+00:06:42,610 --> 00:06:43,360
+‫navigatiebalk.
+
+88
+00:06:43,360 --> 00:06:48,040
+‫We gaan hier het logo op hebben, dat is gewoon een H1.
+
+89
+00:06:48,460 --> 00:06:52,960
+‫En dan hebben we onze navigatie, die een ongeordende lijst is.
+
+90
+00:06:53,350 --> 00:06:58,570
+‫Dus laten we een H1 plaatsen, die ik eigenlijk een soort logo ga geven.
+
+91
+00:07:00,670 --> 00:07:06,700
+‫En dat is iets anders dat verschilt, afhankelijk van de ontwikkelaar, is hoe je ID's en klassen gebruikt.
+
+92
+00:07:06,700 --> 00:07:10,180
+‫Ik zou dit gemakkelijk een klas kunnen noemen en dit een ID.
+
+93
+00:07:10,180 --> 00:07:10,930
+‫Dat is prima.
+
+94
+00:07:11,260 --> 00:07:17,980
+‫De enige belangrijke regel die ik nooit zou mogen breken, is dat je niet meer dan één ID hebt, zoals geen
+
+95
+00:07:17,980 --> 00:07:20,920
+‫ander idee van de navigatiebalk op dezelfde pagina.
+
+96
+00:07:21,970 --> 00:07:24,850
+‫Maar ik bedoel, sommige mensen zul je alleen klassen gebruiken.
+
+97
+00:07:24,850 --> 00:07:31,870
+‫Ik heb de neiging om ID's te gebruiken voor dingen waarvan ik geen duplicaten zal hebben en die al het andere omringen
+
+98
+00:07:31,870 --> 00:07:34,210
+‫dat ze ouders zijn van andere dingen.
+
+99
+00:07:34,540 --> 00:07:38,470
+‫We hebben bijvoorbeeld de H1 in de U. S. hier omringt de NAV hen.
+
+100
+00:07:38,470 --> 00:07:40,020
+‫Dus ik ga hier een ID gebruiken.
+
+101
+00:07:40,840 --> 00:07:48,670
+‫Dus voor het logo gaan we HB T doen, en meestal laat je je logo naar je startpagina gaan, zoals je zult zien als ik
+
+102
+00:07:48,670 --> 00:07:53,800
+‫erop klik als ik erover zweef, het is een link en het gaat terug naar de
+
+103
+00:07:53,800 --> 00:07:54,390
+‫startpagina.
+
+104
+00:07:54,400 --> 00:07:56,890
+‫Dus als ik op een boot zit en ik klik erop, breng me dan terug.
+
+105
+00:07:57,130 --> 00:08:03,850
+‫Dus we willen dit omringen met een A-tag en we willen dat dit naar indexdot HTML gaat.
+
+106
+00:08:05,200 --> 00:08:05,650
+‫Oke.
+
+107
+00:08:05,650 --> 00:08:09,320
+‫Zorg ervoor dat je een tag sluit aan de andere kant van het hoofd.
+
+108
+00:08:09,400 --> 00:08:09,670
+‫De.
+
+109
+00:08:11,430 --> 00:08:11,800
+‫Oke.
+
+110
+00:08:11,800 --> 00:08:15,040
+‫Ik ga deze zijbalk gewoon sluiten om me ook wat meer ruimte te geven.
+
+111
+00:08:16,410 --> 00:08:17,800
+‫OK, dus dat is van ons allemaal.
+
+112
+00:08:17,800 --> 00:08:20,230
+‫Nu willen we dat het goed met je gaat.
+
+113
+00:08:20,560 --> 00:08:24,130
+‫Dus laten we je goed doen lijst item.
+
+114
+00:08:24,130 --> 00:08:26,830
+‫En dan hebben we in elk lijstitem een link.
+
+115
+00:08:27,070 --> 00:08:30,910
+‫Dit gaat naar index DOT HTML en dit wordt onze startpagina.
+
+116
+00:08:31,210 --> 00:08:35,350
+‫Ik ga control option down of control alt down doen op een Windows-machine.
+
+117
+00:08:36,010 --> 00:08:44,560
+‫En laten we het hebben over en zeggen over HTML-contact.
+
+118
+00:08:48,810 --> 00:08:49,590
+‫Contacten.
+
+119
+00:08:49,920 --> 00:08:55,710
+‫OK, dus daar is onze navigatiebalk, laten we deze nu openen in de live server, en het ziet er vreselijk uit omdat
+
+120
+00:08:55,710 --> 00:08:57,080
+‫we geen toegang hebben.
+
+121
+00:08:57,480 --> 00:09:01,170
+‫Dus dat gaan we nu doen, gaan we naar het succes, oké?
+
+122
+00:09:01,310 --> 00:09:07,980
+‫En dat is een ander ding dat varieert, is dat je soms al je HTML op de hele pagina kunt
+
+123
+00:09:07,980 --> 00:09:15,240
+‫doen en dan je succes kunt beginnen, of je kunt doen wat we gaan doen en in principe component voor component gaan.
+
+124
+00:09:15,250 --> 00:09:20,740
+‫Dus de Navar gaat dan naar de vitrine, dan naar dit deel, dat deel enzovoort.
+
+125
+00:09:21,330 --> 00:09:24,210
+‫Dus laten we beginnen met gestileerde toegang.
+
+126
+00:09:25,140 --> 00:09:31,410
+‫En naast de styling van de navigatiebalk, wil ik slechts enkele van de belangrijkste basisstyling doen, zoals de body-tag
+
+127
+00:09:31,410 --> 00:09:32,760
+‫en dat soort dingen.
+
+128
+00:09:33,210 --> 00:09:40,020
+‫Dus ik ga een accessoireset toevoegen, dus ik ga hier een asterisk plaatsen, wat betekent dat we
+
+129
+00:09:40,020 --> 00:09:45,780
+‫alles pakken en de marge opruimen en de standaardmarge en opvulling opvullen die de
+
+130
+00:09:45,780 --> 00:09:48,870
+‫browser op elke op veel verschillende elementen.
+
+131
+00:09:49,140 --> 00:09:51,960
+‫Zodra ik dat opsla, zul je zien dat het verandert.
+
+132
+00:09:52,440 --> 00:09:56,760
+‫OK, de kop, dat spul, de marge verdwijnt.
+
+133
+00:09:56,910 --> 00:10:01,380
+‫En dan wil ik ook een eigenschap voor de grootte van een doos toevoegen en we
+
+134
+00:10:05,160 --> 00:10:10,500
+‫gaan dat instellen op een randvak, want als we dozen hebben met een opvulling zoals deze hier, wil ik
+
+135
+00:10:10,500 --> 00:10:14,670
+‫niet dat de opvulling wordt toegevoegd aan de werkelijke breedte van de doos.
+
+136
+00:10:14,970 --> 00:10:16,470
+‫Oké, dus dat is best belangrijk.
+
+137
+00:10:17,280 --> 00:10:19,770
+‫Dus nu hebben we onze belangrijkste styling.
+
+138
+00:10:19,770 --> 00:10:27,840
+‫En wat ik bedoel met main is net als kernelementen, zoals de body-links, koppen, alinea's, al die dingen, oké,
+
+139
+00:10:27,840 --> 00:10:31,740
+‫alles wat echt geen klasse of ID heeft.
+
+140
+00:10:32,130 --> 00:10:38,940
+‫Dus voor de body en vaak wanneer hij de body stylet, zet je ook de HTML in.
+
+141
+00:10:38,940 --> 00:10:47,280
+‫Dus HTML body en dan ga ik gewoon de lettertypefamilie instellen op Ik ga een van deze presets gebruiken
+
+142
+00:10:47,280 --> 00:10:48,360
+‫voor spraakcode.
+
+143
+00:10:48,360 --> 00:10:57,990
+‫We gebruiken deze Segou-gebruikersinterface voor Haoma Genève en laten we dan de regelhoogte instellen op Ik ga het een beetje hoog instellen.
+
+144
+00:10:57,990 --> 00:11:04,980
+‫Dus één punt zeven 's ochtends en nu ik gered heb, kun je zien dat er wat meer ruimte tussen de
+
+145
+00:11:04,980 --> 00:11:05,700
+‫regels is.
+
+146
+00:11:06,420 --> 00:11:08,430
+‫OK, het volgende wat zal doen zijn de links.
+
+147
+00:11:09,000 --> 00:11:16,020
+‫Ik wil standaard alle links, tenzij de klasse of ID anders aangeeft, ik wil dat ze een kleur hebben
+
+148
+00:11:16,020 --> 00:11:17,730
+‫van drie, drie, drie.
+
+149
+00:11:18,180 --> 00:11:20,250
+‫En ik wil ook de onderstreping verwijderen.
+
+150
+00:11:20,250 --> 00:11:24,510
+‫Dus we zullen geen tekstdecoratie doen en dat bewaren we.
+
+151
+00:11:25,800 --> 00:11:26,210
+‫OKE.
+
+152
+00:11:26,520 --> 00:11:27,600
+‫Ook de rubrieken.
+
+153
+00:11:27,600 --> 00:11:33,650
+‫Dus ik ga H1, H2, H3 zeggen, ik wil ruimte eronder.
+
+154
+00:11:33,660 --> 00:11:39,630
+‫Dus als we naar ons laatste project kijken, dus zoals hier kun je de afstand hier zien, de afstand
+
+155
+00:11:39,930 --> 00:11:43,410
+‫hier omdat we bewegen, we verwijderen de standaardmarge en opvulling.
+
+156
+00:11:43,590 --> 00:11:45,000
+‫Er zal geen tussenruimte zijn.
+
+157
+00:11:45,000 --> 00:11:46,710
+‫Die moeten we dus zelf toevoegen.
+
+158
+00:11:46,980 --> 00:11:51,990
+‫Dus ik ga eigenlijk de onderste twintig pixels opvullen.
+
+159
+00:11:53,190 --> 00:11:55,410
+‫OK, en dan vier alinea's.
+
+160
+00:11:56,700 --> 00:12:02,070
+‫Onthoud dat alinea's standaard een marge hebben, maar we hebben deze zojuist verwijderd met de reset.
+
+161
+00:12:02,070 --> 00:12:07,310
+‫Dus ik ga gewoon een marge van tien pixels toevoegen aan de boven- en onderkant.
+
+162
+00:12:07,320 --> 00:12:10,020
+‫Oké, onthoud dat als we het op deze manier doen, dit boven en onder is.
+
+163
+00:12:10,050 --> 00:12:11,190
+‫Dit is links en rechts.
+
+164
+00:12:12,480 --> 00:12:14,630
+‫Dat zijn dus de kernstijlen.
+
+165
+00:12:14,640 --> 00:12:17,190
+‫Laten we nu verder gaan met de eigenlijke navigatiebalk.
+
+166
+00:12:17,940 --> 00:12:20,570
+‫Dus wat was het, een ID?
+
+167
+00:12:20,940 --> 00:12:21,750
+‫Ja, dat deden we.
+
+168
+00:12:21,750 --> 00:12:26,430
+‫Ik zou hier nooit een opmerking plaatsen om dingen te ordenen.
+
+169
+00:12:27,330 --> 00:12:36,660
+‫En we zullen zeggen, nu, bar, ik ga de achtergrond instellen, haar achtergrond kleuren, twee, drie, drie, drie.
+
+170
+00:12:37,680 --> 00:12:44,130
+‫Ik ga de kleur op wit zetten en kijken wat we nog meer gaan doen.
+
+171
+00:12:44,220 --> 00:12:50,790
+‫Laten we een automatische overloop doen, zodat de achtergrond hoe dan ook wordt weergegeven.
+
+172
+00:12:51,360 --> 00:12:56,970
+‫En we slaan dat op en merken op dat we de tekst niet kunnen lezen, ook al plaatsen we hier kleur,
+
+173
+00:12:56,970 --> 00:12:59,130
+‫omdat de hele tekst, het zijn allemaal links.
+
+174
+00:12:59,340 --> 00:13:03,480
+‫En als je links hebt, moet je de kleur specifiek aan die links toevoegen.
+
+175
+00:13:04,050 --> 00:13:09,660
+‫Dus onthoud, we hebben een logo, dus ik ga het logo van de navigatiebalk doen.
+
+176
+00:13:10,530 --> 00:13:15,480
+‫Ik wil die link stylen en daarna alle andere links in de navigatiebalk.
+
+177
+00:13:15,480 --> 00:13:24,030
+‫Dus laten we nu een komma plaatsen var, weet je wat, we doen gewoon Navarra, je weet dat het niet nodig is om dat
+
+178
+00:13:24,030 --> 00:13:24,930
+‫te doen.
+
+179
+00:13:27,840 --> 00:13:36,180
+‫En laten we zeggen kleur wit en opslaan, en nu kunnen we de tekst echt zien, dus wat het
+
+180
+00:13:36,180 --> 00:13:44,560
+‫volgende is dat we willen doen is het logo links uitlijnen en we willen dat het gebruikelijke aan de rechterkant staat.
+
+181
+00:13:44,910 --> 00:13:47,430
+‫Dus laten we daar wat drijvers voor toevoegen.
+
+182
+00:13:47,820 --> 00:13:51,960
+‫En ik zou aanraden om zoiets als flexblokken te gebruiken, maar daar zijn we nog niet aan toegekomen.
+
+183
+00:13:51,970 --> 00:13:53,460
+‫Dus we gaan gewoon drijvers gebruiken.
+
+184
+00:13:53,910 --> 00:14:02,730
+‫Dus laten we de Navar H1 pakken en naar links drijven.
+
+185
+00:14:04,650 --> 00:14:08,580
+‫Ik ga ook wat vulling aan de bovenkant toevoegen om het een beetje naar beneden te duwen.
+
+186
+00:14:09,590 --> 00:14:11,280
+‫Het is tot 20 pixels.
+
+187
+00:14:12,120 --> 00:14:13,340
+‫Oké, dat bewaren we.
+
+188
+00:14:13,620 --> 00:14:16,140
+‫Nu willen we dat ook laten drijven.
+
+189
+00:14:16,140 --> 00:14:18,630
+‫Dat willen we naar rechts laten zweven.
+
+190
+00:14:22,500 --> 00:14:25,140
+‫Het is dus een bar.
+
+191
+00:14:25,290 --> 00:14:29,290
+‫Nou, we gaan ook nog een paar andere dingen doen.
+
+192
+00:14:29,310 --> 00:14:30,750
+‫We willen de kogels verwijderen.
+
+193
+00:14:30,750 --> 00:14:38,460
+‫Dus laten we zeggen levensstijl, geen, en we stellen de marge op nul.
+
+194
+00:14:39,780 --> 00:14:42,410
+‫En eigenlijk hoeven we dat niet te doen omdat we de reset hebben toegevoegd.
+
+195
+00:14:42,810 --> 00:14:48,000
+‫Dus laten we gewoon zweven, goed, en opslaan.
+
+196
+00:14:48,360 --> 00:14:50,390
+‫En nu zweeft dat naar rechts.
+
+197
+00:14:52,080 --> 00:14:55,530
+‫Dus de lijstitems gaan nu verticaal.
+
+198
+00:14:55,530 --> 00:14:57,180
+‫We willen dat ze horizontaal gaan.
+
+199
+00:14:57,450 --> 00:15:00,300
+‫Dus laten we grijpen naar die navigatiebalk.
+
+200
+00:15:00,660 --> 00:15:05,240
+‫Je liegt of je doet gewoon Navar.
+
+201
+00:15:05,240 --> 00:15:06,270
+‫Ally, het is aan jou.
+
+202
+00:15:06,270 --> 00:15:08,700
+‫Ik hou het gewoon graag zo georganiseerd.
+
+203
+00:15:09,600 --> 00:15:17,490
+‫Dus voor de lijstitems willen we ze allemaal naar links laten zweven en opslaan en dan al het andere dat
+
+204
+00:15:17,490 --> 00:15:21,870
+‫we stylen, voor zover deze links op de tag binnenin staan.
+
+205
+00:15:22,470 --> 00:15:23,520
+‫Dus laten we dat doen.
+
+206
+00:15:23,520 --> 00:15:24,840
+‫Laten we zeggen navigatiebalk.
+
+207
+00:15:27,320 --> 00:15:29,270
+‫Jij ik ik een.
+
+208
+00:15:31,960 --> 00:15:43,930
+‫En we willen ze weergeven als blokken, oké, zodat we opvulling kunnen toevoegen en we willen 20 pixels rondom doen, oké, als ze
+
+209
+00:15:44,290 --> 00:15:49,110
+‫opslaan, duwt dat ze precies op hun plaats.
+
+210
+00:15:49,120 --> 00:15:50,850
+‫We hadden overal 20 pixels.
+
+211
+00:15:52,000 --> 00:15:53,830
+‫Laten we ervoor zorgen dat ze zijn uitgelijnd, gecentreerd.
+
+212
+00:15:53,830 --> 00:15:57,990
+‫Dus we zeggen een tekst in het midden van een regel.
+
+213
+00:15:58,750 --> 00:16:00,790
+‫En wat willen we nog meer doen?
+
+214
+00:16:01,900 --> 00:16:02,680
+‫Ik denk dat dat het is.
+
+215
+00:16:04,120 --> 00:16:07,090
+‫Nu, ik wil nu een hover-status hebben.
+
+216
+00:16:07,090 --> 00:16:09,070
+‫Als ik erover zweef, gebeurt er niets.
+
+217
+00:16:09,430 --> 00:16:16,540
+‫Dus wat we kunnen doen is dit nemen en gewoon onze pseudo-selector van hover toevoegen.
+
+218
+00:16:16,570 --> 00:16:20,140
+‫Dus Colen Hover en ik gaan zeggen achtergrond.
+
+219
+00:16:20,780 --> 00:16:22,600
+‫Laten we vier, vier, vier doen.
+
+220
+00:16:23,170 --> 00:16:34,810
+‫En laten we de kleur ook een hexadecimaal van F maken. Laten we F zeven C nul acht A doen, dit is deze lichte,
+
+221
+00:16:35,410 --> 00:16:36,980
+‫bruinachtige, taanachtige kleur.
+
+222
+00:16:37,360 --> 00:16:39,860
+‫Dus als ik er nu overheen zweef, ziet het er zo uit.
+
+223
+00:16:41,860 --> 00:16:46,780
+‫Een ander ding dat ik wil doen, is afhankelijk van de pagina of op, ik wil dat het dat effect ook heeft.
+
+224
+00:16:46,780 --> 00:16:51,290
+‫Als we naar het uiteindelijke project kijken, zie je dat de homepage dat effect heeft.
+
+225
+00:16:51,760 --> 00:16:59,590
+‫Dus wat we kunnen doen, is op welke pagina je ook bent in de navigatiebalk hier, we kunnen een speciale klasse toevoegen en
+
+226
+00:16:59,590 --> 00:17:03,180
+‫die gaan we toevoegen aan de link naar de aanvallen.
+
+227
+00:17:03,200 --> 00:17:08,530
+‫Dus aangezien we hier op de startpagina zijn, laten we zeggen dat klasse gelijk is aan en laten we dit actueel noemen.
+
+228
+00:17:10,430 --> 00:17:15,680
+‫OK, dus we gaan terug en toen wilde ik dezelfde styling hebben, het heeft geen zin om het opnieuw te creëren.
+
+229
+00:17:15,680 --> 00:17:25,090
+‫Laten we gewoon een komma plaatsen zodat het beide beïnvloedt en we pakken dit en voegen dan gewoon de klasse van stroom toe, oké?
+
+230
+00:17:25,100 --> 00:17:29,900
+‫En u wilt dit meestal op een nieuwe regel zetten om het schoon te houden en op te slaan.
+
+231
+00:17:29,900 --> 00:17:32,450
+‫En merk nu op dat de startpagina dat heeft.
+
+232
+00:17:33,710 --> 00:17:37,910
+‫Nu, voordat we verder gaan, wil ik je één ding laten zien.
+
+233
+00:17:37,910 --> 00:17:40,010
+‫Als we dit echt ver strekken.
+
+234
+00:17:41,260 --> 00:17:46,750
+‫Het is hier altijd aan de rand, en dat wil ik niet, wat je meestal doet, is dat je een container
+
+235
+00:17:46,750 --> 00:17:48,790
+‫hebt en deze naar het midden verplaatst.
+
+236
+00:17:49,660 --> 00:17:55,210
+‫OK, en we willen niet overal een container omheen wikkelen, want dan wordt de zwarte balk echt boos
+
+237
+00:17:55,210 --> 00:17:57,400
+‫op, weet je, naar het midden geduwd.
+
+238
+00:17:57,410 --> 00:18:02,080
+‫Ik wil dat de zwarte balk helemaal doorloopt, maar ik wil dat dit spul in het midden staat.
+
+239
+00:18:02,620 --> 00:18:08,890
+‫Om dat te doen, voegen we een containerklasse toe aan de NAV, want onthoud, de naam
+
+240
+00:18:09,130 --> 00:18:12,520
+‫van de ID-navigatiebalken is waar die achtergrond is.
+
+241
+00:18:12,790 --> 00:18:20,890
+‫Dus daarbinnen willen we een containerklasse hebben en we willen de H1 in de U verwijderen. S. in die klasse en sla
+
+242
+00:18:20,890 --> 00:18:24,310
+‫op en dan zullen we het stylen.
+
+243
+00:18:24,850 --> 00:18:26,430
+‫Dus laten we de container toevoegen.
+
+244
+00:18:26,440 --> 00:18:31,930
+‫Ik ga de container eigenlijk bovenaan plaatsen omdat het een soort utility-klasse is, wat betekent dat je hem
+
+245
+00:18:31,930 --> 00:18:33,130
+‫overal kunt gebruiken.
+
+246
+00:18:33,430 --> 00:18:41,110
+‫Dus laten we hier een opmerking plaatsen en zeggen dat we gewoon hulpprogramma's of hulpprogrammaklassen zullen zeggen.
+
+247
+00:18:46,010 --> 00:18:54,440
+‫En de container, dus onthoud, marge wil dat automatisch doen, dat zal alles naar het midden duwen, maar we
+
+248
+00:18:54,440 --> 00:18:57,230
+‫moeten een soort van breedte hebben.
+
+249
+00:18:57,240 --> 00:19:05,090
+‫Dus voor de breedte waarmee we Macs willen gebruiken, omdat we willen dat het enigszins responsief is, zo responsief als we kunnen maken zonder in te
+
+250
+00:19:05,090 --> 00:19:09,380
+‫gaan op dingen waar we het nog niet over hebben gehad, zoals mediaquery's.
+
+251
+00:19:10,220 --> 00:19:12,830
+‫En we gaan dat instellen op 100 pixels.
+
+252
+00:19:12,830 --> 00:19:14,210
+‫Dat zal het maximum zijn met.
+
+253
+00:19:15,080 --> 00:19:15,670
+‫Oke.
+
+254
+00:19:15,680 --> 00:19:24,860
+‫En laten we eens kijken, laten we een automatische overloop toevoegen, zodat deze altijd laat zien dat de achtergrond er niet buiten
+
+255
+00:19:24,860 --> 00:19:25,730
+‫komt.
+
+256
+00:19:26,540 --> 00:19:27,740
+‫En dan wat opvulling.
+
+257
+00:19:28,670 --> 00:19:30,110
+‫Ik wil opvulling doen.
+
+258
+00:19:32,220 --> 00:19:34,070
+‫Laten we nul boven en onder doen.
+
+259
+00:19:34,070 --> 00:19:37,190
+‫En ik wil gewoon dat links en rechts 20 pixels opvulling hebben.
+
+260
+00:19:37,190 --> 00:19:41,720
+‫Dus laten we dat bewaren en opmerken dat het nu niet precies tegen de rand ligt.
+
+261
+00:19:41,720 --> 00:19:45,230
+‫En als ik dit breng als ik de browser tevoorschijn haal.
+
+262
+00:19:46,180 --> 00:19:50,030
+‫Het klopt, wanneer het 1100 pixels bereikt, stopt het.
+
+263
+00:19:50,350 --> 00:19:56,080
+‫Dat is de maximale breedte, en toch loopt de zwarte balk helemaal door.
+
+264
+00:19:56,440 --> 00:20:01,240
+‫Ik wil jullie iets laten zien, en jullie hoeven dit niet te doen, maar als
+
+265
+00:20:02,290 --> 00:20:08,320
+‫we de container aan de buitenkant van de navigatiebalk hadden, oké, neem dat dan en dan de Divx het einde.
+
+266
+00:20:08,320 --> 00:20:12,270
+‫Can d'Hiv voor de container buiten de navigatiebalk en opslaan.
+
+267
+00:20:12,280 --> 00:20:17,630
+‫Nu reikt de achtergrond niet helemaal door omdat deze beperkt is in de container.
+
+268
+00:20:18,200 --> 00:20:23,740
+‫Oké, en ik hou niet van de manier waarop dat eruitziet en websites van zoals, weet je, het begin van de
+
+269
+00:20:23,740 --> 00:20:28,150
+‫jaren 2000 zag er zo uit waar alles in deze container zat en dan had je
+
+270
+00:20:28,150 --> 00:20:29,760
+‫hier een soort funky achtergrond.
+
+271
+00:20:30,040 --> 00:20:34,660
+‫Tegenwoordig wil je dat je achtergronden zich helemaal uitstrekken en je wilt je inhoud
+
+272
+00:20:34,660 --> 00:20:36,780
+‫gewoon in containers plaatsen, oké?
+
+273
+00:20:36,790 --> 00:20:41,320
+‫En dat is nog een reden waarom het een klasse is en geen ideeën, omdat we
+
+274
+00:20:41,320 --> 00:20:43,720
+‫deze containerklasse overal op de site gaan gebruiken.
+
+275
+00:20:44,170 --> 00:20:44,560
+‫Oke.
+
+276
+00:20:44,570 --> 00:20:48,810
+‫Dus laten we dat gewoon terugbrengen zoals het was.
+
+277
+00:20:51,460 --> 00:20:52,420
+‫En daar gaan we.
+
+278
+00:20:52,960 --> 00:20:54,160
+‫Oké, dus dat is het.
+
+279
+00:20:54,160 --> 00:20:55,210
+‫Dat is onze NAV-balk.
+
+280
+00:20:55,240 --> 00:20:59,740
+‫Dus in de volgende video beginnen we hier met de showcase.
+

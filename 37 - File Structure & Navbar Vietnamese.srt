@@ -1,0 +1,1180 @@
+﻿1
+00:00:00,360 --> 00:00:00,660
+‫Được rồi.
+
+2
+00:00:00,660 --> 00:00:02,600
+‫Vì vậy, chúng ta sẽ tiếp tục và bắt đầu ở đây.
+
+3
+00:00:02,610 --> 00:00:09,030
+‫Bây giờ, tôi sẽ để dự án cuối cùng mở chỉ như một tài liệu tham khảo để tôi có thể chỉ cho các bạn.
+
+4
+00:00:09,030 --> 00:00:14,430
+‫Giống như khi tôi tạo HTML trong CSS, tôi có thể cho bạn thấy chính xác những gì tôi đang làm trong dự án cuối cùng.
+
+5
+00:00:14,430 --> 00:00:18,540
+‫Và như tôi đã nói trong video trước, rất nhiều lần bạn sẽ nhận được thiết kế trước đó và
+
+6
+00:00:18,540 --> 00:00:22,200
+‫bạn sẽ chỉ phải sử dụng nó làm tài liệu tham khảo và tạo HTML và CSS.
+
+7
+00:00:22,200 --> 00:00:24,090
+‫Vì vậy, chúng tôi sẽ áp dụng cách tiếp cận đó.
+
+8
+00:00:24,090 --> 00:00:30,330
+‫Và bây giờ tôi cũng sẽ mở trình duyệt và trình soạn thảo văn bản cùng một lúc.
+
+9
+00:00:30,330 --> 00:00:36,120
+‫Tôi không thích nó hẹp như thế nào, nhưng đồng thời, tôi muốn bạn xem để thấy cả hai.
+
+10
+00:00:37,110 --> 00:00:42,120
+‫Nếu chúng tôi đến một điểm mà chúng tôi đang tạo ra những thứ như thế này và nó trông không đẹp khi nó hẹp như thế này,
+
+11
+00:00:42,120 --> 00:00:43,710
+‫thì tôi sẽ làm cho nó lớn hơn.
+
+12
+00:00:44,430 --> 00:00:49,800
+‫Vì vậy, điều đầu tiên chúng tôi muốn làm là tạo một thư mục dự án để bạn có thể đặt nó ở bất kỳ đâu trong hệ thống của mình.
+
+13
+00:00:49,800 --> 00:00:55,710
+‫Tôi sẽ vào máy tính để bàn của mình và tôi sẽ gọi thư mục này.
+
+14
+00:00:55,860 --> 00:01:03,330
+‫Hãy làm trang web gạch dưới của khách sạn và chúng ta có thể mở trang này bằng mã của V.
+
+15
+00:01:03,330 --> 00:01:07,080
+‫Vì vậy, giả sử mở thư mục và chúng tôi muốn trang web khách sạn.
+
+16
+00:01:09,690 --> 00:01:10,920
+‫Nó hoàn toàn trống rỗng.
+
+17
+00:01:10,920 --> 00:01:16,680
+‫Và tôi sẽ tạo, trước hết, một thư mục cho hình ảnh của chúng tôi và bạn có thể gọi hình ảnh này hoặc IMG
+
+18
+00:01:16,680 --> 00:01:19,740
+‫là một quy ước chung khác, vì vậy tôi sẽ sử dụng nó.
+
+19
+00:01:19,740 --> 00:01:25,410
+‫Và sau đó, chúng tôi muốn lấy tất cả các tài nguyên hình ảnh mà bạn đã tải xuống trong video đầu tiên của phần
+
+20
+00:01:25,410 --> 00:01:27,270
+‫này, mà tôi có ngay tại đây.
+
+21
+00:01:27,270 --> 00:01:31,050
+‫Và chúng tôi muốn đưa chúng vào thư mục IMG của chúng tôi.
+
+22
+00:01:31,050 --> 00:01:35,670
+‫Vì vậy, hãy tiếp tục và chọn tất cả những thứ này và đưa chúng vào IMG.
+
+23
+00:01:38,360 --> 00:01:38,690
+‫Ối.
+
+24
+00:01:38,690 --> 00:01:39,320
+‫Chuyện gì đã xảy ra thế?
+
+25
+00:01:40,100 --> 00:01:40,700
+‫Chúng ta bắt đầu.
+
+26
+00:01:41,000 --> 00:01:41,360
+‫Được rồi.
+
+27
+00:01:41,360 --> 00:01:45,950
+‫Vì vậy, bây giờ những cái đó đã ở trong đó, chúng ta có thể đóng những cái này lại và quay trở lại mã VS.
+
+28
+00:01:45,950 --> 00:01:48,470
+‫Và bây giờ bạn có thể thấy tôi có tất cả các hình ảnh ở đây.
+
+29
+00:01:49,370 --> 00:01:52,180
+‫Vì vậy, điều tiếp theo chúng tôi sẽ làm là tạo cấu trúc trang của chúng tôi.
+
+30
+00:01:52,190 --> 00:01:55,400
+‫Như bạn có thể thấy, chúng tôi có ba trang chủ để liên hệ.
+
+31
+00:01:55,430 --> 00:02:01,820
+‫Bây giờ, hãy nhớ rằng, ở phần đầu của phần cơ bản về HTML, tôi đã nói rằng khi bạn có một trang chủ của
+
+32
+00:02:01,820 --> 00:02:08,930
+‫một trang web, bạn cần phải gọi nó là chỉ mục HTML vì khi bạn truy cập một cái gì đó, bất cứ thứ gì dot com, nó
+
+33
+00:02:08,930 --> 00:02:11,720
+‫sẽ tìm kiếm trang đó. tập tin làm trang chủ.
+
+34
+00:02:11,720 --> 00:02:14,930
+‫Vì vậy, giả sử HTML được lập chỉ mục như một tệp mới mới.
+
+35
+00:02:14,930 --> 00:02:19,970
+‫Tôi nhấp vào biểu tượng này và chúng tôi cũng có thể tạo phần còn lại của các trang html.
+
+36
+00:02:19,970 --> 00:02:21,140
+‫Vì vậy, chúng tôi sẽ làm html.
+
+37
+00:02:21,770 --> 00:02:24,500
+‫Giới thiệu về html dot html.
+
+38
+00:02:25,680 --> 00:02:29,330
+‫Hãy liên hệ với dấu chấm HTML.
+
+39
+00:02:30,110 --> 00:02:35,570
+‫Và chúng tôi cũng sẽ cần CSS, biểu định kiểu của chúng tôi và chúng tôi sẽ không đưa CSS của chúng tôi
+
+40
+00:02:35,570 --> 00:02:38,210
+‫vào HTML như chúng tôi đã làm trong hộp cát.
+
+41
+00:02:38,210 --> 00:02:39,920
+‫Tôi chỉ làm điều đó cho thuận tiện.
+
+42
+00:02:39,920 --> 00:02:44,960
+‫Khi bạn có một dự án, bạn muốn tạo các biểu định kiểu riêng biệt và nói chung, bạn muốn có một thư
+
+43
+00:02:44,960 --> 00:02:46,730
+‫mục riêng chứa những biểu mẫu đó.
+
+44
+00:02:46,730 --> 00:02:51,350
+‫Vì vậy, tôi sẽ nhấp vào biểu tượng thư mục này và tạo một thư mục có tên là CSS.
+
+45
+00:02:52,760 --> 00:02:57,680
+‫Và bên trong đó, tôi sẽ tạo một tệp mới có tên là Style CSS.
+
+46
+00:02:57,680 --> 00:03:04,220
+‫Và kiểu tên không quan trọng bạn gọi cái này là gì, mà là kiểu CSS chính.
+
+47
+00:03:04,220 --> 00:03:09,950
+‫Đây là những quy ước chung cho các style sheet chính, nhưng nó không thực sự quan trọng.
+
+48
+00:03:11,330 --> 00:03:15,050
+‫Vì vậy, bây giờ chúng tôi có điều đó, về cơ bản đó là cấu trúc trang web của chúng tôi.
+
+49
+00:03:15,050 --> 00:03:21,140
+‫Vì vậy, chúng ta sẽ đi vào HTML chỉ mục mà chúng ta có thể đóng lại và liên hệ ngay bây giờ, nhưng chúng ta cũng hãy
+
+50
+00:03:21,140 --> 00:03:22,760
+‫mở bảng định kiểu của chúng ta.
+
+51
+00:03:22,760 --> 00:03:27,170
+‫Vì vậy, chúng tôi mở hai tệp này và hãy tạo các thẻ head body của chúng tôi.
+
+52
+00:03:27,170 --> 00:03:34,040
+‫Vì vậy, tab nhập dấu chấm than và chúng tôi sẽ thay đổi tiêu đề ở đây để giả sử đánh bại khách sạn.
+
+53
+00:03:34,280 --> 00:03:39,830
+‫Và thông thường bạn sẽ có một số loại dấu phân tách, như dấu gạch ngang hoặc dấu hoặc hoặc một ký tự gạch.
+
+54
+00:03:39,830 --> 00:03:45,980
+‫Và sau đó, nếu bạn đang tập trung vào các công cụ tìm kiếm như bạn muốn mà bạn muốn xếp hạng, giả sử như Khách
+
+55
+00:03:45,980 --> 00:03:50,930
+‫sạn Boston, bạn có thể đặt một cái gì đó tương tự ở đây miễn là nó có ý nghĩa.
+
+56
+00:03:51,770 --> 00:03:58,610
+‫Nhưng chúng tôi sẽ chào mừng bạn vì đó là trang chủ và có thể bạn sẽ muốn đặt một số
+
+57
+00:03:58,700 --> 00:04:01,340
+‫thẻ meta vào đây như mô tả.
+
+58
+00:04:02,510 --> 00:04:06,650
+‫Tôi sẽ không làm điều này cho mọi dự án chúng tôi tạo, nhưng tôi sẽ làm điều đó cho dự án này chỉ vì đây là
+
+59
+00:04:06,650 --> 00:04:07,430
+‫dự án đầu tiên.
+
+60
+00:04:07,430 --> 00:04:14,390
+‫Vì vậy, hãy nói tên, mô tả và hãy làm nội dung bằng.
+
+61
+00:04:14,390 --> 00:04:21,080
+‫Và sau đó tôi sẽ chỉ nói Chào mừng đến với hầu hết.
+
+62
+00:04:24,020 --> 00:04:27,410
+‫Khách sạn
+
+63
+00:04:29,840 --> 00:04:34,610
+‫lạ thường ở Boston, Massachusetts.
+
+64
+00:04:35,090 --> 00:04:36,310
+‫Vì vậy, đó là mô tả của chúng tôi.
+
+65
+00:04:36,320 --> 00:04:37,640
+‫Hãy làm một thẻ meta khác.
+
+66
+00:04:37,640 --> 00:04:38,810
+‫Đây sẽ là từ khóa của chúng tôi.
+
+67
+00:04:38,810 --> 00:04:47,270
+‫Vì vậy, chúng tôi muốn đặt tên bằng từ khóa và đối với nội dung bạn có thể làm một cái gì đó như khách sạn, bất cứ điều
+
+68
+00:04:47,270 --> 00:04:48,170
+‫gì, địa điểm.
+
+69
+00:04:48,170 --> 00:04:56,600
+‫Vì vậy, một cái gì đó như Khách sạn Boston, Khách sạn New England và bất kỳ nó có thể là gì, bất kể từ khóa nào.
+
+70
+00:04:56,600 --> 00:04:58,370
+‫Mô tả trang này.
+
+71
+00:04:58,910 --> 00:04:59,240
+‫Được rồi.
+
+72
+00:04:59,240 --> 00:05:02,270
+‫Bây giờ, thêm vào đó, chúng tôi muốn liên kết bảng định kiểu của mình.
+
+73
+00:05:02,270 --> 00:05:04,310
+‫Vì vậy, chúng tôi sử dụng một thẻ liên kết.
+
+74
+00:05:04,490 --> 00:05:11,060
+‫Và nếu tôi sử dụng Emit, nếu tôi nhập liên kết hoặc tab liên kết, nó sẽ tự động đưa vào thuộc tính REL.
+
+75
+00:05:11,270 --> 00:05:17,210
+‫Vì vậy, REL sẽ ngang bằng với biểu định kiểu bởi vì chúng tôi chỉ nói với nó rằng chúng tôi đang nhập biểu định
+
+76
+00:05:17,210 --> 00:05:22,100
+‫kiểu ở đây, tệp CSS và sau đó trong tệp tham chiếu, chúng tôi muốn trỏ đến tệp đó.
+
+77
+00:05:22,100 --> 00:05:25,190
+‫Bây giờ hãy nhớ rằng chúng ta đặt nó bên trong một thư mục có tên là CSS.
+
+78
+00:05:25,190 --> 00:05:28,880
+‫Vì vậy, chúng tôi muốn nói CSS phong cách cắt giảm CSS.
+
+79
+00:05:30,050 --> 00:05:30,510
+‫Ôi!
+
+80
+00:05:30,830 --> 00:05:34,280
+‫Và sau đó chúng ta có thể bắt đầu với phần thân ở đây.
+
+81
+00:05:34,790 --> 00:05:39,030
+‫Bây giờ điều quan trọng cần đề cập là mọi người đều có phong cách riêng của họ.
+
+82
+00:05:39,050 --> 00:05:43,190
+‫Mọi người đều có quy ước đặt tên riêng và cách họ muốn cấu trúc thẻ.
+
+83
+00:05:43,580 --> 00:05:48,500
+‫Ví dụ, những gì tôi sẽ làm là có một thẻ tiêu đề, vì vậy tôi sẽ chỉ đưa nó vào tiêu đề.
+
+84
+00:05:49,070 --> 00:05:53,150
+‫Và bên trong tiêu đề của tôi, tôi muốn điều hướng và trưng bày.
+
+85
+00:05:53,150 --> 00:05:58,970
+‫Tôi muốn toàn bộ khu vực này là tiêu đề, nhưng sẽ tốt nếu bạn chỉ có phần này bên trong
+
+86
+00:05:58,970 --> 00:06:05,180
+‫thẻ tiêu đề và sau đó có thể có phần cho phần này, bạn sẽ thấy bạn sẽ thấy các kiểu khác nhau
+
+87
+00:06:05,180 --> 00:06:10,580
+‫khi bạn đang tìm kiếm ở HTML khác nhau và bạn sẽ phát triển phong cách của riêng mình.
+
+88
+00:06:11,180 --> 00:06:17,030
+‫Những gì tôi làm ở đây chỉ là những gì tôi thích làm và tôi thích nghĩ rằng nó, nó ổn, nó ổn.
+
+89
+00:06:17,030 --> 00:06:22,280
+‫Và hy vọng mọi người không bận tâm đến cách tôi làm mọi thứ, nhưng tôi chỉ muốn, tôi muốn, tôi muốn
+
+90
+00:06:22,280 --> 00:06:28,990
+‫nói rõ rằng mỗi nhà phát triển đều có phong cách làm việc riêng của họ chứ không chỉ HTML, bất kỳ loại lập trình nào, bất cứ
+
+91
+00:06:29,000 --> 00:06:30,050
+‫thứ gì. như thế.
+
+92
+00:06:30,410 --> 00:06:33,590
+‫Vì vậy, như tôi đã nói, tôi muốn thanh điều hướng ở đây.
+
+93
+00:06:33,590 --> 00:06:39,830
+‫Vì vậy, tôi sẽ tạo một thẻ điều hướng và thực sự tôi sẽ cung cấp cho nó một ID của thanh điều hướng.
+
+94
+00:06:41,510 --> 00:06:48,290
+‫Và bên trong thanh điều hướng, chúng ta sẽ có logo, cái này ngay đây, chỉ là chữ H.
+
+95
+00:06:48,290 --> 00:06:53,180
+‫Và sau đó chúng ta sẽ có điều hướng của chúng ta, đó là danh sách không có thứ tự của chúng ta.
+
+96
+00:06:53,180 --> 00:06:58,760
+‫Vì vậy, hãy đặt một chữ H, mà tôi thực sự sẽ cung cấp cho một lớp logo.
+
+97
+00:07:00,620 --> 00:07:06,650
+‫Và đó là một điều khác biệt tùy thuộc vào nhà phát triển là cách bạn sử dụng ID trong các lớp.
+
+98
+00:07:06,650 --> 00:07:10,160
+‫Tôi có thể dễ dàng gọi đây là một lớp học và đây là một ID.
+
+99
+00:07:10,160 --> 00:07:11,120
+‫Tốt rồi.
+
+100
+00:07:11,150 --> 00:07:17,660
+‫Một quy tắc chính mà tôi sẽ nói rằng bạn không bao giờ nên vi phạm là không có nhiều hơn một ID như không
+
+101
+00:07:17,660 --> 00:07:21,080
+‫có ý tưởng khác về thanh điều hướng trên cùng một trang.
+
+102
+00:07:21,830 --> 00:07:24,830
+‫Nhưng ý tôi là một số người bạn sẽ chỉ sử dụng các lớp học.
+
+103
+00:07:24,830 --> 00:07:31,880
+‫Tôi có xu hướng sử dụng ID cho những thứ mà tôi sẽ không có bản sao và loại đó bao quanh mọi thứ khác mà
+
+104
+00:07:31,880 --> 00:07:34,370
+‫chúng là cha mẹ của những thứ khác.
+
+105
+00:07:34,370 --> 00:07:38,450
+‫Ví dụ, chúng ta có H một và UL ở đây, NAV bao quanh chúng.
+
+106
+00:07:38,450 --> 00:07:40,130
+‫Vì vậy, tôi sẽ sử dụng một ID ở đây.
+
+107
+00:07:40,700 --> 00:07:48,890
+‫Vì vậy, đối với logo, chúng ta sẽ chỉ làm h, b, t và thông thường, bạn sẽ thấy logo của mình chuyển đến trang chủ của bạn giống như bạn sẽ thấy
+
+108
+00:07:48,890 --> 00:07:54,350
+‫nếu tôi nhấp vào nếu tôi di chuột qua nó, đó là một liên kết và nó trở lại trang chủ.
+
+109
+00:07:54,350 --> 00:07:57,020
+‫Vì vậy, nếu tôi đang ở trên một chiếc thuyền và tôi nhấp vào rằng nó sẽ đưa tôi trở lại.
+
+110
+00:07:57,020 --> 00:08:04,040
+‫Vì vậy, chúng tôi muốn bao quanh điều này trong một thẻ và chúng tôi muốn điều này chuyển đến HTML dot index.
+
+111
+00:08:05,240 --> 00:08:05,630
+‫Được rồi.
+
+112
+00:08:05,630 --> 00:08:10,640
+‫Đảm bảo rằng bạn đang đóng một thẻ ở phía bên kia của nhịp.
+
+113
+00:08:11,480 --> 00:08:11,780
+‫Được rồi.
+
+114
+00:08:11,780 --> 00:08:15,200
+‫Tôi cũng sẽ đóng thanh bên này lại để có thêm không gian.
+
+115
+00:08:16,760 --> 00:08:17,780
+‫Vì vậy, đó là H của chúng tôi.
+
+116
+00:08:17,780 --> 00:08:20,420
+‫Bây giờ chúng tôi muốn UL ngay tại đây.
+
+117
+00:08:20,420 --> 00:08:24,110
+‫Vì vậy, chúng ta hãy làm mục danh sách UL.
+
+118
+00:08:24,110 --> 00:08:27,020
+‫Và sau đó trong mỗi mục danh sách, chúng tôi sẽ có một liên kết.
+
+119
+00:08:27,020 --> 00:08:31,130
+‫Đây sẽ là phần lập chỉ mục HTML và đây sẽ là trang chủ của chúng tôi.
+
+120
+00:08:31,130 --> 00:08:40,220
+‫Tôi sẽ thực hiện một tùy chọn điều khiển xuống hoặc kiểm soát tất cả trên máy Windows và chúng ta hãy thực
+
+121
+00:08:40,220 --> 00:08:44,810
+‫hiện một cuộc thử nghiệm và nói về liên hệ HTML.
+
+122
+00:08:48,820 --> 00:08:49,900
+‫Tiếp xúc.
+
+123
+00:08:50,290 --> 00:08:51,530
+‫Vì vậy, có thanh điều hướng của chúng tôi.
+
+124
+00:08:51,550 --> 00:08:53,890
+‫Bây giờ hãy mở nó trong máy chủ trực tiếp.
+
+125
+00:08:53,890 --> 00:08:57,330
+‫Và nó sẽ trông thật kinh khủng vì chúng ta không có CSS.
+
+126
+00:08:57,340 --> 00:09:00,700
+‫Vì vậy, đó là những gì chúng ta sẽ làm bây giờ là chúng ta sẽ chuyển sang CSS.
+
+127
+00:09:01,270 --> 00:09:07,960
+‫Và đó là một điều khác thay đổi là đôi khi bạn có thể làm tất cả HTML của mình trên toàn bộ
+
+128
+00:09:07,960 --> 00:09:15,250
+‫trang và sau đó bắt đầu CSS của bạn hoặc bạn có thể làm những gì chúng tôi sẽ làm và về cơ bản từng thành phần.
+
+129
+00:09:15,250 --> 00:09:20,890
+‫Vì vậy, thanh điều hướng, sau đó chúng ta sẽ chuyển đến phần trưng bày, sau đó đến phần này, phần kia, v.v.
+
+130
+00:09:21,190 --> 00:09:24,370
+‫Vì vậy, chúng ta hãy chuyển sang Styles, CSS.
+
+131
+00:09:25,090 --> 00:09:31,420
+‫Và ngoài kiểu dáng thanh điều hướng, tôi chỉ muốn thực hiện một số kiểu cơ bản cốt lõi như thẻ body
+
+132
+00:09:31,420 --> 00:09:33,030
+‫và những thứ tương tự.
+
+133
+00:09:33,040 --> 00:09:36,100
+‫Vì vậy, tôi sẽ thêm một thiết lập lại CSS.
+
+134
+00:09:36,340 --> 00:09:42,070
+‫Vì vậy, tôi sẽ đặt một dấu hoa thị ở đây, có nghĩa là chúng tôi đang nắm bắt mọi thứ
+
+135
+00:09:42,070 --> 00:09:47,950
+‫và chúng tôi sẽ xóa bỏ lề và đệm vào lề và đệm mặc định mà trình duyệt đặt trên rất nhiều
+
+136
+00:09:47,950 --> 00:09:49,050
+‫yếu tố khác nhau.
+
+137
+00:09:49,060 --> 00:09:56,350
+‫Ngay sau khi tôi lưu nó, bạn sẽ thấy rằng nó thay đổi UL, tiêu đề, nội dung đó, lề biến
+
+138
+00:09:56,350 --> 00:09:56,830
+‫mất.
+
+139
+00:09:56,830 --> 00:10:01,600
+‫Và sau đó tôi cũng muốn thêm thuộc tính định cỡ hộp.
+
+140
+00:10:02,800 --> 00:10:03,260
+‫Ối.
+
+141
+00:10:05,110 --> 00:10:10,480
+‫Và chúng ta sẽ đặt nó thành hộp viền vì khi chúng ta có các hộp có phần đệm như thế
+
+142
+00:10:10,480 --> 00:10:14,920
+‫này ngay tại đây, tôi không muốn phần đệm thêm vào chiều rộng thực của hộp.
+
+143
+00:10:15,250 --> 00:10:16,660
+‫Vì vậy, điều đó khá quan trọng.
+
+144
+00:10:17,170 --> 00:10:19,750
+‫Vì vậy, tiếp theo chúng ta sẽ có kiểu dáng chính của chúng ta.
+
+145
+00:10:19,750 --> 00:10:27,850
+‫Và những gì tôi muốn nói đến chính cũng giống như các yếu tố cốt lõi như liên kết nội dung, tiêu đề, đoạn văn, tất cả những
+
+146
+00:10:27,850 --> 00:10:31,930
+‫thứ đó, bất cứ thứ gì thực sự không có lớp hoặc ID.
+
+147
+00:10:31,960 --> 00:10:38,920
+‫Vì vậy, đối với phần thân và nhiều khi bạn tạo kiểu cho phần thân, bạn cũng sẽ đưa cả HTML vào.
+
+148
+00:10:38,920 --> 00:10:47,260
+‫Vì vậy, phần thân HTML và sau đó tôi sẽ đặt họ phông chữ thành Tôi sẽ sử dụng một trong các giá trị đặt trước này
+
+149
+00:10:47,260 --> 00:10:48,340
+‫cho mã vs.
+
+150
+00:10:48,340 --> 00:10:57,580
+‫Chúng tôi sẽ sử dụng giao diện người dùng Segou này để làm nhà ở Geneva và sau đó hãy đặt chiều cao dòng thành Tôi sẽ đặt nó khá
+
+151
+00:10:57,580 --> 00:10:57,970
+‫cao.
+
+152
+00:10:58,000 --> 00:11:05,920
+‫Vì vậy, 1. 7 M Và bây giờ tôi đã lưu, bạn có thể thấy rằng có một khoảng cách giữa các dòng nhiều hơn một chút.
+
+153
+00:11:06,740 --> 00:11:08,650
+‫Điều tiếp theo chúng tôi sẽ làm là các liên kết.
+
+154
+00:11:09,010 --> 00:11:14,770
+‫Tôi muốn tất cả các liên kết theo mặc định trừ khi lớp hoặc ID chỉ định.
+
+155
+00:11:14,770 --> 00:11:20,260
+‫Nếu không, tôi muốn chúng có màu ba, ba, ba và tôi cũng muốn xóa gạch dưới.
+
+156
+00:11:20,260 --> 00:11:27,580
+‫Vì vậy, chúng tôi sẽ không trang trí văn bản và chúng tôi cũng sẽ lưu các tiêu đề đó.
+
+157
+00:11:27,580 --> 00:11:30,550
+‫Vì vậy, tôi sẽ nói h một, h hai, h ba.
+
+158
+00:11:31,390 --> 00:11:33,640
+‫Tôi muốn có khoảng cách bên dưới.
+
+159
+00:11:33,640 --> 00:11:39,790
+‫Vì vậy, nếu chúng ta xem xét dự án cuối cùng của mình, giống như ngay tại đây, bạn có thể thấy khoảng cách ở đây, khoảng cách ở
+
+160
+00:11:39,790 --> 00:11:44,980
+‫đây bởi vì chúng tôi di chuyển, chúng tôi loại bỏ lề và đệm mặc định, sẽ không có bất kỳ khoảng cách nào.
+
+161
+00:11:44,980 --> 00:11:46,840
+‫Vì vậy, chúng ta cần phải tự bổ sung điều đó.
+
+162
+00:11:46,840 --> 00:11:57,940
+‫Vì vậy, tôi thực sự sẽ làm padding 20 pixel dưới cùng và sau đó đối với các đoạn văn, hãy nhớ rằng các đoạn văn theo mặc định có một
+
+163
+00:11:57,940 --> 00:12:01,990
+‫lề, nhưng chúng tôi chỉ xóa nó bằng cách đặt lại.
+
+164
+00:12:01,990 --> 00:12:07,300
+‫Vì vậy, tôi chỉ sẽ thêm lại mười lề pixel ở trên cùng và dưới cùng.
+
+165
+00:12:07,570 --> 00:12:11,380
+‫Hãy nhớ rằng, nếu chúng ta làm theo cách này, đây là trên và dưới, đây là trái và phải.
+
+166
+00:12:12,370 --> 00:12:14,590
+‫Vì vậy, đó là những phong cách cốt lõi.
+
+167
+00:12:14,590 --> 00:12:17,350
+‫Bây giờ chúng ta hãy chuyển sang thanh điều hướng thực tế.
+
+168
+00:12:17,830 --> 00:12:20,860
+‫Vậy đó là gì, một ID?
+
+169
+00:12:20,890 --> 00:12:21,280
+‫Ừ.
+
+170
+00:12:21,280 --> 00:12:23,080
+‫Vì vậy, chúng tôi đã làm thanh điều hướng ID.
+
+171
+00:12:23,260 --> 00:12:31,990
+‫Hãy đặt một nhận xét ở đây chỉ để sắp xếp mọi thứ và chúng ta sẽ nói thanh điều hướng,
+
+172
+00:12:31,990 --> 00:12:36,850
+‫tôi sẽ đặt màu nền hoặc nền thành ba, ba, ba.
+
+173
+00:12:37,690 --> 00:12:40,390
+‫Tôi sẽ đặt màu thành màu trắng.
+
+174
+00:12:41,290 --> 00:12:44,170
+‫Và hãy xem, chúng ta sẽ làm gì nữa?
+
+175
+00:12:44,200 --> 00:12:51,010
+‫Hãy thực hiện tự động tràn để nền hiển thị bất kể điều gì.
+
+176
+00:12:51,250 --> 00:12:56,980
+‫Và chúng tôi sẽ lưu điều đó và lưu ý rằng chúng tôi không thể đọc văn bản mặc dù chúng tôi đặt màu ở đây, bởi vì
+
+177
+00:12:56,980 --> 00:12:59,290
+‫tất cả văn bản, đó là tất cả các liên kết.
+
+178
+00:12:59,290 --> 00:13:03,670
+‫Và nếu bạn có các liên kết, bạn phải thêm màu đặc biệt cho các liên kết đó.
+
+179
+00:13:03,910 --> 00:13:09,880
+‫Vì vậy, hãy nhớ rằng chúng tôi có một biểu tượng, vì vậy tôi sẽ làm biểu tượng lớp thanh điều hướng.
+
+180
+00:13:10,540 --> 00:13:15,460
+‫Tôi muốn tạo kiểu cho liên kết đó và sau đó là bất kỳ liên kết nào khác trong thanh điều hướng.
+
+181
+00:13:15,460 --> 00:13:18,910
+‫Vì vậy, chúng ta hãy làm thanh điều hướng dấu phẩy.
+
+182
+00:13:20,380 --> 00:13:25,120
+‫Trên thực tế, bạn biết những gì chúng tôi sẽ làm chỉ cần làm thanh điều hướng và không cần phải làm điều đó.
+
+183
+00:13:27,970 --> 00:13:31,570
+‫Và giả sử màu trắng và tiết kiệm.
+
+184
+00:13:31,570 --> 00:13:33,520
+‫Và bây giờ chúng ta thực sự có thể nhìn thấy văn bản.
+
+185
+00:13:34,780 --> 00:13:35,830
+‫Vì vậy, chúng ta hãy xem.
+
+186
+00:13:35,830 --> 00:13:44,800
+‫Điều tiếp theo chúng tôi muốn làm là căn chỉnh logo ở bên trái và chúng tôi muốn UL ở bên phải.
+
+187
+00:13:44,800 --> 00:13:47,680
+‫Vì vậy, hãy thêm một số phao cho điều đó.
+
+188
+00:13:47,680 --> 00:13:52,510
+‫Và tôi khuyên bạn nên sử dụng một cái gì đó như Flexbox, nhưng chúng tôi vẫn chưa hiểu được điều đó, vì vậy chúng
+
+189
+00:13:52,510 --> 00:13:53,730
+‫tôi sẽ chỉ sử dụng phao.
+
+190
+00:13:53,740 --> 00:14:02,980
+‫Vì vậy, chúng ta hãy lấy thanh điều hướng h một và chúng ta hãy thả trôi sang trái.
+
+191
+00:14:04,630 --> 00:14:08,800
+‫Tôi cũng sẽ thêm một số phần đệm lên trên để đẩy nó xuống một chút.
+
+192
+00:14:09,610 --> 00:14:11,470
+‫Hãy làm 20 pixel.
+
+193
+00:14:12,460 --> 00:14:13,510
+‫Chúng tôi sẽ lưu điều đó.
+
+194
+00:14:13,510 --> 00:14:14,590
+‫Bây giờ là UL.
+
+195
+00:14:14,590 --> 00:14:16,120
+‫Chúng tôi cũng muốn làm nổi điều đó.
+
+196
+00:14:16,120 --> 00:14:18,820
+‫Chúng tôi muốn chuyển nó sang bên phải.
+
+197
+00:14:22,440 --> 00:14:25,980
+‫Vì vậy, hãy nói nav bah ul.
+
+198
+00:14:27,870 --> 00:14:29,280
+‫Chúng tôi cũng sẽ làm một số việc khác.
+
+199
+00:14:29,310 --> 00:14:30,690
+‫Chúng tôi muốn loại bỏ các viên đạn.
+
+200
+00:14:30,690 --> 00:14:38,700
+‫Vì vậy, giả sử kiểu danh sách không có và chúng tôi sẽ đặt lề bằng 0.
+
+201
+00:14:39,810 --> 00:14:42,690
+‫Pat Thực ra, chúng tôi không phải làm điều đó vì chúng tôi đã thêm thiết lập lại.
+
+202
+00:14:42,690 --> 00:14:48,240
+‫Vì vậy, chúng ta hãy thực hiện float ngay và tiết kiệm.
+
+203
+00:14:48,240 --> 00:14:50,550
+‫Và bây giờ nó đã trôi qua bên phải.
+
+204
+00:14:51,930 --> 00:14:55,530
+‫Vì vậy, các mục danh sách ngay bây giờ đang theo chiều dọc.
+
+205
+00:14:55,530 --> 00:14:57,360
+‫Chúng tôi muốn chúng đi ngang.
+
+206
+00:14:57,360 --> 00:14:59,070
+‫Vì vậy, chúng ta hãy nắm bắt những điều đó.
+
+207
+00:14:59,070 --> 00:15:05,590
+‫Chúng tôi sẽ nói nav bar ul ly hoặc bạn chỉ có thể làm nab bar ly.
+
+208
+00:15:05,640 --> 00:15:06,240
+‫Tuỳ bạn.
+
+209
+00:15:06,240 --> 00:15:08,910
+‫Tôi muốn giữ nó có tổ chức như vậy.
+
+210
+00:15:09,510 --> 00:15:17,490
+‫Vì vậy, đối với các mục trong danh sách, chúng tôi muốn thả nổi tất cả chúng sang bên trái và lưu, sau đó là mọi thứ khác mà chúng tôi
+
+211
+00:15:17,490 --> 00:15:18,120
+‫tạo kiểu.
+
+212
+00:15:18,120 --> 00:15:22,080
+‫Theo như những liên kết này, nó sẽ nằm trên một thẻ bên trong.
+
+213
+00:15:22,410 --> 00:15:23,490
+‫Vì vậy, chúng ta hãy làm điều đó.
+
+214
+00:15:23,490 --> 00:15:25,020
+‫Hãy nói thanh điều hướng.
+
+215
+00:15:27,270 --> 00:15:29,490
+‫Bạn sẽ thấy a.
+
+216
+00:15:31,980 --> 00:15:40,860
+‫Và chúng tôi muốn hiển thị chúng dưới dạng khối để chúng tôi có thể thêm phần đệm.
+
+217
+00:15:41,790 --> 00:15:45,390
+‫Và chúng tôi muốn làm 20 pixel xung quanh.
+
+218
+00:15:46,440 --> 00:15:49,090
+‫Nếu tôi cứu nó, nó sẽ đẩy chúng vào đúng vị trí.
+
+219
+00:15:49,110 --> 00:15:51,030
+‫Chúng tôi nhận được 20 pixel xung quanh.
+
+220
+00:15:51,930 --> 00:15:53,790
+‫Hãy chắc chắn rằng có các dòng được căn giữa.
+
+221
+00:15:53,790 --> 00:16:01,020
+‫Vì vậy, chúng tôi sẽ nói văn bản một trung tâm dòng và chúng tôi muốn làm gì khác?
+
+222
+00:16:01,920 --> 00:16:02,910
+‫Tôi nghĩ đó là nó.
+
+223
+00:16:04,050 --> 00:16:06,550
+‫Bây giờ, tôi muốn có một trạng thái di chuột.
+
+224
+00:16:06,570 --> 00:16:09,260
+‫Ngay bây giờ, nếu tôi di chuột qua chúng, không có gì xảy ra.
+
+225
+00:16:09,270 --> 00:16:16,560
+‫Vì vậy, những gì chúng ta có thể làm là thực hiện điều này và chỉ cần thêm bộ chọn di chuột giả của chúng tôi.
+
+226
+00:16:16,560 --> 00:16:17,820
+‫Vì vậy, dấu hai chấm di chuột.
+
+227
+00:16:18,120 --> 00:16:20,370
+‫Và tôi sẽ nói lý lịch.
+
+228
+00:16:20,790 --> 00:16:22,800
+‫Hãy làm bốn, bốn, bốn.
+
+229
+00:16:23,070 --> 00:16:35,040
+‫Và chúng ta cũng hãy tạo màu thành hệ thập lục phân của F, hãy làm F, bảy C, 08a, đó là màu hơi
+
+230
+00:16:35,310 --> 00:16:37,180
+‫nâu nhạt này.
+
+231
+00:16:37,200 --> 00:16:40,020
+‫Vì vậy, bây giờ nếu tôi di chuột qua, nó sẽ giống như vậy.
+
+232
+00:16:41,770 --> 00:16:46,510
+‫Bây giờ, một điều tôi muốn làm là tùy thuộc vào trang chúng tôi đang truy cập, tôi muốn nó cũng có tác dụng như
+
+233
+00:16:46,510 --> 00:16:46,750
+‫vậy.
+
+234
+00:16:46,750 --> 00:16:51,490
+‫Nếu chúng ta nhìn vào dự án cuối cùng, bạn có thể thấy rằng trang chủ có tác dụng đó.
+
+235
+00:16:51,640 --> 00:16:59,560
+‫Vì vậy, những gì chúng ta có thể làm là bất kỳ trang nào chúng ta đang ở trên thanh điều hướng ở đây, chúng ta có thể thêm một lớp đặc
+
+236
+00:16:59,560 --> 00:17:03,130
+‫biệt và chúng ta sẽ thêm nó vào liên kết đến thẻ A.
+
+237
+00:17:03,130 --> 00:17:08,740
+‫Vì vậy, vì chúng ta đang ở trang chủ ở đây, giả sử lớp học bằng và chúng ta hãy gọi nó là dòng điện.
+
+238
+00:17:10,750 --> 00:17:14,010
+‫Vì vậy, chúng tôi sẽ quay lại và sau đó tôi muốn nó có cùng kiểu dáng này.
+
+239
+00:17:14,020 --> 00:17:15,670
+‫Không có ý nghĩa gì khi tạo lại nó.
+
+240
+00:17:15,670 --> 00:17:24,610
+‫Hãy chỉ cần đặt một dấu phẩy để nó ảnh hưởng đến cả hai và chúng tôi sẽ lấy điều này và sau đó chỉ cần thêm lớp hiện tại.
+
+241
+00:17:25,090 --> 00:17:29,860
+‫Và bạn thường muốn đặt nó trên một dây chuyền mới chỉ để giữ cho nó sạch sẽ và tiết kiệm.
+
+242
+00:17:29,860 --> 00:17:32,650
+‫Và bây giờ thông báo trang chủ có điều đó.
+
+243
+00:17:33,610 --> 00:17:37,900
+‫Bây giờ, trước khi chúng ta tiếp tục, tôi chỉ muốn cho bạn thấy một điều.
+
+244
+00:17:37,900 --> 00:17:45,220
+‫Nếu chúng ta kéo dài điều này thực sự xa, nó luôn ở bên rìa ở đây, và tôi không muốn điều đó.
+
+245
+00:17:45,220 --> 00:17:48,940
+‫Thông thường những gì bạn sẽ làm là bạn sẽ có một thùng chứa và chuyển nó vào giữa.
+
+246
+00:17:50,110 --> 00:17:55,390
+‫Và chúng tôi không muốn quấn một thùng chứa xung quanh mọi thứ bởi vì khi đó thanh màu đen sẽ thực sự nổi
+
+247
+00:17:55,390 --> 00:17:55,750
+‫điên.
+
+248
+00:17:55,750 --> 00:17:57,400
+‫Đã thêm đẩy vào giữa.
+
+249
+00:17:57,400 --> 00:18:02,260
+‫Tôi muốn thanh màu đen đi ngang qua, nhưng tôi muốn thứ này nằm ở giữa.
+
+250
+00:18:02,470 --> 00:18:09,340
+‫Vì vậy, để làm điều đó, những gì chúng ta sẽ làm là thêm một lớp vùng chứa bên trong điều hướng vì hãy nhớ
+
+251
+00:18:09,340 --> 00:18:12,640
+‫điều hướng, thanh ID điều hướng là nơi có nền đó.
+
+252
+00:18:12,640 --> 00:18:20,890
+‫Vì vậy, bên trong đó chúng ta muốn có một lớp vùng chứa và chúng ta muốn di chuyển H và UL vào lớp đó và
+
+253
+00:18:20,890 --> 00:18:24,520
+‫lưu và sau đó chúng ta sẽ tạo kiểu cho nó.
+
+254
+00:18:24,790 --> 00:18:26,410
+‫Vì vậy, hãy thêm vùng chứa.
+
+255
+00:18:26,410 --> 00:18:31,930
+‫Tôi thực sự sẽ đặt vùng chứa lên trên vì nó thuộc loại tiện ích, nghĩa là bạn có thể sử
+
+256
+00:18:31,930 --> 00:18:33,310
+‫dụng nó ở mọi nơi.
+
+257
+00:18:33,310 --> 00:18:41,350
+‫Vì vậy, chúng ta hãy đặt một nhận xét ở đây và nói rằng chúng ta sẽ chỉ nói các tiện ích hoặc các lớp tiện ích.
+
+258
+00:18:46,080 --> 00:18:48,060
+‫Và chúng tôi sẽ làm container.
+
+259
+00:18:48,750 --> 00:18:51,090
+‫Vì vậy, hãy nhớ tự động ký quỹ.
+
+260
+00:18:51,780 --> 00:18:52,830
+‫Tôi muốn làm điều đó.
+
+261
+00:18:53,040 --> 00:18:54,420
+‫Điều đó sẽ đẩy tất cả vào giữa.
+
+262
+00:18:54,420 --> 00:18:57,230
+‫Nhưng chúng ta cần có một số loại chiều rộng.
+
+263
+00:18:57,240 --> 00:19:05,070
+‫Vì vậy, đối với chiều rộng, chúng tôi muốn sử dụng chiều rộng tối đa vì chúng tôi muốn nó đáp ứng một phần nào đó, phản hồi nhanh nhất có thể mà chúng tôi có
+
+264
+00:19:05,070 --> 00:19:09,570
+‫thể làm cho nó mà không đi vào những thứ chúng tôi chưa nói đến, như truy vấn phương tiện.
+
+265
+00:19:10,170 --> 00:19:12,810
+‫Và chúng tôi sẽ đặt nó thành 1100 pixel.
+
+266
+00:19:12,810 --> 00:19:14,340
+‫Đó sẽ là chiều rộng tối đa.
+
+267
+00:19:15,180 --> 00:19:15,660
+‫Được rồi.
+
+268
+00:19:15,660 --> 00:19:25,410
+‫Và sau đó hãy xem, hãy thêm tự động tràn để nó luôn hiển thị nền không đi ra ngoài
+
+269
+00:19:25,410 --> 00:19:25,920
+‫nó.
+
+270
+00:19:26,430 --> 00:19:30,300
+‫Và sau đó một số padding tôi muốn làm padding.
+
+271
+00:19:32,210 --> 00:19:34,070
+‫Hãy làm số không, trên và dưới.
+
+272
+00:19:34,070 --> 00:19:37,190
+‫Và tôi chỉ muốn bên trái và bên phải có khoảng đệm 20 pixel.
+
+273
+00:19:37,190 --> 00:19:41,720
+‫Vì vậy, chúng ta hãy lưu điều đó lại và lưu ý rằng bây giờ nó không nằm ngay so với cạnh.
+
+274
+00:19:41,720 --> 00:19:45,410
+‫Và nếu tôi mang cái này, nếu tôi mang trình duyệt ra ngoài.
+
+275
+00:19:46,160 --> 00:19:47,270
+‫Đúng rồi.
+
+276
+00:19:47,270 --> 00:19:50,000
+‫Khi đạt đến 1100 pixel, nó sẽ dừng lại.
+
+277
+00:19:50,330 --> 00:19:51,860
+‫Đó là chiều rộng tối đa.
+
+278
+00:19:52,400 --> 00:19:56,270
+‫Tuy nhiên, thanh màu đen vẫn đi ngang qua.
+
+279
+00:19:56,300 --> 00:20:01,400
+‫Bây giờ, tôi chỉ muốn cho các bạn xem một vài thứ và các bạn không cần phải làm điều này,
+
+280
+00:20:02,240 --> 00:20:06,980
+‫nhưng nếu chúng ta có vùng chứa ở bên ngoài thanh điều hướng, thì hãy làm như vậy.
+
+281
+00:20:06,980 --> 00:20:12,240
+‫Và sau đó, phần cuối của div có thể là div cho vùng chứa bên ngoài thanh điều hướng và lưu.
+
+282
+00:20:12,260 --> 00:20:17,810
+‫Bây giờ nền không tiếp cận được hết vì nó bị hạn chế bên trong vùng chứa.
+
+283
+00:20:18,590 --> 00:20:20,360
+‫Và tôi không thích cái kiểu đó.
+
+284
+00:20:20,690 --> 00:20:26,540
+‫Các trang web mà bạn biết như đầu những năm 2000 trông giống như vậy, nơi mọi thứ đều nằm trong vùng chứa này và
+
+285
+00:20:26,540 --> 00:20:29,910
+‫sau đó bạn có một số hình nền vui nhộn giống như ở đây.
+
+286
+00:20:29,930 --> 00:20:34,640
+‫Ngày nay, bạn muốn hình nền của mình mở rộng theo chiều ngang và bạn chỉ muốn đặt nội dung của
+
+287
+00:20:34,640 --> 00:20:36,140
+‫mình bên trong các vùng chứa.
+
+288
+00:20:36,740 --> 00:20:41,330
+‫Và đó là một lý do khác tại sao nó là một lớp chứ không phải là một ID là bởi vì chúng ta
+
+289
+00:20:41,330 --> 00:20:43,880
+‫sẽ sử dụng lớp vùng chứa này trong toàn bộ trang web.
+
+290
+00:20:44,180 --> 00:20:44,540
+‫Được rồi.
+
+291
+00:20:44,540 --> 00:20:49,360
+‫Vì vậy, hãy chỉ mang nó trở lại nó như thế nào.
+
+292
+00:20:51,500 --> 00:20:52,610
+‫Và chúng ta bắt đầu.
+
+293
+00:20:53,300 --> 00:20:54,140
+‫À chính nó đấy.
+
+294
+00:20:54,140 --> 00:20:55,210
+‫Đó là thanh điều hướng của chúng tôi.
+
+295
+00:20:55,220 --> 00:20:59,870
+‫Vì vậy, trong video tiếp theo, chúng ta sẽ bắt đầu về khu vực trưng bày ngay tại đây.
+

@@ -1,0 +1,248 @@
+﻿1
+00:00:00,270 --> 00:00:00,570
+‫Được rồi.
+
+2
+00:00:00,570 --> 00:00:05,670
+‫Vì vậy, trước khi bắt đầu viết HTML và CSS cho dự án này, tôi chỉ muốn
+
+3
+00:00:05,670 --> 00:00:08,460
+‫nói một chút về thiết kế và ý tưởng.
+
+4
+00:00:08,580 --> 00:00:11,070
+‫Vì vậy, nó thực sự phụ thuộc.
+
+5
+00:00:11,070 --> 00:00:16,830
+‫Đôi khi bạn sẽ nhận được một công việc với tư cách là nhà phát triển giao diện người dùng và bạn sẽ có một nhà thiết kế trong
+
+6
+00:00:16,830 --> 00:00:20,830
+‫nhóm của bạn sẽ tạo giao diện người dùng và tạo các thiết kế, sau đó giao chúng cho bạn.
+
+7
+00:00:20,850 --> 00:00:26,670
+‫Vì vậy, thông thường nó sẽ giống như tệp Photoshop hoặc tệp phác thảo minh họa hoặc một số loại chương trình
+
+8
+00:00:26,670 --> 00:00:27,810
+‫thiết kế đồ họa.
+
+9
+00:00:27,810 --> 00:00:35,520
+‫Và sau đó, công việc của bạn là lấy thiết kế đó và sử dụng HTML và CSS và có thể là một số JavaScript để tạo lại thiết kế
+
+10
+00:00:35,520 --> 00:00:36,000
+‫đó.
+
+11
+00:00:36,000 --> 00:00:40,260
+‫Vì vậy, để nó thực sự chạy trong trình duyệt dưới dạng một trang web hoặc một ứng dụng web.
+
+12
+00:00:40,770 --> 00:00:44,910
+‫Bây giờ, rất nhiều lần bạn không có được sự sang trọng của việc có một nhà thiết kế.
+
+13
+00:00:44,910 --> 00:00:49,560
+‫Bạn sẽ phải thực sự tạo ra mọi thứ, lên ý tưởng cho riêng mình, đặc biệt nếu bạn đang
+
+14
+00:00:49,560 --> 00:00:52,450
+‫làm công việc tự do, nơi bạn hoàn toàn làm mọi thứ.
+
+15
+00:00:52,470 --> 00:00:59,160
+‫Vì vậy, những gì tôi thường làm là tôi xem các trang web khác và các chủ đề khác để tìm cảm hứng, và một cách tốt để làm điều đó là
+
+16
+00:00:59,160 --> 00:01:01,230
+‫tìm kiếm các trang web chủ đề như vậy.
+
+17
+00:01:01,230 --> 00:01:05,100
+‫Vì vậy, ví dụ, Bootstrap có rất nhiều chủ đề thực sự đẹp.
+
+18
+00:01:05,130 --> 00:01:09,570
+‫Bootstrap thực chất là một framework trong mỗi framework HTML, CSS.
+
+19
+00:01:09,570 --> 00:01:12,720
+‫Tôi có cả một khóa học về bootstrap nếu bạn muốn tìm hiểu thêm về nó.
+
+20
+00:01:12,720 --> 00:01:18,960
+‫Nhưng giả sử chúng tôi tìm kiếm các chủ đề bootstrap và sẽ có tất cả các loại trang web có các chủ
+
+21
+00:01:18,960 --> 00:01:19,890
+‫đề khác nhau.
+
+22
+00:01:20,040 --> 00:01:21,270
+‫Chúng ta hãy đi đến cái này ở đây.
+
+23
+00:01:21,270 --> 00:01:26,160
+‫Themes dot get bootstrap và chúng ta có thể đi xuống đây và bạn có thể xem một số ví dụ.
+
+24
+00:01:26,160 --> 00:01:30,720
+‫Một số trong số đó là các trang web và một số giống như giao diện quản trị như thế này.
+
+25
+00:01:30,720 --> 00:01:32,640
+‫Đó không thực sự là điều chúng tôi quan tâm lúc này.
+
+26
+00:01:32,640 --> 00:01:36,930
+‫Nhưng chúng ta hãy lấy trang web này làm ví dụ, và nó thực sự được bán với giá 50 đô la.
+
+27
+00:01:36,930 --> 00:01:38,910
+‫Và đó là một ý tưởng khác dành cho các bạn.
+
+28
+00:01:38,910 --> 00:01:43,500
+‫Nếu bạn thành thạo việc này sau khóa học này và bạn có thể tạo một số bố cục phù hợp, bạn thực sự
+
+29
+00:01:43,500 --> 00:01:44,760
+‫có thể bán chúng trực tuyến.
+
+30
+00:01:45,180 --> 00:01:47,220
+‫Nhưng hầu hết các trang này đều có bản xem trước trực tiếp.
+
+31
+00:01:47,220 --> 00:01:48,600
+‫Vì vậy, chúng ta hãy nhìn vào điều đó.
+
+32
+00:01:50,630 --> 00:01:55,040
+‫Vì vậy, những gì tôi sẽ làm là tôi sẽ xem xét bố cục này và tôi sẽ chỉ lấy một số ý tưởng.
+
+33
+00:01:55,040 --> 00:02:00,260
+‫Vì vậy, hãy nhìn vào tiêu đề, xem mọi thứ được trình bày như thế nào, logo trông như thế nào, hình ảnh nền.
+
+34
+00:02:00,260 --> 00:02:00,540
+‫Được chứ.
+
+35
+00:02:00,560 --> 00:02:06,890
+‫Đó thực sự là như vậy, điều phổ biến hiện nay là có hình ảnh lớn chính chỉ với một chút văn bản
+
+36
+00:02:06,890 --> 00:02:09,110
+‫và có thể là một số nút.
+
+37
+00:02:09,110 --> 00:02:13,850
+‫Và bên dưới đó, có một số hộp và bạn sẽ thấy điều đó lặp đi lặp lại.
+
+38
+00:02:13,850 --> 00:02:15,710
+‫Và đó thực sự là những gì hiện tại.
+
+39
+00:02:15,710 --> 00:02:21,770
+‫Đó là để giữ cho nó rất sạch sẽ, bạn biết đấy, không phải là những màu điên rồ, chỉ có thể, bạn biết đấy, hai, hai hoặc
+
+40
+00:02:21,770 --> 00:02:25,520
+‫có thể ba màu với một số màu xám nhạt và và một số màu tối.
+
+41
+00:02:25,520 --> 00:02:27,800
+‫Nhưng nó khá đơn giản.
+
+42
+00:02:27,800 --> 00:02:34,340
+‫Và dưới đây, chúng tôi có một số trang demo như trang dịch vụ, một lần nữa chúng tôi chỉ có một nền lớn với một
+
+43
+00:02:34,340 --> 00:02:36,560
+‫số, với một số văn bản trên đó.
+
+44
+00:02:36,560 --> 00:02:39,830
+‫Nếu chúng ta đi xuống, chúng ta có ba hộp với một số biểu tượng.
+
+45
+00:02:39,830 --> 00:02:43,040
+‫Vì vậy, các biểu tượng thực sự lớn ở đây.
+
+46
+00:02:43,040 --> 00:02:46,340
+‫Bạn có thể thấy chỉ có một số văn bản, một số hình ảnh được bố trí.
+
+47
+00:02:46,850 --> 00:02:50,540
+‫Có một số hoạt ảnh trong chủ đề này, nhưng tất nhiên bạn không cần phải thêm hoạt ảnh.
+
+48
+00:02:50,540 --> 00:02:56,480
+‫Tôi thực sự không phải là một fan hâm mộ của nhiều hoạt hình và một lần nữa, chỉ là các biểu tượng trong văn bản, giống như chúng tôi có ngay tại
+
+49
+00:02:56,480 --> 00:02:56,810
+‫đây.
+
+50
+00:02:56,810 --> 00:02:58,760
+‫Vì vậy, bạn sẽ thấy điều này lặp đi lặp lại.
+
+51
+00:02:58,760 --> 00:03:05,000
+‫Vì vậy, chỉ cần truy cập các trang web chủ đề khác nhau và lấy một số ý tưởng, lấy một số cảm hứng và không sao chép chúng.
+
+52
+00:03:05,000 --> 00:03:10,790
+‫Tôi không chỉ nói, bạn biết đấy, hãy lấy chính xác những gì họ đã làm và làm lại nó, nhưng hãy tiếp thu một số ý
+
+53
+00:03:10,790 --> 00:03:14,840
+‫tưởng từ bốn hoặc năm chủ đề khác nhau và tạo ra thứ gì đó của riêng bạn.
+
+54
+00:03:14,840 --> 00:03:15,950
+‫Vì vậy, đó là những gì tôi làm.
+
+55
+00:03:15,950 --> 00:03:19,040
+‫Đó là cách tôi tạo các trang web và giao diện người dùng của mình.
+
+56
+00:03:19,040 --> 00:03:25,520
+‫Tôi không phải là một nhà thiết kế đồ họa, nhưng tôi nghĩ rằng tôi có ít nhất một vài con mắt về thiết kế.
+
+57
+00:03:25,520 --> 00:03:27,350
+‫Và nó không khó lắm.
+
+58
+00:03:27,350 --> 00:03:30,800
+‫Chỉ cần lấy một số ví dụ để tạo cảm hứng.
+
+59
+00:03:30,800 --> 00:03:31,220
+‫Được rồi.
+
+60
+00:03:31,220 --> 00:03:31,760
+‫À chính nó đấy.
+
+61
+00:03:31,760 --> 00:03:35,060
+‫Tôi chỉ muốn nói một chút về điều đó trước khi chúng ta bắt đầu.
+
+62
+00:03:35,060 --> 00:03:38,510
+‫Vì vậy, trong video tiếp theo, chúng ta sẽ bắt đầu viết HTML của mình.
+

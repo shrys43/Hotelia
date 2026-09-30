@@ -1,0 +1,240 @@
+﻿1
+00:00:00,270 --> 00:00:00,570
+‫Tamam.
+
+2
+00:00:00,570 --> 00:00:05,670
+‫Bu proje için HTML ve CSS yazmaya başlamadan önce tasarım ve fikirler
+
+3
+00:00:05,670 --> 00:00:08,460
+‫hakkında biraz konuşmak istiyorum.
+
+4
+00:00:08,580 --> 00:00:11,070
+‫Yani bu gerçekten değişir.
+
+5
+00:00:11,070 --> 00:00:16,830
+‫Bazen ön uç geliştiricisi olarak bir iş alırsınız ve ekibinizde kullanıcı arayüzünü oluşturacak ve tasarımları
+
+6
+00:00:16,830 --> 00:00:20,830
+‫yaratacak ve sonra bunları size devredecek bir tasarımcınız olur.
+
+7
+00:00:20,850 --> 00:00:26,670
+‫Yani genellikle bir Photoshop dosyası ya da illustrator veya bir tür grafik tasarım programı gibi bir eskiz
+
+8
+00:00:26,670 --> 00:00:27,810
+‫dosyası olacaktır.
+
+9
+00:00:27,810 --> 00:00:36,000
+‫Daha sonra bu tasarımı alıp HTML, CSS ve muhtemelen biraz JavaScript kullanarak yeniden oluşturmak sizin işiniz.
+
+10
+00:00:36,000 --> 00:00:40,260
+‫Böylece tarayıcıda bir web sitesi veya web uygulaması olarak çalışır.
+
+11
+00:00:40,770 --> 00:00:44,910
+‫Çoğu zaman bir tasarımcıya sahip olma lüksüne sahip değilsiniz.
+
+12
+00:00:44,910 --> 00:00:49,560
+‫Her şeyi gerçekten yaratmanız, fikirleri kendi başınıza bulmanız gerekecek, özellikle de kesinlikle
+
+13
+00:00:49,560 --> 00:00:52,450
+‫her şeyi yaptığınız serbest çalışıyorsanız.
+
+14
+00:00:52,470 --> 00:00:59,160
+‫Bu yüzden genellikle ilham almak için diğer web sitelerine ve diğer temalara bakıyorum ve bunu yapmanın iyi bir yolu
+
+15
+00:00:59,160 --> 00:01:01,230
+‫da tema siteleri gibi arama yapmak.
+
+16
+00:01:01,230 --> 00:01:05,100
+‫Örneğin, Bootstrap'in gerçekten çok güzel temaları var.
+
+17
+00:01:05,130 --> 00:01:09,570
+‫Bootstrap aslında her HTML, CSS çerçevesi içinde bir çerçevedir.
+
+18
+00:01:09,570 --> 00:01:12,720
+‫Bootstrap hakkında daha fazla bilgi edinmek isterseniz bu konuda bir kursum var.
+
+19
+00:01:12,720 --> 00:01:18,960
+‫Ancak diyelim ki bootstrap temalarını aratıyoruz ve karşımıza farklı temalara sahip her türden
+
+20
+00:01:18,960 --> 00:01:19,890
+‫site çıkacak.
+
+21
+00:01:20,040 --> 00:01:21,270
+‫Şuradakine geçelim.
+
+22
+00:01:21,270 --> 00:01:26,160
+‫Temalar noktası bootstrap'ı alır ve buraya inebiliriz ve bazı örnekler görebilirsiniz.
+
+23
+00:01:26,160 --> 00:01:30,720
+‫Bunlardan bazıları web sitesi, bazıları ise bunun gibi yönetici arayüzleridir.
+
+24
+00:01:30,720 --> 00:01:32,640
+‫Şu anda ilgilendiğimiz şey bu değil.
+
+25
+00:01:32,640 --> 00:01:36,930
+‫Ama örneğin bu siteyi ele alalım ve bu aslında 50 dolara satılıyor.
+
+26
+00:01:36,930 --> 00:01:38,910
+‫Bu da sizin için başka bir fikir.
+
+27
+00:01:38,910 --> 00:01:43,500
+‫Bu kurstan sonra bu konuda iyi olursanız ve bazı iyi düzenler oluşturabilirseniz, bunları çevrimiçi
+
+28
+00:01:43,500 --> 00:01:44,760
+‫olarak satabilirsiniz.
+
+29
+00:01:45,180 --> 00:01:47,220
+‫Ancak bu sitelerin çoğunda canlı önizleme vardır.
+
+30
+00:01:47,220 --> 00:01:48,600
+‫Şimdi buna bir göz atalım.
+
+31
+00:01:50,630 --> 00:01:55,040
+‫Bu yüzden yapacağım şey, bu plana bir göz atmak ve bazı fikirler edinmek olurdu.
+
+32
+00:01:55,040 --> 00:02:00,260
+‫Yani başlığa bakın, her şeyin nasıl düzenlendiğine, logonun nasıl göründüğüne, arka plan resmine bakın.
+
+33
+00:02:00,260 --> 00:02:00,540
+‫Tamam.
+
+34
+00:02:00,560 --> 00:02:06,890
+‫Bu yüzden şu anda popüler olan şey, sadece biraz metin ve belki de bazı düğmelerle ana büyük
+
+35
+00:02:06,890 --> 00:02:09,110
+‫görüntüye sahip olmaktır.
+
+36
+00:02:09,110 --> 00:02:13,850
+‫Ve sonra bunun altında bazı kutular var ve bunu tekrar tekrar göreceksiniz.
+
+37
+00:02:13,850 --> 00:02:15,710
+‫Şu anda gündemde olan da bu.
+
+38
+00:02:15,710 --> 00:02:21,770
+‫Çok temiz tutmak, bilirsiniz, çılgın renkler değil, sadece belki, bilirsiniz, bazı açık griler
+
+39
+00:02:21,770 --> 00:02:25,520
+‫ve bazı koyu renkler ile iki, iki veya belki üç renk.
+
+40
+00:02:25,520 --> 00:02:27,800
+‫Ama oldukça basit.
+
+41
+00:02:27,800 --> 00:02:34,340
+‫Ve burada hizmetler sayfası gibi bazı demo sayfalarımız var, yine üzerinde bazı metinler olan
+
+42
+00:02:34,340 --> 00:02:36,560
+‫büyük bir arka planımız var.
+
+43
+00:02:36,560 --> 00:02:39,830
+‫Aşağı inersek, bazı simgeler içeren üç kutumuz var.
+
+44
+00:02:39,830 --> 00:02:43,040
+‫Yani burada simgeler gerçekten büyüktür.
+
+45
+00:02:43,040 --> 00:02:46,340
+‫Sadece bazı metinlerin, bazı resimlerin yerleştirildiğini görebilirsiniz.
+
+46
+00:02:46,850 --> 00:02:50,540
+‫Bu temada bazı animasyonlar var, ancak elbette animasyonu eklemenize gerek yok.
+
+47
+00:02:50,540 --> 00:02:56,810
+‫Aslında çok fazla animasyonun hayranı değilim ve yine, tıpkı burada olduğu gibi, metin içinde sadece simgeler.
+
+48
+00:02:56,810 --> 00:02:58,760
+‫Yani bunu tekrar tekrar göreceksiniz.
+
+49
+00:02:58,760 --> 00:03:05,000
+‫Bu yüzden farklı tema sitelerine gidin ve bazı fikirler edinin, biraz ilham alın ve onları kopyalamayın.
+
+50
+00:03:05,000 --> 00:03:10,790
+‫Onların yaptıklarını aynen alın ve yeniden yapın demiyorum ama belki dört ya da beş farklı
+
+51
+00:03:10,790 --> 00:03:14,840
+‫temadan bazı fikirleri alın ve kendinize ait bir şey yaratın.
+
+52
+00:03:14,840 --> 00:03:15,950
+‫Ben de öyle yapıyorum.
+
+53
+00:03:15,950 --> 00:03:19,040
+‫Web sitelerimi ve kullanıcı arayüzlerimi bu şekilde oluşturuyorum.
+
+54
+00:03:19,040 --> 00:03:25,520
+‫Bir grafik tasarımcı olmaktan çok uzağım, ancak en azından tasarım konusunda biraz gözüm olduğunu düşünüyorum.
+
+55
+00:03:25,520 --> 00:03:27,350
+‫Ve o kadar da zor değil.
+
+56
+00:03:27,350 --> 00:03:30,800
+‫İlham almak için bazı örnekler alın.
+
+57
+00:03:30,800 --> 00:03:31,220
+‫Tamam.
+
+58
+00:03:31,220 --> 00:03:31,760
+‫İşte bu kadar.
+
+59
+00:03:31,760 --> 00:03:35,060
+‫Başlamadan önce bu konu hakkında biraz konuşmak istiyorum.
+
+60
+00:03:35,060 --> 00:03:38,510
+‫Bir sonraki videoda HTML'lerimizi yazmaya başlayacağız.
+

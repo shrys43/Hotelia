@@ -1,0 +1,1128 @@
+﻿1
+00:00:00,400 --> 00:00:02,560
+‫Baiklah, jadi kita akan mulai dan mulai di sini.
+
+2
+00:00:02,580 --> 00:00:09,390
+‫Sekarang saya akan membuat proyek akhir tetap terbuka hanya sebagai referensi sehingga saya bisa menunjuk ke orang-orang seperti ketika saya membuat masing-masing
+
+3
+00:00:09,390 --> 00:00:14,450
+‫tim di CSX saya bisa menunjukkan kepada Anda apa yang saya lakukan di proyek akhir.
+
+4
+00:00:14,460 --> 00:00:18,780
+‫Dan seperti yang saya katakan di video terakhir banyak kali Anda akan mendapatkan desain sebelumnya dan
+
+5
+00:00:18,780 --> 00:00:22,410
+‫Anda hanya perlu menggunakannya sebagai referensi dan membuat masing-masing tim Allen CSX.
+
+6
+00:00:22,410 --> 00:00:24,200
+‫Jadi kita akan mengambil pendekatan itu.
+
+7
+00:00:24,330 --> 00:00:30,900
+‫Dan saya juga akan sekarang membuka browser dan editor teks pada saat yang sama saya tidak suka betapa
+
+8
+00:00:30,900 --> 00:00:36,120
+‫sempitnya ini tetapi pada saat yang sama saya ingin Anda melihat mereka berdua.
+
+9
+00:00:36,150 --> 00:00:36,660
+‫BAIK.
+
+10
+00:00:37,200 --> 00:00:42,120
+‫Jika kita sampai pada titik di mana kita menciptakan hal-hal seperti ini dan itu tidak terlihat bagus ketika sempit ini
+
+11
+00:00:42,120 --> 00:00:43,610
+‫maka saya akan membuatnya lebih besar.
+
+12
+00:00:44,160 --> 00:00:44,420
+‫BAIK.
+
+13
+00:00:44,430 --> 00:00:49,850
+‫Jadi hal pertama yang ingin kita lakukan adalah membuat folder proyek sehingga Anda dapat meletakkannya di mana saja di sistem Anda.
+
+14
+00:00:49,850 --> 00:00:55,750
+‫Saya akan pergi ke desktop saya dan saya hanya akan memanggil folder ini.
+
+15
+00:00:55,790 --> 00:01:03,360
+‫Mari kita lakukan situs garis bawah hotel dan kita dapat membuka kode invis ini.
+
+16
+00:01:03,360 --> 00:01:09,480
+‫Jadi ini folder terbuka dan kami ingin situs Web hotel.
+
+17
+00:01:09,710 --> 00:01:14,030
+‫Ini benar-benar kosong dan akan membuat pertama-tama folder untuk gambar kita.
+
+18
+00:01:14,030 --> 00:01:20,300
+‫Dan Anda dapat memanggil gambar ini atau AMG adalah konvensi umum lainnya jadi saya akan menggunakannya dan kemudian kami
+
+19
+00:01:20,300 --> 00:01:26,300
+‫ingin mendapatkan semua sumber daya gambar yang Anda unduh di video pertama bagian ini yang saya miliki di
+
+20
+00:01:26,300 --> 00:01:31,150
+‫sini dan kami ingin meletakkan yang ada di folder I am G kami.
+
+21
+00:01:31,250 --> 00:01:38,520
+‫Jadi mari kita lanjutkan dan pilih semua ini dan bawa mereka ke aku G.
+
+22
+00:01:38,680 --> 00:01:40,120
+‫Apa yang terjadi.
+
+23
+00:01:40,130 --> 00:01:41,030
+‫Itu dia.
+
+24
+00:01:41,080 --> 00:01:41,380
+‫Baiklah.
+
+25
+00:01:41,380 --> 00:01:42,680
+‫Jadi sekarang ada di sana.
+
+26
+00:01:42,700 --> 00:01:46,010
+‫Kita bisa menutup ini dan kembali ke v sebagai kode.
+
+27
+00:01:46,090 --> 00:01:49,570
+‫Dan sekarang Anda dapat melihat saya memiliki semua gambar di sini.
+
+28
+00:01:49,570 --> 00:01:54,490
+‫Jadi hal berikutnya yang akan kita lakukan adalah membuat struktur halaman kita seperti yang Anda lihat kami memiliki tiga
+
+29
+00:01:54,490 --> 00:01:55,630
+‫halaman rumah tentang kontak.
+
+30
+00:01:55,630 --> 00:02:02,830
+‫Sekarang ingat di awal H Tim L. Bagian dasar saya katakan bahwa ketika Anda memiliki halaman muka situs
+
+31
+00:02:02,830 --> 00:02:08,290
+‫Web Anda perlu menyebutnya indeks titik setiap tim keluar karena ketika Anda pergi ke sesuatu apa pun
+
+32
+00:02:08,290 --> 00:02:11,740
+‫dot com itu akan mencari file itu sebagai halaman rumah.
+
+33
+00:02:11,740 --> 00:02:18,250
+‫Jadi, katakanlah indeks mulai HDMI semua sebagai file baru saya klik ke ikon ini dan kami mungkin
+
+34
+00:02:18,250 --> 00:02:27,210
+‫juga membuat seluruh tim semua halaman jadi kami akan melakukan setiap tim tentang setiap tim l titik usia tahu mari kita lakukan kontak usia
+
+35
+00:02:28,020 --> 00:02:29,260
+‫dot Timo .
+
+36
+00:02:29,880 --> 00:02:30,210
+‫BAIK.
+
+37
+00:02:30,240 --> 00:02:35,940
+‫Kami juga akan membutuhkan CSX kami lembar gaya kami dan kami tidak akan menempatkan CSX kami di tim H
+
+38
+00:02:35,940 --> 00:02:38,230
+‫seperti yang kami lakukan di kotak pasir.
+
+39
+00:02:38,340 --> 00:02:43,680
+‫Saya hanya melakukan itu untuk kenyamanan ketika Anda memiliki proyek Anda ingin membuat style sheet terpisah
+
+40
+00:02:43,680 --> 00:02:46,740
+‫dan umumnya Anda ingin folder terpisah yang berisi itu.
+
+41
+00:02:46,770 --> 00:02:52,380
+‫Jadi saya akan mengklik ikon folder ini dan membuat folder bernama CSX.
+
+42
+00:02:52,380 --> 00:02:52,780
+‫BAIK.
+
+43
+00:02:52,800 --> 00:02:59,670
+‫Dan kemudian di dalam sana saya akan membuat file baru bernama style dot CSX dan style bernama bukan tidak
+
+44
+00:03:00,000 --> 00:03:04,230
+‫masalah apa yang Anda sebut ini tetapi style utama dot CSX.
+
+45
+00:03:04,230 --> 00:03:10,980
+‫Ini adalah konvensi umum untuk style sheet utama tetapi tidak masalah.
+
+46
+00:03:11,070 --> 00:03:11,330
+‫BAIK.
+
+47
+00:03:11,340 --> 00:03:15,050
+‫Jadi sekarang kita memiliki yang pada dasarnya adalah struktur situs Web kita.
+
+48
+00:03:15,060 --> 00:03:20,880
+‫Jadi kita akan menuju ke indeks masing-masing tim bagaimana kita bisa menutup dan menghubungi untuk saat ini, tetapi mari
+
+49
+00:03:20,880 --> 00:03:22,880
+‫kita buka juga lembar gaya kita.
+
+50
+00:03:22,880 --> 00:03:27,180
+‫Jadi kita memiliki dua file ini terbuka dan mari kita buat tag kepala kita.
+
+51
+00:03:27,190 --> 00:03:34,220
+‫Jadi tanda seru masuk tab dan kami akan mengubah judul di sini untuk katakanlah hotel Beatty.
+
+52
+00:03:34,500 --> 00:03:39,870
+‫Dan biasanya Anda akan memiliki semacam pemisah seperti tanda hubung atau karakter pipa.
+
+53
+00:03:40,050 --> 00:03:46,170
+‫Dan kemudian jika Anda berfokus pada mesin pencari seperti yang Anda inginkan atau Anda ingin peringkat untuk katakanlah
+
+54
+00:03:46,200 --> 00:03:50,720
+‫hotel Boston Anda mungkin meletakkan sesuatu di sini selama itu masuk akal.
+
+55
+00:03:51,810 --> 00:03:56,200
+‫Tapi kami hanya akan menerima sambutan hangat karena ini adalah halaman utama.
+
+56
+00:03:56,490 --> 00:04:02,580
+‫Dan Anda mungkin ingin meletakkan beberapa tag meta di sini seperti deskripsi.
+
+57
+00:04:02,580 --> 00:04:06,750
+‫Saya tidak akan melakukan ini untuk setiap proyek yang kami buat tetapi saya akan melakukannya untuk ini hanya karena
+
+58
+00:04:06,750 --> 00:04:07,610
+‫itu yang pertama
+
+59
+00:04:07,620 --> 00:04:20,820
+‫Jadi, katakanlah Deskripsi Nama dan mari lakukan konten yang sama dan kemudian saya akan mengucapkan selamat
+
+60
+00:04:24,050 --> 00:04:27,200
+‫datang di Hotel
+
+61
+00:04:29,870 --> 00:04:35,250
+‫paling luar biasa di Boston Massachusetts.
+
+62
+00:04:35,250 --> 00:04:36,350
+‫Jadi itulah deskripsi kami.
+
+63
+00:04:36,350 --> 00:04:37,670
+‫Mari kita lakukan tag medali lain.
+
+64
+00:04:37,670 --> 00:04:38,840
+‫Ini akan menjadi kata kunci kami.
+
+65
+00:04:38,840 --> 00:04:47,270
+‫Jadi kami ingin memberi nama yang sama dengan kata kunci dan untuk konten Anda mungkin akan melakukan sesuatu seperti
+
+66
+00:04:47,270 --> 00:04:56,620
+‫hotel di mana pun lokasinya sehingga sesuatu seperti hotel di Boston Hotel di New England dan apa pun itu kata kunci apa
+
+67
+00:04:56,630 --> 00:04:58,990
+‫pun yang menggambarkan halaman ini.
+
+68
+00:04:58,990 --> 00:04:59,270
+‫Baiklah.
+
+69
+00:04:59,270 --> 00:05:02,290
+‫Sekarang selain itu kami ingin menautkan style sheet kami.
+
+70
+00:05:02,480 --> 00:05:09,500
+‫Jadi kami menggunakan tag tautan dan dengan saya menggunakan Emmet jika saya memasukkan tautan, masukkan tab tautan kami, maka secara otomatis akan
+
+71
+00:05:09,500 --> 00:05:11,420
+‫dimasukkan ke dalam atribut nyata.
+
+72
+00:05:11,420 --> 00:05:16,250
+‫Jadi reli akan sama dengan style sheet karena kami hanya mengatakan bahwa kami
+
+73
+00:05:16,250 --> 00:05:22,220
+‫mengimpor style sheet di sini file CSX dan kemudian di atria jika kami ingin mengarahkan ke file itu.
+
+74
+00:05:22,280 --> 00:05:25,220
+‫Sekarang ingat kita letakkan di dalam folder bernama CSX.
+
+75
+00:05:25,220 --> 00:05:34,930
+‫Jadi kami ingin mengatakan CSX slash style dot CSX OK dan kemudian kita bisa mulai dengan tubuh di sini.
+
+76
+00:05:34,950 --> 00:05:39,110
+‫Sekarang penting untuk menyebutkan bahwa setiap orang memiliki gaya mereka sendiri.
+
+77
+00:05:39,120 --> 00:05:43,650
+‫Setiap orang memiliki konvensi penamaan mereka sendiri dan bagaimana mereka ingin menyusun tag.
+
+78
+00:05:43,650 --> 00:05:46,720
+‫Misalnya yang akan saya lakukan adalah memiliki tag header.
+
+79
+00:05:47,070 --> 00:05:54,060
+‫Jadi cukup letakkan di header dan di dalam kepala saya atau saya ingin navigasi dan showcase saya ingin seluruh
+
+80
+00:05:54,060 --> 00:05:59,970
+‫area ini menjadi header tetapi tidak apa-apa jika Anda ingin ini di dalam tag header dan
+
+81
+00:05:59,970 --> 00:06:05,850
+‫kemudian mungkin ada bagian untuk ini akan melihat bahwa Anda akan melihat gaya yang berbeda ketika
+
+82
+00:06:05,850 --> 00:06:11,110
+‫Anda melihat PML HD yang berbeda dan Anda akan mengembangkan gaya Anda sendiri.
+
+83
+00:06:11,280 --> 00:06:13,570
+‫Apa yang saya lakukan di sini adalah apa yang saya sukai.
+
+84
+00:06:14,040 --> 00:06:17,060
+‫Dan saya suka berpikir bahwa tidak apa-apa.
+
+85
+00:06:17,130 --> 00:06:22,290
+‫Dan mudah-mudahan kalian tidak keberatan dengan cara saya melakukan sesuatu tetapi saya hanya ingin saya ingin saya
+
+86
+00:06:22,290 --> 00:06:28,140
+‫ingin menjelaskan bahwa setiap pengembang memiliki gaya mereka sendiri dalam melakukan sesuatu dan tidak hanya setiap Tim Al jenis pemrograman
+
+87
+00:06:28,140 --> 00:06:29,890
+‫apa pun seperti itu .
+
+88
+00:06:30,600 --> 00:06:36,840
+‫Jadi seperti saya katakan saya ingin NAV bilah sekarang di sini jadi saya akan membuat tag nav
+
+89
+00:06:36,840 --> 00:06:45,910
+‫dan saya benar-benar akan memberikan ini I. D. NAV bar dan di dalam nav bar kita akan memiliki logo.
+
+90
+00:06:45,990 --> 00:06:52,470
+‫Ini di sini yang hanya merupakan H1 dan kemudian kita akan memiliki navigasi kita yang daftar
+
+91
+00:06:52,470 --> 00:06:53,290
+‫unordered.
+
+92
+00:06:53,400 --> 00:07:02,280
+‫Jadi mari kita meletakkan H1 yang saya benar-benar akan memberikan kelas logo dan itu hal lain yang berbeda tergantung
+
+93
+00:07:02,280 --> 00:07:09,570
+‫pada bagaimana Anda menggunakannya. D. dan kelas saya bisa dengan mudah menyebutnya kelas dan
+
+94
+00:07:09,570 --> 00:07:11,280
+‫ini I. D. tidak apa-apa.
+
+95
+00:07:11,280 --> 00:07:17,940
+‫Satu aturan utama yang saya katakan tidak boleh dilanggar adalah jangan memiliki lebih dari satu I. D. seperti tidak punya saya
+
+96
+00:07:18,000 --> 00:07:21,830
+‫yang lain. D. dari nav bar di halaman yang sama.
+
+97
+00:07:21,990 --> 00:07:28,350
+‫Tapi maksud saya beberapa orang yang akan Anda gunakan hanya kelas saya cenderung menggunakan I. D. untuk hal-hal yang saya tidak
+
+98
+00:07:28,350 --> 00:07:34,520
+‫akan memiliki duplikat dan semacam itu mengelilingi segala sesuatu yang mereka orang tua dari hal lain
+
+99
+00:07:34,530 --> 00:07:39,660
+‫Misalnya kita memiliki H1 dan sumur di sini NAV mengelilingi mereka jadi saya akan menggunakan I. D.
+
+100
+00:07:39,660 --> 00:07:40,890
+‫sini.
+
+101
+00:07:40,890 --> 00:07:45,050
+‫Jadi untuk logo KAMI AKAN AKAN GONNA DO HB T.
+
+102
+00:07:45,240 --> 00:07:51,840
+‫Dan biasanya Anda akan memiliki logo Anda pergi ke halaman rumah Anda seperti Anda akan melihat apakah saya mengklik jika saya mengarahkan kursor
+
+103
+00:07:51,840 --> 00:07:54,430
+‫ke sana dan itu akan kembali ke halaman rumah.
+
+104
+00:07:54,480 --> 00:07:57,180
+‫Jadi, jika saya aktif dan mengklik itu akan membawa saya kembali.
+
+105
+00:07:57,180 --> 00:08:05,230
+‫Jadi kami ingin mengelilingi ini dalam tag A dan kami ingin ini pergi ke indeks dot HMO.
+
+106
+00:08:05,310 --> 00:08:11,520
+‫Baiklah, pastikan Anda menutup tag di sisi lain kepala HB T.
+
+107
+00:08:11,540 --> 00:08:11,780
+‫Baiklah.
+
+108
+00:08:11,820 --> 00:08:16,530
+‫Saya hanya akan menutup sidebar ini untuk memberi saya rum lagi.
+
+109
+00:08:16,530 --> 00:08:16,760
+‫BAIK.
+
+110
+00:08:16,800 --> 00:08:17,790
+‫Jadi itu H1 kami.
+
+111
+00:08:17,790 --> 00:08:20,610
+‫Sekarang kami ingin huruf L di sini.
+
+112
+00:08:20,610 --> 00:08:27,100
+‫Jadi mari kita lakukan semua item daftar dan kemudian di setiap item daftar kita akan memiliki tautan.
+
+113
+00:08:27,120 --> 00:08:31,250
+‫Ini akan menuju indeks mulai setiap tim dan ini akan menjadi halaman rumah kami.
+
+114
+00:08:31,290 --> 00:08:37,740
+‫Saya akan melakukan opsi kontrol ke bawah kendali kita semua pada mesin Windows
+
+115
+00:08:40,170 --> 00:08:44,580
+‫dan mari kita katakan tentang dilakukan kontak HMO
+
+116
+00:08:48,830 --> 00:08:49,700
+‫Kontak.
+
+117
+00:08:50,000 --> 00:08:55,710
+‫OK jadi ada bar NAV kami sekarang mari kita buka ini di server langsung dan itu akan terlihat mengerikan
+
+118
+00:08:55,710 --> 00:08:57,540
+‫karena kita tidak memiliki CSX.
+
+119
+00:08:57,540 --> 00:09:00,890
+‫Jadi itulah yang akan kita lakukan sekarang adalah kita akan melompat ke CSX.
+
+120
+00:09:00,930 --> 00:09:01,350
+‫BAIK.
+
+121
+00:09:01,350 --> 00:09:07,530
+‫Dan itu hal lain yang bervariasi adalah kadang-kadang Anda mungkin melakukan semua HD Himmel Anda di seluruh
+
+122
+00:09:07,530 --> 00:09:15,270
+‫halaman dan kemudian mulai CSX Anda atau Anda dapat melakukan apa yang akan kita lakukan dan pergi pada dasarnya komponen demi komponen.
+
+123
+00:09:15,270 --> 00:09:20,760
+‫Jadi bar nav kemudian akan pindah ke showcase lalu ke bagian ini dan seterusnya.
+
+124
+00:09:21,390 --> 00:09:24,860
+‫Jadi mari kita beralih ke gaya CSX itu.
+
+125
+00:09:25,260 --> 00:09:31,410
+‫Dan selain styling sekarang saya ingin melakukan hanya beberapa styling dasar inti seperti tag tubuh
+
+126
+00:09:31,410 --> 00:09:33,170
+‫dan hal-hal seperti itu.
+
+127
+00:09:33,270 --> 00:09:36,290
+‫Jadi saya akan menambahkan reset CSX.
+
+128
+00:09:36,540 --> 00:09:42,090
+‫Jadi saya akan meletakkan tanda bintang di sini yang berarti kita mengambil semuanya dan
+
+129
+00:09:42,090 --> 00:09:47,880
+‫kita akan menghapus margin dan mengisi OK margin default dan padding yang diletakkan browser pada setiap
+
+130
+00:09:47,880 --> 00:09:49,150
+‫elemen yang berbeda.
+
+131
+00:09:49,200 --> 00:09:56,930
+‫Segera setelah saya simpan bahwa Anda akan melihat bahwa itu mengubah baik judul bahwa barang margin hilang.
+
+132
+00:09:57,030 --> 00:10:03,450
+‫Dan kemudian saya juga ingin menambahkan properti ukuran kotak.
+
+133
+00:10:05,250 --> 00:10:10,500
+‫Dan kita akan mengatur itu ke kotak batas karena ketika kita memiliki kotak yang memiliki bantalan seperti
+
+134
+00:10:10,500 --> 00:10:15,060
+‫ini di sini saya tidak ingin bantalan ditambahkan ke lebar sebenarnya dari kotak.
+
+135
+00:10:15,300 --> 00:10:17,340
+‫Jadi itu cukup penting.
+
+136
+00:10:17,340 --> 00:10:24,390
+‫Jadi selanjutnya kita akan memiliki style utama kita dan apa yang saya maksud dengan Main adalah seperti elemen
+
+137
+00:10:25,410 --> 00:10:28,760
+‫inti seperti body links heading paragraf semua itu.
+
+138
+00:10:28,770 --> 00:10:28,970
+‫BAIK.
+
+139
+00:10:29,040 --> 00:10:32,040
+‫Apa pun yang benar-benar tidak memiliki kelas atau I. D ..
+
+140
+00:10:32,190 --> 00:10:38,970
+‫Jadi untuk tubuh dan sering kali gaya apa pun tubuh Anda akan dimasukkan dalam email HT juga.
+
+141
+00:10:38,970 --> 00:10:46,590
+‫Jadi masing-masing ke tubuh kita dan kemudian saya hanya akan mengatur keluarga font untuk saya akan
+
+142
+00:10:46,590 --> 00:10:56,860
+‫menggunakan salah satu preset ini untuk V. S. kode kita akan menggunakan ini untuk berdebat UI ke rumah Jenewa dan kemudian mari kita atur ketinggian garis juga.
+
+143
+00:10:56,910 --> 00:10:57,990
+‫Aku akan mengaturnya agak tinggi.
+
+144
+00:10:57,990 --> 00:11:01,550
+‫Jadi, satu koma tujuh pagi.
+
+145
+00:11:01,680 --> 00:11:05,810
+‫Dan sekarang setelah saya selamatkan, Anda dapat melihat bahwa ada sedikit lebih banyak jarak di antara garis.
+
+146
+00:11:06,330 --> 00:11:06,730
+‫BAIK.
+
+147
+00:11:06,750 --> 00:11:14,790
+‫Selanjutnya yang akan kita lakukan adalah tautan yang saya inginkan semua tautan secara default kecuali kecuali kelas atau I. D. menentukan jika tidak, saya
+
+148
+00:11:14,790 --> 00:11:18,010
+‫ingin mereka memiliki warna tiga tiga tiga.
+
+149
+00:11:18,270 --> 00:11:26,420
+‫Dan saya juga ingin menghapus garis bawah sehingga kami tidak akan melakukan dekorasi teks dan kami akan menyimpannya oke.
+
+150
+00:11:26,490 --> 00:11:33,750
+‫Juga judul jadi kita akan mengatakan H1 H ke h tiga Saya ingin spasi di bawahnya.
+
+151
+00:11:33,750 --> 00:11:36,230
+‫Jadi jika kita melihat tugas akhir kita.
+
+152
+00:11:36,240 --> 00:11:42,690
+‫Jadi seperti di sini saya bisa melihat spasi di sini spasi di sini karena kita bergerak kita menghapus margin default
+
+153
+00:11:42,690 --> 00:11:47,010
+‫dan padding tidak akan ada spasi jadi kita perlu menambahkan itu sendiri.
+
+154
+00:11:47,040 --> 00:11:53,070
+‫Jadi saya benar-benar akan melakukan padding 20 piksel bawah.
+
+155
+00:11:53,280 --> 00:11:53,750
+‫BAIK.
+
+156
+00:11:53,760 --> 00:12:01,410
+‫Dan kemudian empat paragraf mengingat paragraf secara default memiliki margin tetapi kami hanya menghapusnya dengan
+
+157
+00:12:01,410 --> 00:12:02,040
+‫reset.
+
+158
+00:12:02,040 --> 00:12:07,320
+‫Jadi saya hanya akan menambahkan margin 10 pixel di bagian atas dan bawah.
+
+159
+00:12:07,380 --> 00:12:07,610
+‫BAIK.
+
+160
+00:12:07,620 --> 00:12:10,020
+‫Ingat jika kita melakukannya dengan cara ini, ini adalah bagian atas dan bawah.
+
+161
+00:12:10,050 --> 00:12:12,570
+‫Ini kiri dan kanan.
+
+162
+00:12:12,570 --> 00:12:14,610
+‫Jadi itulah yang merupakan gaya inti.
+
+163
+00:12:14,610 --> 00:12:17,920
+‫Sekarang mari kita beralih ke bilah nav yang sebenarnya.
+
+164
+00:12:18,020 --> 00:12:20,640
+‫Begitu juga aku. D ..
+
+165
+00:12:21,060 --> 00:12:28,560
+‫Ya kita lakukan aku D. nav bar mari kita beri komentar
+
+166
+00:12:28,560 --> 00:12:37,370
+‫di sini hanya untuk jenis mengatur hal-hal dan saya akan mengatakan nav bar saya akan mengatur warna latar belakang latar belakangnya 2 3 3 3.
+
+167
+00:12:37,770 --> 00:12:44,160
+‫Saya akan mengatur warna menjadi putih dan mari kita lihat apa lagi yang akan kita lakukan.
+
+168
+00:12:44,220 --> 00:12:52,870
+‫Mari kita lakukan Porto yang meluap sehingga latar belakang menunjukkan apa pun yang terjadi dan kita akan menyimpannya.
+
+169
+00:12:52,870 --> 00:12:57,270
+‫Dan pemberitahuan mengatakan bahwa kita tidak dapat membaca teks meskipun kita memberi warna di sini karena.
+
+170
+00:12:57,370 --> 00:13:00,670
+‫Semua teks itu semua tautan dan jika Anda memiliki tautan Anda harus melakukannya.
+
+171
+00:13:00,670 --> 00:13:04,080
+‫Anda harus menambahkan warna secara khusus ke tautan tersebut.
+
+172
+00:13:04,120 --> 00:13:06,730
+‫Jadi ingat kita punya logo.
+
+173
+00:13:06,880 --> 00:13:07,720
+‫Jadi saya akan lakukan sekarang.
+
+174
+00:13:07,740 --> 00:13:10,510
+‫Logo kelas bar.
+
+175
+00:13:10,630 --> 00:13:15,450
+‫Saya ingin menata tautan itu dan lalu tautan lainnya di bilah navigasi.
+
+176
+00:13:15,460 --> 00:13:22,070
+‫Jadi itu untuk karma sekarang Navarre benar-benar tahu apa yang akan kita lakukan.
+
+177
+00:13:22,120 --> 00:13:23,380
+‫Hanya saja, jangan bar a.
+
+178
+00:13:23,410 --> 00:13:23,780
+‫Kami tidak.
+
+179
+00:13:23,860 --> 00:13:24,880
+‫Tidak perlu
+
+180
+00:13:27,900 --> 00:13:34,660
+‫melakukan itu dan katakanlah warna putih dan simpan dan sekarang kita benar-benar dapat melihat teks.
+
+181
+00:13:34,960 --> 00:13:43,900
+‫Jadi mari kita lihat hal berikutnya yang ingin kita lakukan adalah menyelaraskan logo ke kiri dan kita ingin sumur berada di
+
+182
+00:13:43,900 --> 00:13:44,980
+‫sebelah kanan.
+
+183
+00:13:44,980 --> 00:13:51,040
+‫Jadi mari kita tambahkan beberapa pelampung untuk itu dan saya akan merekomendasikan menggunakan sesuatu seperti blok fleksibel tetapi kita belum
+
+184
+00:13:51,040 --> 00:13:51,990
+‫sampai pada itu.
+
+185
+00:13:52,000 --> 00:13:53,840
+‫Jadi kita hanya akan menggunakan pelampung.
+
+186
+00:13:53,980 --> 00:14:04,280
+‫Jadi mari kita ambil Navarre H1 dan mari kita lakukan float left.
+
+187
+00:14:04,660 --> 00:14:09,430
+‫Saya juga akan menambahkan beberapa padding ke atas untuk menekannya sedikit.
+
+188
+00:14:09,510 --> 00:14:12,160
+‫Ini dua 20 piksel.
+
+189
+00:14:12,170 --> 00:14:13,670
+‫OK, kita akan simpan itu.
+
+190
+00:14:13,690 --> 00:14:21,460
+‫Nah, kita juga ingin mengapung yang ingin kita apungkan ke kanan.
+
+191
+00:14:22,500 --> 00:14:25,110
+‫Jadi ini bar.
+
+192
+00:14:25,290 --> 00:14:30,770
+‫Yah kita akan melakukan beberapa hal lain juga kita ingin menghilangkan peluru.
+
+193
+00:14:30,780 --> 00:14:32,830
+‫Jadi katakanlah gaya daftar.
+
+194
+00:14:33,190 --> 00:14:33,820
+‫Tidak ada
+
+195
+00:14:34,920 --> 00:14:42,870
+‫Dan kami akan mengatur margin ke nol pad dan tambahan tidak perlu melakukan itu karena kami menambahkan reset.
+
+196
+00:14:42,870 --> 00:14:48,480
+‫Jadi mari lakukan float dengan benar dan simpan.
+
+197
+00:14:48,480 --> 00:14:52,050
+‫Dan sekarang itu melayang ke kanan.
+
+198
+00:14:52,110 --> 00:14:59,070
+‫Jadi daftar item sekarang kita akan vertikal kita ingin mereka pergi horizontal jadi mari kita ambil ke mereka
+
+199
+00:14:59,070 --> 00:15:07,170
+‫kita akan mengatakan nav bar kamu sekutu atau kamu bisa melakukan Navarre Ally terserah kamu, aku hanya ingin tetap semacam itu
+
+200
+00:15:07,170 --> 00:15:08,760
+‫terorganisir seperti itu.
+
+201
+00:15:09,570 --> 00:15:16,380
+‫Jadi untuk item daftar kami ingin mengapungkan semuanya ke kiri dan simpan.
+
+202
+00:15:16,380 --> 00:15:22,480
+‫Dan semua hal lain yang kami gaya sejauh tautan ini baik itu akan ada di tag di dalam.
+
+203
+00:15:22,530 --> 00:15:29,280
+‫Jadi mari kita lakukan, katakanlah nav bar Anda semua sekutu
+
+204
+00:15:32,060 --> 00:15:44,600
+‫dan kami ingin menampilkannya sebagai blok OK sehingga kami dapat menambahkan padding dan kami ingin melakukan 20 piksel
+
+205
+00:15:44,600 --> 00:15:46,300
+‫di sekitar.
+
+206
+00:15:46,460 --> 00:15:51,930
+‫Jika saya menyimpannya dan mendorongnya ke tempat yang tepat, kami mendapatkan sekitar 20 piksel.
+
+207
+00:15:52,040 --> 00:15:58,820
+‫Mari kita pastikan ada garis-garis terpusat sehingga kita akan mengatakan pusat perataan teks.
+
+208
+00:15:58,820 --> 00:16:01,970
+‫Dan apa lagi yang ingin Anda lakukan.
+
+209
+00:16:01,970 --> 00:16:04,100
+‫Saya pikir hanya itu.
+
+210
+00:16:04,170 --> 00:16:09,480
+‫Sekarang saya ingin memiliki status hover sekarang jika saya mengarahkan mereka tidak ada yang terjadi.
+
+211
+00:16:09,500 --> 00:16:18,930
+‫Jadi yang bisa kita lakukan adalah mengambil ini dan menambahkan pemilih semu kita melayang sehingga Cole dan melayang dan aku akan mengatakan
+
+212
+00:16:18,950 --> 00:16:20,170
+‫latar belakang.
+
+213
+00:16:20,840 --> 00:16:28,900
+‫Mari kita lakukan empat empat empat dan mari kita juga membuat warna heksadesimal dari ..
+
+214
+00:16:28,970 --> 00:16:37,430
+‫Mari kita lakukan F tujuh lihat 0 8 a yang merupakan warna kecoklatan terang ini.
+
+215
+00:16:37,430 --> 00:16:41,920
+‫Jadi sekarang jika saya mengarahkan kursor, itu terlihat seperti itu.
+
+216
+00:16:41,930 --> 00:16:46,760
+‫Sekarang satu hal lain yang ingin saya lakukan adalah tergantung pada halaman atau pada saya ingin memiliki efek
+
+217
+00:16:46,760 --> 00:16:51,320
+‫juga jika kita melihat pada tugas akhir Anda dapat melihat bahwa halaman rumah memiliki efek itu.
+
+218
+00:16:51,830 --> 00:16:59,600
+‫Jadi yang bisa kita lakukan adalah halaman apa pun yang ada di bilah nav di sini kita dapat menambahkan kelas
+
+219
+00:16:59,600 --> 00:17:03,140
+‫khusus dan kita akan menambahkannya ke tautan ke tag.
+
+220
+00:17:03,160 --> 00:17:04,840
+‫Jadi pusatkan pada beranda di sini.
+
+221
+00:17:04,850 --> 00:17:13,070
+‫Katakanlah kelas sama dengan dan sebut ini saat ini OK jadi kita akan kembali dan kemudian saya ingin memiliki gaya yang sama
+
+222
+00:17:13,070 --> 00:17:19,570
+‫tidak ada gunanya untuk menciptakan ulang itu mari kita beri koma sehingga itu mempengaruhi keduanya dan kita
+
+223
+00:17:19,570 --> 00:17:24,390
+‫akan ambil ini dan kemudian hanya ambil tambahkan kelas saat ini.
+
+224
+00:17:24,750 --> 00:17:25,080
+‫BAIK.
+
+225
+00:17:25,120 --> 00:17:29,960
+‫Dan Anda biasanya ingin meletakkan ini di baris baru hanya untuk tetap bersih dan hemat.
+
+226
+00:17:30,010 --> 00:17:33,790
+‫Dan sekarang perhatikan halaman rumah memiliki itu.
+
+227
+00:17:33,790 --> 00:17:42,490
+‫Sekarang sebelum kita melanjutkan, saya hanya ingin menunjukkan satu hal kepada Anda jika kita meregangkan sel kita terlalu jauh, selalu ada di ujung sini
+
+228
+00:17:42,490 --> 00:17:47,800
+‫dan saya tidak ingin itu yang biasanya Anda lakukan adalah Anda akan memiliki sebuah wadah
+
+229
+00:17:47,800 --> 00:17:49,590
+‫dan memindahkannya ke tengah.
+
+230
+00:17:49,720 --> 00:17:50,140
+‫BAIK.
+
+231
+00:17:50,140 --> 00:17:55,390
+‫Dan kami tidak ingin membungkus wadah di sekitar segalanya karena bar hitam akan benar-benar marah menambahkan
+
+232
+00:17:55,390 --> 00:17:57,420
+‫Anda tahu mendorong ke tengah.
+
+233
+00:17:57,420 --> 00:18:04,250
+‫Saya ingin bar hitam melewati semua jalan tapi saya ingin barang ini berada di tengah sehingga untuk melakukan itu.
+
+234
+00:18:04,390 --> 00:18:10,930
+‫Apa yang akan kita lakukan adalah menambahkan kelas kontainer dalam NAV karena ingat NAV yang I. D. nav bar adalah tempat
+
+235
+00:18:10,930 --> 00:18:12,820
+‫latar belakang itu.
+
+236
+00:18:12,820 --> 00:18:20,890
+‫Jadi di dalamnya kita ingin memiliki kelas kontainer dan kami ingin menghapus H1 dan sumur ke dalam
+
+237
+00:18:20,890 --> 00:18:23,260
+‫kelas itu dan menyimpan.
+
+238
+00:18:23,260 --> 00:18:24,880
+‫Dan kemudian kita akan mengaturnya.
+
+239
+00:18:24,880 --> 00:18:26,440
+‫Jadi mari kita tambahkan wadahnya.
+
+240
+00:18:26,440 --> 00:18:31,930
+‫Saya sebenarnya akan menempatkan wadah di bagian atas karena ini semacam kelas utilitas yang berarti Anda
+
+241
+00:18:31,930 --> 00:18:33,490
+‫dapat menggunakannya di mana-mana.
+
+242
+00:18:33,490 --> 00:18:41,110
+‫Jadi mari kita beri komentar di sini dan katakan kita hanya akan mengatakan utilitas atau kelas
+
+243
+00:18:45,720 --> 00:18:47,850
+‫utilitas dan melakukan wadah.
+
+244
+00:18:48,900 --> 00:18:51,740
+‫Jadi ingatlah margin otomatis.
+
+245
+00:18:51,810 --> 00:18:52,620
+‫Ingin melakukan itu.
+
+246
+00:18:53,100 --> 00:18:54,450
+‫Itu akan mendorong semuanya ke tengah.
+
+247
+00:18:54,450 --> 00:18:57,250
+‫Tetapi kita perlu memiliki semacam lebar.
+
+248
+00:18:57,270 --> 00:19:05,070
+‫Jadi untuk lebar kami ingin menggunakan Mac dengan karena kami ingin itu agak responsif seperti responsif yang kami bisa
+
+249
+00:19:05,070 --> 00:19:07,250
+‫membuatnya tanpa masuk ke barang-barang.
+
+250
+00:19:07,260 --> 00:19:12,830
+‫Kami belum membicarakan tentang permintaan media dan kami akan mengaturnya menjadi sebelas ratus piksel.
+
+251
+00:19:12,840 --> 00:19:14,780
+‫Itu akan menjadi maksimal dengan.
+
+252
+00:19:15,270 --> 00:19:15,720
+‫Baiklah.
+
+253
+00:19:15,720 --> 00:19:17,250
+‫Lalu mari kita lihat.
+
+254
+00:19:17,250 --> 00:19:25,700
+‫Mari kita tambahkan auto overflow supaya selalu menunjukkan latar belakang tidak pergi keluar dari itu.
+
+255
+00:19:26,580 --> 00:19:28,620
+‫Dan kemudian beberapa padding.
+
+256
+00:19:28,800 --> 00:19:31,620
+‫Saya ingin melakukan padding.
+
+257
+00:19:32,280 --> 00:19:37,200
+‫Mari kita lakukan nol atas dan bawah dan saya hanya ingin kiri dan kanan memiliki bantalan 20 piksel.
+
+258
+00:19:37,200 --> 00:19:38,630
+‫Jadi mari kita simpan itu.
+
+259
+00:19:38,790 --> 00:19:41,710
+‫Dan perhatikan bahwa sekarang itu tidak tepat ke tepi.
+
+260
+00:19:41,730 --> 00:19:50,020
+‫Dan jika saya membawa ini jika saya mengeluarkan browser itu benar ketika mencapai seratus seratus piksel itu berhenti.
+
+261
+00:19:50,020 --> 00:19:50,340
+‫Baik.
+
+262
+00:19:50,350 --> 00:19:56,490
+‫Itulah lebar maks, namun palang hitam masih melintang.
+
+263
+00:19:56,500 --> 00:19:58,040
+‫Sekarang saya hanya ingin menunjukkan sesuatu kepada Anda.
+
+264
+00:19:58,040 --> 00:19:59,370
+‫Kalian tidak harus melakukan ini.
+
+265
+00:19:59,380 --> 00:20:04,500
+‫Tetapi jika kita memiliki wadah di luar nav bar.
+
+266
+00:20:05,610 --> 00:20:05,920
+‫BAIK.
+
+267
+00:20:05,920 --> 00:20:12,270
+‫Jadi miliki itu dan kemudian div akhirnya dapat div untuk wadah di luar nav bar dan simpan.
+
+268
+00:20:12,280 --> 00:20:17,620
+‫Sekarang latar belakang tidak mencapai semua jalan karena terbatas di dalam wadah.
+
+269
+00:20:18,270 --> 00:20:18,630
+‫BAIK.
+
+270
+00:20:18,640 --> 00:20:24,670
+‫Dan saya tidak suka dengan cara yang kelihatannya saya situs Web seperti Anda tahu seperti awal 2000-an tampak seperti itu
+
+271
+00:20:24,670 --> 00:20:29,410
+‫di mana semuanya ada di wadah ini dan kemudian Anda memiliki latar belakang yang funky
+
+272
+00:20:29,410 --> 00:20:30,060
+‫di sini.
+
+273
+00:20:30,100 --> 00:20:34,630
+‫Saat ini Anda ingin latar belakang Anda diperluas dan Anda hanya ingin meletakkan konten
+
+274
+00:20:34,630 --> 00:20:36,330
+‫Anda di dalam wadah.
+
+275
+00:20:36,450 --> 00:20:36,780
+‫BAIK.
+
+276
+00:20:36,790 --> 00:20:41,320
+‫Dan itulah alasan lain mengapa ini kelas dan bukan gagasan karena kita akan
+
+277
+00:20:41,320 --> 00:20:44,260
+‫menggunakan kelas kontainer ini di seluruh situs.
+
+278
+00:20:44,260 --> 00:20:53,030
+‫Baiklah jadi mari kita bawa kembali bagaimana itu dulu dan di sana kita pergi.
+
+279
+00:20:53,030 --> 00:20:53,300
+‫BAIK.
+
+280
+00:20:53,330 --> 00:20:54,110
+‫Jadi begitu.
+
+281
+00:20:54,140 --> 00:20:55,210
+‫Itu bar kami sekarang.
+
+282
+00:20:55,220 --> 00:20:59,690
+‫Jadi di video berikutnya kita akan mulai di area showcase di sini.
+

@@ -1,0 +1,1124 @@
+﻿1
+00:00:00,330 --> 00:00:04,950
+‫Va bene, quindi andremo avanti e inizieremo qui ora, terrò aperto il progetto
+
+2
+00:00:04,950 --> 00:00:08,910
+‫finale solo come riferimento in modo da potervi indicare ragazzi.
+
+3
+00:00:09,090 --> 00:00:14,450
+‫Ad esempio, quando creo l'accesso ottimale, posso mostrarti esattamente cosa sto facendo nel progetto finale.
+
+4
+00:00:14,460 --> 00:00:18,570
+‫E come ho detto nell'ultimo video, molte volte otterrai il design in anticipo
+
+5
+00:00:18,570 --> 00:00:22,040
+‫e dovrai solo usarlo come riferimento e creare l'accesso ottimale.
+
+6
+00:00:22,350 --> 00:00:23,870
+‫Quindi adotteremo questo approccio.
+
+7
+00:00:24,240 --> 00:00:30,390
+‫E per ora farò anche aprire contemporaneamente il browser e l'editor di testo.
+
+8
+00:00:30,390 --> 00:00:36,650
+‫Non mi piace quanto sia stretto, ma allo stesso tempo voglio che tu li veda per vederli entrambi, ok?
+
+9
+00:00:37,170 --> 00:00:42,150
+‫Se arriviamo a un punto in cui creiamo cose come questa e non sembra buono quando è così
+
+10
+00:00:42,150 --> 00:00:43,560
+‫stretto, allora lo ingrandirò.
+
+11
+00:00:44,070 --> 00:00:49,830
+‫OK, quindi la prima cosa che vogliamo fare è creare una cartella di progetto in modo che tu possa inserirla ovunque nel tuo sistema.
+
+12
+00:00:49,840 --> 00:00:58,980
+‫Andrò sul mio desktop e chiamerò questa cartella che cosa significa il sito Web di Hotel Underscore?
+
+13
+00:01:00,870 --> 00:01:03,330
+‫E possiamo aprire questo codice Inves.
+
+14
+00:01:03,340 --> 00:01:06,900
+‫Quindi è una cartella aperta e vogliamo un sito Web di un hotel.
+
+15
+00:01:09,430 --> 00:01:14,240
+‫OK, è completamente vuoto e creerò, prima di tutto, una cartella per le nostre
+
+16
+00:01:14,240 --> 00:01:18,260
+‫immagini e puoi chiamarla immagini o IMG è un'altra convenzione comune.
+
+17
+00:01:18,260 --> 00:01:19,490
+‫Quindi userò quello.
+
+18
+00:01:19,880 --> 00:01:25,160
+‫E poi vogliamo ottenere tutte le risorse di immagini che hai scaricato nel primo video di questa sezione,
+
+19
+00:01:25,580 --> 00:01:27,080
+‫che ho proprio qui.
+
+20
+00:01:27,410 --> 00:01:30,860
+‫E vogliamo metterli nella nostra cartella IMG.
+
+21
+00:01:31,190 --> 00:01:35,480
+‫Quindi andiamo avanti e selezioniamo tutti questi e li portiamo in IMG.
+
+22
+00:01:38,290 --> 00:01:39,130
+‫Ops, cosa è successo?
+
+23
+00:01:40,030 --> 00:01:40,540
+‫Ci siamo.
+
+24
+00:01:40,960 --> 00:01:45,850
+‫Bene, ora che ci sono quelli, possiamo chiuderli e tornare al codice Vyas.
+
+25
+00:01:46,000 --> 00:01:48,330
+‫E ora puoi vedere che ho tutte le immagini qui.
+
+26
+00:01:49,510 --> 00:01:52,210
+‫Quindi la prossima cosa che faremo è creare la nostra struttura di pagina.
+
+27
+00:01:52,210 --> 00:01:55,240
+‫Come puoi vedere, abbiamo tre pagine a casa su incontact.
+
+28
+00:01:55,600 --> 00:02:02,410
+‫Ora, ricorda, all'inizio della sezione HTML Basics, ho detto che quando hai una home page di un
+
+29
+00:02:02,590 --> 00:02:08,290
+‫sito web, devi chiamarla index dot HTML, perché quando vai a qualcosa, qualunque punto
+
+30
+00:02:08,290 --> 00:02:11,720
+‫com, sembrerà per quel file come home page.
+
+31
+00:02:11,740 --> 00:02:18,370
+‫Quindi diciamo index dot html come un nuovo nuovo file, clicco su questa icona e potremmo anche creare il
+
+32
+00:02:18,370 --> 00:02:19,990
+‫resto delle pagine HTML.
+
+33
+00:02:19,990 --> 00:02:24,370
+‫Quindi faremo una squadra su HTML, punto, html.
+
+34
+00:02:25,710 --> 00:02:30,160
+‫Contattiamo domani, ok?
+
+35
+00:02:30,210 --> 00:02:35,610
+‫Avremo anche bisogno del nostro accesso, del nostro foglio di stile e non metteremo il nostro successo
+
+36
+00:02:35,610 --> 00:02:38,070
+‫nella TML come abbiamo fatto nella sandbox.
+
+37
+00:02:38,260 --> 00:02:39,960
+‫L'ho fatto solo per comodità.
+
+38
+00:02:39,960 --> 00:02:44,970
+‫Quando hai un progetto, vuoi creare fogli di stile separati e generalmente vuoi una
+
+39
+00:02:44,970 --> 00:02:46,760
+‫cartella separata che li contenga.
+
+40
+00:02:46,770 --> 00:02:51,140
+‫Quindi farò clic sull'icona di questa cartella e creerò una cartella chiamata Access.
+
+41
+00:02:52,290 --> 00:02:57,720
+‫OK, e poi lì dentro, creerò un nuovo file chiamato Style Dot Access.
+
+42
+00:02:57,720 --> 00:03:00,090
+‫E lo stile del nome non è vero?
+
+43
+00:03:00,090 --> 00:03:04,230
+‫Non importa come lo chiami, ma stile accesso alla scheda madre.
+
+44
+00:03:04,230 --> 00:03:07,770
+‫Queste sono convenzioni comuni per i fogli di stile principali.
+
+45
+00:03:07,890 --> 00:03:09,780
+‫Ma non importa, non importa.
+
+46
+00:03:10,980 --> 00:03:15,060
+‫OK, ora che l'abbiamo, questa è fondamentalmente la struttura del nostro sito web.
+
+47
+00:03:15,060 --> 00:03:17,550
+‫Quindi andremo nell'indice HTML.
+
+48
+00:03:17,910 --> 00:03:22,650
+‫Possiamo chiudere su incontact per ora, ma apriamo anche il nostro foglio di stile.
+
+49
+00:03:22,800 --> 00:03:27,150
+‫Quindi abbiamo questi due file aperti e generiamo il nostro tag head body.
+
+50
+00:03:27,170 --> 00:03:33,840
+‫Quindi esclamativo entra nella scheda e qui cambieremo il titolo in, diciamo Hotel BTE.
+
+51
+00:03:34,380 --> 00:03:39,680
+‫E di solito avrai una sorta di separatore, come un trattino o un carattere pipe.
+
+52
+00:03:39,960 --> 00:03:45,990
+‫E poi, se sei concentrato sui motori di ricerca come vuoi, vuoi classificarti per, diciamo,
+
+53
+00:03:45,990 --> 00:03:50,670
+‫Boston Hotel, potresti mettere qualcosa del genere qui, purché abbia senso.
+
+54
+00:03:51,810 --> 00:03:55,940
+‫Ma mettiamo solo il benvenuto perché è la home page, ok?
+
+55
+00:03:56,400 --> 00:04:01,140
+‫E probabilmente vorrai inserire alcuni meta tag qui come descrizione.
+
+56
+00:04:02,350 --> 00:04:06,660
+‫Non lo farò per ogni progetto che creiamo, ma lo farò per questo solo perché è
+
+57
+00:04:06,660 --> 00:04:07,290
+‫il primo.
+
+58
+00:04:07,560 --> 00:04:14,400
+‫Quindi diciamo la descrizione del nome e facciamo uguale al contenuto.
+
+59
+00:04:14,400 --> 00:04:20,790
+‫E poi dirò solo benvenuto ai più.
+
+60
+00:04:23,920 --> 00:04:30,750
+‫Hotel straordinario a Boston.
+
+61
+00:04:33,280 --> 00:04:38,860
+‫Massachusetts, quindi questa è la nostra descrizione, facciamo un altro meta tag, queste saranno
+
+62
+00:04:38,860 --> 00:04:47,260
+‫le nostre parole chiave, quindi vogliamo fare nome uguale a parole chiave e per il contenuto probabilmente farebbe qualcosa come hotel, qualunque sia
+
+63
+00:04:47,260 --> 00:04:48,160
+‫la posizione.
+
+64
+00:04:48,170 --> 00:04:56,620
+‫Quindi qualcosa come Boston Hotel, New England Hotel e qualunque cosa sia, qualunque siano le parole chiave.
+
+65
+00:04:56,620 --> 00:04:58,180
+‫Descrivi questa pagina.
+
+66
+00:04:58,900 --> 00:04:59,260
+‫Va bene.
+
+67
+00:04:59,260 --> 00:05:04,090
+‫Ora, oltre a ciò, vogliamo collegare il nostro foglio di stile in modo da utilizzare un tag di collegamento.
+
+68
+00:05:04,470 --> 00:05:10,840
+‫E se uso Emet, se faccio collegamento, invio o collegamento alla scheda, inserirà automaticamente l'attributo Réal.
+
+69
+00:05:11,350 --> 00:05:16,450
+‫Quindi il Rella sarà uguale al foglio di stile perché gli stiamo solo dicendo che
+
+70
+00:05:16,450 --> 00:05:21,910
+‫stiamo importando un foglio di stile qui, il file CSF e poi nell'aereo, vogliamo puntare a quel file.
+
+71
+00:05:22,210 --> 00:05:25,210
+‫Ora ricorda, lo mettiamo all'interno di una cartella chiamata Access.
+
+72
+00:05:25,210 --> 00:05:28,750
+‫Quindi vogliamo dire successo, accesso allo stile.
+
+73
+00:05:29,890 --> 00:05:34,100
+‫Ok, e poi possiamo iniziare con il corpo qui.
+
+74
+00:05:34,900 --> 00:05:39,020
+‫Ora è importante ricordare che ognuno ha il proprio stile.
+
+75
+00:05:39,070 --> 00:05:42,960
+‫Ognuno ha le proprie convenzioni di denominazione e come desidera strutturare i tag.
+
+76
+00:05:43,630 --> 00:05:50,080
+‫Ad esempio, quello che farò è avere un tag di intestazione, quindi lo inserirò nell'intestazione e nella mia
+
+77
+00:05:50,080 --> 00:05:53,200
+‫testa, o voglio la navigazione e la vetrina.
+
+78
+00:05:53,200 --> 00:05:58,960
+‫Voglio che l'intera area sia l'intestazione, ma va bene se avessi solo questo all'interno
+
+79
+00:05:58,960 --> 00:06:05,230
+‫del tag dell'intestazione e poi magari avessi una sezione per questo, vedrai che vedrai stili
+
+80
+00:06:05,230 --> 00:06:10,340
+‫diversi quando guardi in HTML diverso e svilupperai il tuo stile.
+
+81
+00:06:11,260 --> 00:06:16,840
+‫Quello che faccio qui è proprio quello che mi piace fare e mi piace pensare che sia tutto ok.
+
+82
+00:06:17,050 --> 00:06:22,300
+‫E spero che non vi dispiaccia il modo in cui faccio le cose, ma voglio solo Voglio
+
+83
+00:06:22,300 --> 00:06:29,010
+‫chiarire che ogni sviluppatore ha il proprio stile di fare le cose e non solo HTML, qualsiasi tipo di programmazione, qualcosa
+
+84
+00:06:29,020 --> 00:06:29,880
+‫come Quello.
+
+85
+00:06:30,550 --> 00:06:33,580
+‫Quindi, come ho detto, voglio il navigatore, la barra di navigazione qui.
+
+86
+00:06:33,580 --> 00:06:42,610
+‫Quindi creerò un tag di navigazione e in realtà darò un'idea della barra di navigazione e all'interno della barra di
+
+87
+00:06:42,610 --> 00:06:43,360
+‫navigazione.
+
+88
+00:06:43,360 --> 00:06:48,040
+‫Avremo il logo su questo proprio qui, che è solo un H1.
+
+89
+00:06:48,460 --> 00:06:52,960
+‫E poi avremo la nostra navigazione, che è un elenco non ordinato.
+
+90
+00:06:53,350 --> 00:06:58,570
+‫Quindi mettiamo un H1, a cui in realtà darò una classe di logo.
+
+91
+00:07:00,670 --> 00:07:06,700
+‫E questa è un'altra cosa che è diversa, a seconda dello sviluppatore, è come usi ID e classi.
+
+92
+00:07:06,700 --> 00:07:10,180
+‫Potrei facilmente chiamarlo una classe e questo un ID.
+
+93
+00:07:10,180 --> 00:07:10,930
+‫Va bene.
+
+94
+00:07:11,260 --> 00:07:17,980
+‫L'unica regola principale che direi che non dovrebbe mai essere violata è non avere più di un ID come non avere
+
+95
+00:07:17,980 --> 00:07:20,920
+‫un'altra idea della barra di navigazione sulla stessa pagina.
+
+96
+00:07:21,970 --> 00:07:24,850
+‫Ma voglio dire che alcune persone userai solo le lezioni.
+
+97
+00:07:24,850 --> 00:07:31,870
+‫Tendo a usare gli ID per cose di cui non avrò duplicati e che circondano tutto il resto che
+
+98
+00:07:31,870 --> 00:07:34,210
+‫sono i genitori di altre cose.
+
+99
+00:07:34,540 --> 00:07:38,470
+‫Ad esempio, abbiamo l'H1 negli Stati Uniti. S. qui dentro, il NAV li circonda.
+
+100
+00:07:38,470 --> 00:07:40,020
+‫Quindi userò un ID qui.
+
+101
+00:07:40,840 --> 00:07:48,670
+‫Quindi per il logo, faremo HB T, e di solito il tuo logo va alla tua home page come vedrai se
+
+102
+00:07:48,670 --> 00:07:53,800
+‫clicco su se ci passo sopra, è un link e torna alla home
+
+103
+00:07:53,800 --> 00:07:54,390
+‫page.
+
+104
+00:07:54,400 --> 00:07:56,890
+‫Quindi se sono su una barca e ci clicco, riportami indietro.
+
+105
+00:07:57,130 --> 00:08:03,850
+‫Quindi vogliamo racchiuderlo in un tag A e vogliamo che questo vada a index dot HTML.
+
+106
+00:08:05,200 --> 00:08:05,650
+‫Va bene.
+
+107
+00:08:05,650 --> 00:08:09,320
+‫Assicurati di chiudere un tag sull'altro lato della testa.
+
+108
+00:08:09,400 --> 00:08:09,670
+‫Il.
+
+109
+00:08:11,430 --> 00:08:11,800
+‫Va bene.
+
+110
+00:08:11,800 --> 00:08:15,040
+‫Chiuderò questa barra laterale per darmi anche un po' più di spazio.
+
+111
+00:08:16,410 --> 00:08:17,800
+‫OK, quindi questo è il nostro ciascuno.
+
+112
+00:08:17,800 --> 00:08:20,230
+‫Ora vogliamo che tu vada tutto bene qui.
+
+113
+00:08:20,560 --> 00:08:24,130
+‫Quindi cerchiamo di elencare bene l'elemento.
+
+114
+00:08:24,130 --> 00:08:26,830
+‫E poi in ogni voce della lista avremo un link.
+
+115
+00:08:27,070 --> 00:08:30,910
+‫Questo andrà all'indice DOT HTML e questa sarà la nostra home page.
+
+116
+00:08:31,210 --> 00:08:35,350
+‫Farò controllare l'opzione verso il basso o controllare alt giù su una macchina Windows.
+
+117
+00:08:36,010 --> 00:08:44,560
+‫E parliamo e diciamo del contatto HTML.
+
+118
+00:08:48,810 --> 00:08:49,590
+‫Contatti.
+
+119
+00:08:49,920 --> 00:08:55,710
+‫OK, quindi ora c'è la nostra barra di navigazione, apriamola nel server live e sembrerà orribile perché
+
+120
+00:08:55,710 --> 00:08:57,080
+‫non abbiamo accesso.
+
+121
+00:08:57,480 --> 00:09:01,170
+‫Quindi è quello che faremo ora, salteremo verso il successo, ok?
+
+122
+00:09:01,310 --> 00:09:07,980
+‫E questa è un'altra cosa che varia è che a volte potresti fare tutto il tuo HTML su tutta
+
+123
+00:09:07,980 --> 00:09:15,240
+‫la pagina e poi iniziare il tuo successo o puoi fare quello che stiamo per fare e andare fondamentalmente componente per componente.
+
+124
+00:09:15,250 --> 00:09:20,740
+‫Quindi il Navar si sposterà quindi nella vetrina, quindi in questa parte, in quella parte e così via.
+
+125
+00:09:21,330 --> 00:09:24,210
+‫Quindi passiamo all'accesso con stile.
+
+126
+00:09:25,140 --> 00:09:31,410
+‫E oltre allo stile della barra di navigazione, voglio fare solo alcuni degli stili di base di base come il tag del corpo
+
+127
+00:09:31,410 --> 00:09:32,760
+‫e cose del genere.
+
+128
+00:09:33,210 --> 00:09:40,020
+‫Quindi aggiungerò il set di accessori, quindi metterò un asterisco qui, il che significa che stiamo afferrando tutto
+
+129
+00:09:40,020 --> 00:09:45,780
+‫e cancelleremo il margine e riempiremo il margine predefinito e il riempimento che il browser
+
+130
+00:09:45,780 --> 00:09:48,870
+‫mette su ogni su molti elementi diversi.
+
+131
+00:09:49,140 --> 00:09:51,960
+‫Non appena lo salvo, vedrai che cambia.
+
+132
+00:09:52,440 --> 00:09:56,760
+‫OK, l'intestazione, quella roba, il margine va via.
+
+133
+00:09:56,910 --> 00:10:01,380
+‫E poi voglio anche aggiungere una proprietà di ridimensionamento della casella e la
+
+134
+00:10:05,160 --> 00:10:10,500
+‫imposteremo su una casella di confine, perché quando abbiamo caselle che hanno un'imbottitura come questa proprio qui,
+
+135
+00:10:10,500 --> 00:10:14,670
+‫non voglio che l'imbottitura si aggiunga alla larghezza effettiva di la scatola.
+
+136
+00:10:14,970 --> 00:10:16,470
+‫OK, quindi è piuttosto importante.
+
+137
+00:10:17,280 --> 00:10:19,770
+‫Quindi, dopo, avremo il nostro stile principale.
+
+138
+00:10:19,770 --> 00:10:27,840
+‫E ciò che intendo per principale è proprio come gli elementi fondamentali, come i collegamenti del corpo, i titoli, il paragrafo, tutta quella roba, OK,
+
+139
+00:10:27,840 --> 00:10:31,740
+‫tutto ciò che in realtà non ha una classe o un ID.
+
+140
+00:10:32,130 --> 00:10:38,940
+‫Quindi per il corpo e un sacco di volte quando lo modella il corpo, metti anche l'HTML.
+
+141
+00:10:38,940 --> 00:10:47,280
+‫Quindi corpo HTML e poi imposterò la famiglia di caratteri su Userò uno di questi preset per il
+
+142
+00:10:47,280 --> 00:10:48,360
+‫codice vocale.
+
+143
+00:10:48,360 --> 00:10:57,600
+‫Useremo questa interfaccia utente di Segou per Haoma Geneva e quindi impostiamo l'altezza della linea su Ho intenzione di impostarla su un livello più
+
+144
+00:10:57,600 --> 00:10:57,990
+‫alto.
+
+145
+00:10:57,990 --> 00:11:04,980
+‫Quindi un punto e sette del mattino e ora che ho salvato puoi vedere che c'è un po' più di spazio tra
+
+146
+00:11:04,980 --> 00:11:05,700
+‫le righe.
+
+147
+00:11:06,420 --> 00:11:08,430
+‫OK, la prossima cosa da fare sono i link.
+
+148
+00:11:09,000 --> 00:11:16,020
+‫Voglio tutti i collegamenti per impostazione predefinita a meno che la classe o l'ID non specifichi diversamente, voglio che abbiano un
+
+149
+00:11:16,020 --> 00:11:17,730
+‫colore di tre, tre, tre.
+
+150
+00:11:18,180 --> 00:11:20,250
+‫E voglio anche rimuovere la sottolineatura.
+
+151
+00:11:20,250 --> 00:11:24,510
+‫Quindi non faremo nessuna decorazione del testo e lo salveremo.
+
+152
+00:11:25,800 --> 00:11:26,210
+‫OK.
+
+153
+00:11:26,520 --> 00:11:27,600
+‫Anche i titoli.
+
+154
+00:11:27,600 --> 00:11:33,650
+‫Quindi dirò H1, H2, H3, voglio lo spazio sotto.
+
+155
+00:11:33,660 --> 00:11:39,630
+‫Quindi, se guardiamo al nostro progetto finale, così come qui puoi vedere la spaziatura qui, la spaziatura qui
+
+156
+00:11:39,930 --> 00:11:43,410
+‫perché ci muoviamo, rimuoviamo il margine e il padding predefiniti.
+
+157
+00:11:43,590 --> 00:11:45,000
+‫Non ci sarà alcun distanziamento.
+
+158
+00:11:45,000 --> 00:11:46,710
+‫Quindi dobbiamo aggiungerlo noi stessi.
+
+159
+00:11:46,980 --> 00:11:51,990
+‫Quindi in realtà ho intenzione di riempire i venti pixel inferiori.
+
+160
+00:11:53,190 --> 00:11:55,410
+‫OK, e poi quattro paragrafi.
+
+161
+00:11:56,700 --> 00:12:02,070
+‫Ricorda, i paragrafi per impostazione predefinita hanno un margine, ma l'abbiamo appena rimosso con i ripristini.
+
+162
+00:12:02,070 --> 00:12:07,310
+‫Quindi aggiungerò solo dieci pixel di margine in alto e in basso.
+
+163
+00:12:07,320 --> 00:12:10,020
+‫OK, ricorda che se lo facciamo in questo modo, questo è in alto e in basso.
+
+164
+00:12:10,050 --> 00:12:11,190
+‫Questo è destro e sinistro.
+
+165
+00:12:12,480 --> 00:12:14,630
+‫Quindi questi sono gli stili principali.
+
+166
+00:12:14,640 --> 00:12:17,190
+‫Passiamo ora alla barra di navigazione vera e propria.
+
+167
+00:12:17,940 --> 00:12:20,570
+‫Allora cos'era, un documento d'identità?
+
+168
+00:12:20,940 --> 00:12:21,750
+‫Sì, abbiamo fatto.
+
+169
+00:12:21,750 --> 00:12:26,430
+‫Non metterei mai un commento qui solo per organizzare le cose.
+
+170
+00:12:27,330 --> 00:12:36,660
+‫E diremo, ora, bar, imposterò lo sfondo, colorerò il suo sfondo, due, tre, tre, tre.
+
+171
+00:12:37,680 --> 00:12:44,130
+‫Imposterò il colore su bianco e vediamo cos'altro faremo.
+
+172
+00:12:44,220 --> 00:12:50,790
+‫Eseguiamo un overflow automatico in modo che lo sfondo venga visualizzato indipendentemente da cosa.
+
+173
+00:12:51,360 --> 00:12:56,970
+‫E lo salveremo e noteremo che non possiamo leggere il testo anche se mettiamo il colore qui, perché
+
+174
+00:12:56,970 --> 00:12:59,130
+‫tutto il testo, è tutto link.
+
+175
+00:12:59,340 --> 00:13:03,480
+‫E se hai dei link, devi aggiungere il colore in modo specifico a quei link.
+
+176
+00:13:04,050 --> 00:13:09,660
+‫Quindi ricorda, abbiamo un logo, quindi farò il logo della classe della barra di navigazione.
+
+177
+00:13:10,530 --> 00:13:15,480
+‫Voglio dare uno stile a quel collegamento e poi a qualsiasi altro collegamento nella barra di navigazione.
+
+178
+00:13:15,480 --> 00:13:24,030
+‫Quindi ora mettiamo la virgola var in realtà sai cosa, faremo solo Navarra, sai che non c'è bisogno di
+
+179
+00:13:24,030 --> 00:13:24,930
+‫farlo.
+
+180
+00:13:27,840 --> 00:13:36,180
+‫E diciamo colora bianco e salva, e ora possiamo effettivamente vedere il testo, quindi qual è la
+
+181
+00:13:36,180 --> 00:13:44,560
+‫prossima cosa che vogliamo fare è allineare il logo a sinistra e vogliamo che il solito sia a destra.
+
+182
+00:13:44,910 --> 00:13:47,430
+‫Quindi aggiungiamo alcuni float per questo.
+
+183
+00:13:47,820 --> 00:13:51,960
+‫E consiglierei di usare qualcosa come i blocchi flessibili, ma non ci siamo ancora arrivati.
+
+184
+00:13:51,970 --> 00:13:53,460
+‫Quindi useremo solo i float.
+
+185
+00:13:53,910 --> 00:14:02,730
+‫Quindi prendiamo il Navar H1 e facciamo galleggiare a sinistra.
+
+186
+00:14:04,650 --> 00:14:08,580
+‫Ho anche intenzione di aggiungere un po' di imbottitura nella parte superiore per spingerla un po' verso il basso.
+
+187
+00:14:09,590 --> 00:14:11,280
+‫È a 20 pixel.
+
+188
+00:14:12,120 --> 00:14:13,340
+‫OK, lo salveremo.
+
+189
+00:14:13,620 --> 00:14:16,140
+‫Ora, vorrai anche farlo galleggiare.
+
+190
+00:14:16,140 --> 00:14:18,630
+‫Vogliamo farlo galleggiare a destra.
+
+191
+00:14:22,500 --> 00:14:25,140
+‫Quindi è un bar.
+
+192
+00:14:25,290 --> 00:14:29,290
+‫Bene, faremo anche un altro paio di cose.
+
+193
+00:14:29,310 --> 00:14:30,750
+‫Vogliamo rimuovere i proiettili.
+
+194
+00:14:30,750 --> 00:14:38,460
+‫Quindi diciamo stile di vita, nessuno, e imposteremo il margine a zero.
+
+195
+00:14:39,780 --> 00:14:42,410
+‫E in realtà, non dobbiamo farlo perché abbiamo aggiunto il ripristino.
+
+196
+00:14:42,810 --> 00:14:48,000
+‫Quindi facciamo fluttuare, a destra, e salviamo.
+
+197
+00:14:48,360 --> 00:14:50,390
+‫E ora è fluttuato a destra.
+
+198
+00:14:52,080 --> 00:14:55,530
+‫Quindi gli elementi dell'elenco in questo momento stanno diventando verticali.
+
+199
+00:14:55,530 --> 00:14:57,180
+‫Vogliamo che vadano in orizzontale.
+
+200
+00:14:57,450 --> 00:15:00,300
+‫Quindi afferriamo a quelli che diranno barra di navigazione.
+
+201
+00:15:00,660 --> 00:15:05,240
+‫Mentirai o potresti semplicemente fare Navar.
+
+202
+00:15:05,240 --> 00:15:06,270
+‫Ally, tocca a te.
+
+203
+00:15:06,270 --> 00:15:08,700
+‫Mi piace semplicemente tenerlo organizzato in quel modo.
+
+204
+00:15:09,600 --> 00:15:17,490
+‫Quindi, per gli elementi dell'elenco, vogliamo spostarli tutti a sinistra e salvare e poi tutto il resto che stiliamo
+
+205
+00:15:17,490 --> 00:15:21,870
+‫per quanto riguarda questi collegamenti sarà sul tag all'interno.
+
+206
+00:15:22,470 --> 00:15:23,520
+‫Quindi facciamolo.
+
+207
+00:15:23,520 --> 00:15:24,840
+‫Diciamo barra di navigazione.
+
+208
+00:15:27,320 --> 00:15:29,270
+‫tu io io a.
+
+209
+00:15:31,960 --> 00:15:43,930
+‫E vogliamo mostrarli come blocchi, OK, in modo da poter aggiungere padding e vogliamo fare 20 pixel tutt'intorno, OK,
+
+210
+00:15:44,290 --> 00:15:49,110
+‫se salvano, questo li spingerà a posto.
+
+211
+00:15:49,120 --> 00:15:50,850
+‫Avevamo 20 pixel tutt'intorno.
+
+212
+00:15:52,000 --> 00:15:53,830
+‫Assicuriamoci che siano allineati, centrati.
+
+213
+00:15:53,830 --> 00:15:57,990
+‫Quindi diremo il testo al centro di una linea.
+
+214
+00:15:58,750 --> 00:16:00,790
+‫E cos'altro vogliamo fare?
+
+215
+00:16:01,900 --> 00:16:02,680
+‫Penso che sia così.
+
+216
+00:16:04,120 --> 00:16:07,090
+‫Ora, voglio avere uno stato hover proprio ora.
+
+217
+00:16:07,090 --> 00:16:09,070
+‫Se passo sopra di loro, non succede nulla.
+
+218
+00:16:09,430 --> 00:16:16,540
+‫Quindi quello che possiamo fare è prendere questo e aggiungere semplicemente il nostro pseudo selettore di hover.
+
+219
+00:16:16,570 --> 00:16:20,140
+‫Quindi Colen Hover e io parleremo di background.
+
+220
+00:16:20,780 --> 00:16:22,600
+‫Facciamo quattro, quattro, quattro.
+
+221
+00:16:23,170 --> 00:16:34,810
+‫E rendiamo anche il colore un esadecimale di F, facciamo F sette C zero otto A che è questo colore chiaro,
+
+222
+00:16:35,410 --> 00:16:36,980
+‫brunastro, tannico.
+
+223
+00:16:37,360 --> 00:16:39,860
+‫Quindi ora se passo il mouse sopra sembra così.
+
+224
+00:16:41,860 --> 00:16:46,780
+‫Ora un'altra cosa che voglio fare è dipendere dalla pagina o su, voglio che abbia anche quell'effetto.
+
+225
+00:16:46,780 --> 00:16:51,290
+‫Se abbiamo dato un'occhiata al progetto finale, puoi vedere che la home page ha quell'effetto.
+
+226
+00:16:51,760 --> 00:16:59,590
+‫Quindi quello che possiamo fare è che qualunque pagina ti trovi nella barra di navigazione qui, possiamo aggiungere una classe
+
+227
+00:16:59,590 --> 00:17:03,180
+‫speciale e la aggiungeremo al collegamento agli attacchi.
+
+228
+00:17:03,200 --> 00:17:08,530
+‫Quindi, visto che qui siamo sulla home page, diciamo che la classe è uguale a e chiamiamola corrente.
+
+229
+00:17:10,430 --> 00:17:15,680
+‫OK, quindi torneremo indietro e poi volevo avere lo stesso stile, non ha senso ricrearlo.
+
+230
+00:17:15,680 --> 00:17:25,090
+‫Mettiamo solo una virgola in modo che influisca su entrambi e prendiamo questo e poi aggiungiamo solo la classe di corrente, ok?
+
+231
+00:17:25,100 --> 00:17:29,900
+‫E di solito vuoi metterlo su una nuova riga solo per tenerlo pulito e salvare.
+
+232
+00:17:29,900 --> 00:17:32,450
+‫E ora nota che la home page ha questo.
+
+233
+00:17:33,710 --> 00:17:37,910
+‫Ora, prima di andare avanti, voglio solo mostrarti una cosa.
+
+234
+00:17:37,910 --> 00:17:40,010
+‫Se lo allunghiamo molto.
+
+235
+00:17:41,260 --> 00:17:46,750
+‫È sempre al limite qui, e non lo voglio, di solito quello che farai è avere un
+
+236
+00:17:46,750 --> 00:17:48,790
+‫contenitore e spostarlo nel mezzo.
+
+237
+00:17:49,660 --> 00:17:55,210
+‫OK, e non vogliamo avvolgere un contenitore attorno a tutto perché la barra nera si arrabbierà
+
+238
+00:17:55,210 --> 00:17:57,400
+‫davvero, sai, spinta al centro.
+
+239
+00:17:57,410 --> 00:18:02,080
+‫Voglio che la barra nera vada fino in fondo, ma voglio che questa roba sia nel mezzo.
+
+240
+00:18:02,620 --> 00:18:08,890
+‫Quindi, per farlo, quello che faremo è aggiungere una classe contenitore all'interno del NAV perché ricorda, il nome delle
+
+241
+00:18:09,130 --> 00:18:12,520
+‫barre di navigazione ID è dove si trova lo sfondo.
+
+242
+00:18:12,790 --> 00:18:20,890
+‫Quindi all'interno vogliamo avere una classe contenitore e vogliamo rimuovere l'H1 nella U. S. in quella classe
+
+243
+00:18:20,890 --> 00:18:24,310
+‫e salvare e poi lo stileremo.
+
+244
+00:18:24,850 --> 00:18:26,430
+‫Quindi aggiungiamo il contenitore.
+
+245
+00:18:26,440 --> 00:18:31,930
+‫In realtà metterò il contenitore in alto perché è una specie di classe di utilità, il che significa che
+
+246
+00:18:31,930 --> 00:18:33,130
+‫puoi usarlo ovunque.
+
+247
+00:18:33,430 --> 00:18:41,110
+‫Quindi mettiamo un commento qui e diciamo che diremo solo utilità o classi di utilità.
+
+248
+00:18:46,010 --> 00:18:54,440
+‫E il contenitore, quindi ricorda, margin auto vuole farlo, questo spingerà tutto al centro, ma dobbiamo avere
+
+249
+00:18:54,440 --> 00:18:57,230
+‫un qualche tipo di larghezza.
+
+250
+00:18:57,240 --> 00:19:05,090
+‫Quindi, per la larghezza con cui vogliamo usare i Mac perché vogliamo che sia in qualche modo reattivo, il più reattivo possibile senza entrare
+
+251
+00:19:05,090 --> 00:19:09,380
+‫in cose di cui non abbiamo ancora parlato, come le query multimediali.
+
+252
+00:19:10,220 --> 00:19:12,830
+‫E lo imposteremo a 100 pixel.
+
+253
+00:19:12,830 --> 00:19:14,210
+‫Questo sarà il massimo con.
+
+254
+00:19:15,080 --> 00:19:15,670
+‫Va bene.
+
+255
+00:19:15,680 --> 00:19:24,860
+‫E poi vediamo, aggiungiamo un'auto di overflow solo in modo che mostri sempre che lo sfondo non va al di fuori di
+
+256
+00:19:24,860 --> 00:19:25,730
+‫esso.
+
+257
+00:19:26,540 --> 00:19:27,740
+‫E poi un po' di imbottitura.
+
+258
+00:19:28,670 --> 00:19:30,110
+‫Voglio fare l'imbottitura.
+
+259
+00:19:32,220 --> 00:19:34,070
+‫Facciamo zero in alto e in basso.
+
+260
+00:19:34,070 --> 00:19:37,190
+‫E voglio solo che sinistra e destra abbiano un'imbottitura di 20 pixel.
+
+261
+00:19:37,190 --> 00:19:41,720
+‫Quindi salviamolo e notiamo che ora non è proprio contro il bordo.
+
+262
+00:19:41,720 --> 00:19:45,230
+‫E se porto questo se tiro fuori il browser.
+
+263
+00:19:46,180 --> 00:19:50,030
+‫È vero, quando raggiunge i 1100 pixel, si ferma.
+
+264
+00:19:50,350 --> 00:19:56,080
+‫Questa è la larghezza massima, eppure la barra nera va ancora fino in fondo.
+
+265
+00:19:56,440 --> 00:20:01,240
+‫Ora, voglio solo mostrarvi qualcosa, e voi ragazzi non dovete farlo, ma se
+
+266
+00:20:02,290 --> 00:20:08,320
+‫avessimo il contenitore all'esterno della barra di navigazione, ok, allora fatelo e poi il Divx alla fine.
+
+267
+00:20:08,320 --> 00:20:12,270
+‫Can d'Hiv per il contenitore al di fuori della barra di navigazione e salvare.
+
+268
+00:20:12,280 --> 00:20:17,630
+‫Ora lo sfondo non arriva fino in fondo perché è limitato all'interno del contenitore.
+
+269
+00:20:18,200 --> 00:20:23,740
+‫OK, e non mi piace il modo in cui sembra e i siti web come, sai, come i primi
+
+270
+00:20:23,740 --> 00:20:28,150
+‫anni 2000 sembravano così dove tutto era in questo, questo contenitore e poi avevi un
+
+271
+00:20:28,150 --> 00:20:29,760
+‫po' di sfondo funky qui.
+
+272
+00:20:30,040 --> 00:20:34,660
+‫Al giorno d'oggi, vuoi che i tuoi sfondi si estendano fino in fondo e vuoi semplicemente inserire
+
+273
+00:20:34,660 --> 00:20:36,780
+‫i tuoi contenuti all'interno di contenitori, ok?
+
+274
+00:20:36,790 --> 00:20:41,320
+‫E questo è un altro motivo per cui è una classe e non un'idea, perché useremo
+
+275
+00:20:41,320 --> 00:20:43,720
+‫questa classe contenitore in tutto il sito.
+
+276
+00:20:44,170 --> 00:20:44,560
+‫Va bene.
+
+277
+00:20:44,570 --> 00:20:48,810
+‫Quindi riportiamolo indietro com'era.
+
+278
+00:20:51,460 --> 00:20:52,420
+‫E ci siamo.
+
+279
+00:20:52,960 --> 00:20:54,160
+‫OK, quindi è così.
+
+280
+00:20:54,160 --> 00:20:55,210
+‫Questa è la nostra barra NAV.
+
+281
+00:20:55,240 --> 00:20:59,740
+‫Quindi, nel prossimo video, inizieremo dall'area della vetrina proprio qui.
+

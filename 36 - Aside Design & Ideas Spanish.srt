@@ -1,0 +1,232 @@
+﻿1
+00:00:00,300 --> 00:00:05,160
+‫De acuerdo, antes de empezar a escribir nuestro HTML y acceder a este proyecto, solo
+
+2
+00:00:05,160 --> 00:00:08,280
+‫quiero hablar un poco sobre diseño e ideas.
+
+3
+00:00:08,760 --> 00:00:11,070
+‫Entonces realmente depende.
+
+4
+00:00:11,070 --> 00:00:16,830
+‫A veces, obtendrá un trabajo como desarrollador front-end y tendrá un diseñador en su equipo que creará la
+
+5
+00:00:16,830 --> 00:00:20,830
+‫interfaz de usuario y creará los diseños y luego se los entregará.
+
+6
+00:00:20,850 --> 00:00:27,120
+‫Por lo general, será como un archivo de Photoshop o un ilustrador de archivos de boceto, algún tipo de programa de
+
+7
+00:00:27,120 --> 00:00:27,870
+‫diseño gráfico.
+
+8
+00:00:27,870 --> 00:00:35,520
+‫Y luego es su trabajo tomar ese diseño y usar HTML y acceso y posiblemente algo de JavaScript para recrear esa escena de modo que
+
+9
+00:00:35,520 --> 00:00:40,020
+‫realmente se ejecute en el navegador como un sitio web o una aplicación web.
+
+10
+00:00:40,830 --> 00:00:44,910
+‫Ahora, muchas veces no puedes darte el lujo de tener un diseñador.
+
+11
+00:00:44,910 --> 00:00:49,560
+‫Tendrás que crearlo todo, proponer las ideas por tu cuenta, especialmente si estás
+
+12
+00:00:49,560 --> 00:00:52,260
+‫trabajando como autónomo donde haces absolutamente todo.
+
+13
+00:00:52,680 --> 00:00:57,390
+‫Entonces, lo que suelo hacer es buscar inspiración en otros sitios web y otros temas.
+
+14
+00:00:57,750 --> 00:01:01,250
+‫Y una buena forma de hacerlo es buscar sitios temáticos similares.
+
+15
+00:01:01,260 --> 00:01:05,130
+‫Entonces, por ejemplo, Bootstrap tiene muchos temas realmente agradables.
+
+16
+00:01:05,130 --> 00:01:09,470
+‫Bootstrap es en realidad un marco en el marco de acceso HTML.
+
+17
+00:01:09,600 --> 00:01:12,590
+‫Tengo un curso completo en Bootstrap si quieres aprender más sobre él.
+
+18
+00:01:12,840 --> 00:01:18,690
+‫Pero digamos que buscamos temas de arranque y habrá todo tipo de sitios que tengan diferentes
+
+19
+00:01:19,020 --> 00:01:19,710
+‫temas.
+
+20
+00:01:20,070 --> 00:01:21,270
+‫Vayamos a este de aquí.
+
+21
+00:01:21,270 --> 00:01:26,160
+‫Los temas no obtienen bootstrap dotcom y podemos ir aquí y puedes ver algunos ejemplos.
+
+22
+00:01:26,160 --> 00:01:30,540
+‫Algunos de ellos son sitios web y otros son como interfaces de administración como esta.
+
+23
+00:01:30,840 --> 00:01:32,670
+‫Eso no es realmente lo que nos interesa en este momento.
+
+24
+00:01:32,670 --> 00:01:36,960
+‫Pero tomemos este sitio, por ejemplo, y en realidad se está vendiendo por cincuenta dólares.
+
+25
+00:01:36,960 --> 00:01:38,940
+‫Y esa es otra idea para ustedes.
+
+26
+00:01:38,940 --> 00:01:43,500
+‫Si se vuelve bueno en esto después de este curso y puede crear algunos diseños decentes, realmente puede
+
+27
+00:01:43,500 --> 00:01:44,550
+‫venderlos en línea.
+
+28
+00:01:45,270 --> 00:01:47,220
+‫Pero la mayoría de estos sitios tienen una vista previa en vivo.
+
+29
+00:01:47,220 --> 00:01:48,450
+‫Así que echemos un vistazo a eso.
+
+30
+00:01:50,740 --> 00:01:55,050
+‫Entonces, lo que haría es echar un vistazo a este diseño y obtendría algunas ideas.
+
+31
+00:01:55,060 --> 00:02:00,290
+‫Así que mira el encabezado, mira cómo están distribuidas las cosas, cómo se ve el logo, la imagen de fondo.
+
+32
+00:02:00,290 --> 00:02:06,940
+‫Bien, eso es lo que es realmente popular en este momento es tener la imagen grande principal con solo un poco
+
+33
+00:02:06,940 --> 00:02:12,670
+‫de texto y tal vez algunos botones y luego debajo hay algunos cuadros y lo verás una
+
+34
+00:02:12,670 --> 00:02:13,880
+‫y otra vez.
+
+35
+00:02:13,900 --> 00:02:15,670
+‫Y eso es realmente lo que hay ahora mismo.
+
+36
+00:02:15,670 --> 00:02:21,760
+‫Es para mantenerlo muy limpio, ya sabes, no colores locos, solo tal vez, ya sabes, dos, dos o tal
+
+37
+00:02:21,760 --> 00:02:25,570
+‫vez tres colores con algunos grises blancos y algunos colores oscuros.
+
+38
+00:02:25,570 --> 00:02:27,610
+‫Pero es bastante simple.
+
+39
+00:02:27,910 --> 00:02:33,730
+‫Y aquí abajo, tenemos algunas páginas de demostración como la página de servicios, que nuevamente, solo tenemos un fondo
+
+40
+00:02:33,730 --> 00:02:36,400
+‫grande con algunas con algo de texto encima.
+
+41
+00:02:36,670 --> 00:02:39,820
+‫Si bajamos, tenemos tres casillas con algunos iconos.
+
+42
+00:02:39,820 --> 00:02:43,060
+‫Entonces, los íconos son realmente grandes aquí abajo.
+
+43
+00:02:43,060 --> 00:02:46,180
+‫Puede ver que solo tienen algunas imágenes de texto distribuidas.
+
+44
+00:02:46,870 --> 00:02:48,400
+‫Hay algo de animación en este tema.
+
+45
+00:02:48,400 --> 00:02:50,580
+‫Pero, por supuesto, no es necesario que agregue la animación.
+
+46
+00:02:50,590 --> 00:02:56,470
+‫En realidad, no soy fanático de mucha animación y, de nuevo, solo iconos y texto, como lo tenemos
+
+47
+00:02:56,470 --> 00:02:56,830
+‫aquí.
+
+48
+00:02:56,830 --> 00:02:58,780
+‫Entonces verás esto una y otra vez.
+
+49
+00:02:58,790 --> 00:03:05,050
+‫Así que vaya a diferentes sitios temáticos y obtenga algunas ideas, inspírese un poco y no las copie.
+
+50
+00:03:05,050 --> 00:03:10,840
+‫No estoy diciendo simplemente, ya sabes, tomar exactamente lo que hicieron y rehacerlo, sino tomar algunas de las ideas de quizás
+
+51
+00:03:10,840 --> 00:03:15,970
+‫cuatro o cinco temas diferentes y crear algo propio para que eso sea lo que yo hago.
+
+52
+00:03:15,970 --> 00:03:19,060
+‫Así es como creo mis sitios web y mis interfaces de usuario.
+
+53
+00:03:19,060 --> 00:03:26,800
+‫Estoy lejos de ser un diseñador gráfico, pero creo que al menos tengo algo de ojo para el diseño y no es tan
+
+54
+00:03:26,800 --> 00:03:27,370
+‫difícil.
+
+55
+00:03:27,370 --> 00:03:30,580
+‫Solo tome algunos ejemplos para inspirarse.
+
+56
+00:03:30,880 --> 00:03:31,240
+‫Está bien.
+
+57
+00:03:31,250 --> 00:03:34,950
+‫Dicho esto, solo quería hablar un poco sobre eso antes de comenzar.
+
+58
+00:03:35,170 --> 00:03:38,350
+‫Entonces, en el siguiente video, comenzaremos a escribir nuestro HTML.
+

@@ -1,0 +1,232 @@
+﻿1
+00:00:00,300 --> 00:00:05,160
+‫Oké, dus voordat we beginnen met het schrijven van onze HTML en toegang voor dit project,
+
+2
+00:00:05,160 --> 00:00:08,280
+‫wil ik het even hebben over ontwerp en ideeën.
+
+3
+00:00:08,760 --> 00:00:11,070
+‫Het hangt er dus echt van af.
+
+4
+00:00:11,070 --> 00:00:16,830
+‫Soms krijg je een baan als front-end ontwikkelaar en heb je een ontwerper in je team die de
+
+5
+00:00:16,830 --> 00:00:20,830
+‫gebruikersinterface maakt en de ontwerpen maakt en deze vervolgens aan jou overhandigt.
+
+6
+00:00:20,850 --> 00:00:27,120
+‫Dus meestal is het misschien een Photoshop-bestand of een illustrator van een schetsbestand, een soort grafisch
+
+7
+00:00:27,120 --> 00:00:27,870
+‫ontwerpprogramma.
+
+8
+00:00:27,870 --> 00:00:35,520
+‫En dan is het jouw taak om dat ontwerp te nemen en HTML en toegang en mogelijk wat JavaScript te gebruiken om die scène opnieuw te
+
+9
+00:00:35,520 --> 00:00:40,020
+‫creëren, zodat deze daadwerkelijk in de browser draait als een website of een web-app.
+
+10
+00:00:40,830 --> 00:00:44,910
+‫Nu heb je vaak niet de luxe om een ontwerper te hebben.
+
+11
+00:00:44,910 --> 00:00:49,560
+‫Je zult eigenlijk alles moeten creëren, zelf met de ideeën moeten komen, vooral als je aan
+
+12
+00:00:49,560 --> 00:00:52,260
+‫het freelancen bent waarbij je absoluut alles doet.
+
+13
+00:00:52,680 --> 00:00:57,390
+‫Dus wat ik meestal doe, is dat ik naar andere websites en andere thema's kijk voor inspiratie.
+
+14
+00:00:57,750 --> 00:01:01,250
+‫En een goede manier om dat te doen, is door op themasites te zoeken.
+
+15
+00:01:01,260 --> 00:01:05,130
+‫Zo heeft Bootstrap bijvoorbeeld heel veel leuke thema's.
+
+16
+00:01:05,130 --> 00:01:09,470
+‫Bootstrap is eigenlijk een raamwerk in het HTML-toegangsraamwerk.
+
+17
+00:01:09,600 --> 00:01:12,590
+‫Ik heb een hele cursus in Bootstrap als je er meer over wilt weten.
+
+18
+00:01:12,840 --> 00:01:18,690
+‫Maar laten we zeggen dat we zoeken naar bootstrap-thema's en dat er allerlei soorten sites zullen zijn met
+
+19
+00:01:19,020 --> 00:01:19,710
+‫verschillende thema's.
+
+20
+00:01:20,070 --> 00:01:21,270
+‫Laten we hier even naar toe gaan.
+
+21
+00:01:21,270 --> 00:01:26,160
+‫Thema's krijgen geen bootstrap dotcom en we kunnen hier naar beneden gaan en je kunt enkele voorbeelden zien.
+
+22
+00:01:26,160 --> 00:01:30,540
+‫Sommigen van hen zijn websites en sommige zijn als beheerdersinterfaces zoals deze.
+
+23
+00:01:30,840 --> 00:01:32,670
+‫Daar zijn we nu niet echt in geïnteresseerd.
+
+24
+00:01:32,670 --> 00:01:36,960
+‫Maar laten we deze site als voorbeeld nemen, en deze verkoopt eigenlijk voor vijftig dollar.
+
+25
+00:01:36,960 --> 00:01:38,940
+‫En dat is nog een idee voor jullie.
+
+26
+00:01:38,940 --> 00:01:43,500
+‫Als je hier na deze cursus goed in wordt en je een aantal fatsoenlijke lay-outs kunt maken, kun je
+
+27
+00:01:43,500 --> 00:01:44,550
+‫ze daadwerkelijk online verkopen.
+
+28
+00:01:45,270 --> 00:01:47,220
+‫Maar de meeste van deze sites hebben een live preview.
+
+29
+00:01:47,220 --> 00:01:48,450
+‫Dus laten we daar eens naar kijken.
+
+30
+00:01:50,740 --> 00:01:55,050
+‫Dus wat ik zou doen, is deze lay-out bekijken en gewoon wat ideeën opdoen.
+
+31
+00:01:55,060 --> 00:02:00,290
+‫Dus kijk naar de kop, kijk hoe de dingen zijn ingedeeld, hoe het logo eruitziet, de achtergrondafbeelding.
+
+32
+00:02:00,290 --> 00:02:06,940
+‫Oké, dat is dus wat nu echt populair is, is om de grote afbeelding te hebben met slechts een
+
+33
+00:02:06,940 --> 00:02:12,670
+‫klein beetje tekst en misschien wat knoppen en daaronder wat vakken en je zult dat
+
+34
+00:02:12,670 --> 00:02:13,880
+‫steeds weer zien.
+
+35
+00:02:13,900 --> 00:02:15,670
+‫En dat is echt wat er nu in zit.
+
+36
+00:02:15,670 --> 00:02:21,760
+‫Het is om het heel schoon te houden, weet je, geen gekke kleuren, misschien twee, twee of misschien
+
+37
+00:02:21,760 --> 00:02:25,570
+‫drie kleuren met wat witte grijzen en wat donkere kleuren.
+
+38
+00:02:25,570 --> 00:02:27,610
+‫Maar het is vrij eenvoudig.
+
+39
+00:02:27,910 --> 00:02:33,730
+‫En hier beneden hebben we enkele demopagina's, zoals de dienstenpagina, die we wederom gewoon een grote
+
+40
+00:02:33,730 --> 00:02:36,400
+‫achtergrond hebben met wat tekst eroverheen.
+
+41
+00:02:36,670 --> 00:02:39,820
+‫Als we naar beneden gaan, hebben we drie vakken met enkele pictogrammen.
+
+42
+00:02:39,820 --> 00:02:43,060
+‫Dus pictogrammen zijn hier erg groot.
+
+43
+00:02:43,060 --> 00:02:46,180
+‫U kunt zien dat u enkele tekstafbeeldingen hebt opgemaakt.
+
+44
+00:02:46,870 --> 00:02:48,400
+‫Er zit wat animatie in dit thema.
+
+45
+00:02:48,400 --> 00:02:50,580
+‫Maar u weet natuurlijk dat u de animatie niet hoeft toe te voegen.
+
+46
+00:02:50,590 --> 00:02:56,470
+‫Ik ben eigenlijk geen fan van veel animatie en nogmaals, alleen pictogrammen en tekst, net zoals we hier
+
+47
+00:02:56,470 --> 00:02:56,830
+‫hebben.
+
+48
+00:02:56,830 --> 00:02:58,780
+‫Dit zie je dus steeds weer terug.
+
+49
+00:02:58,790 --> 00:03:05,050
+‫Dus ga gewoon naar verschillende themasites en doe wat ideeën op, doe wat inspiratie op en kopieer ze niet.
+
+50
+00:03:05,050 --> 00:03:10,840
+‫Ik zeg niet gewoon, weet je, neem precies wat ze deden en doe het opnieuw, maar neem enkele van de ideeën van
+
+51
+00:03:10,840 --> 00:03:15,970
+‫misschien vier of vijf verschillende thema's over en creëer iets van jezelf, zodat dat is wat ik doe.
+
+52
+00:03:15,970 --> 00:03:19,060
+‫Zo maak ik mijn websites en gebruikersinterfaces.
+
+53
+00:03:19,060 --> 00:03:26,800
+‫Ik ben verre van een grafisch ontwerper, maar ik denk dat ik op zijn minst enig oog voor design heb en het is niet zo
+
+54
+00:03:26,800 --> 00:03:27,370
+‫moeilijk.
+
+55
+00:03:27,370 --> 00:03:30,580
+‫Neem maar een paar voorbeelden ter inspiratie.
+
+56
+00:03:30,880 --> 00:03:31,240
+‫Oke.
+
+57
+00:03:31,250 --> 00:03:34,950
+‫Dus dat gezegd hebbende, ik wilde daar een beetje over praten voordat we beginnen.
+
+58
+00:03:35,170 --> 00:03:38,350
+‫Dus in de volgende video gaan we beginnen met het schrijven van onze HTML.
+

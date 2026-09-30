@@ -1,0 +1,1180 @@
+﻿1
+00:00:00,360 --> 00:00:00,660
+‫All right.
+
+2
+00:00:00,660 --> 00:00:02,600
+‫So we're going to go ahead and get started here.
+
+3
+00:00:02,610 --> 00:00:09,030
+‫Now, I'm going to keep the final project open just as a reference so that I can point to you guys.
+
+4
+00:00:09,030 --> 00:00:14,430
+‫Like when I'm creating the HTML in CSS, I can show you exactly what I'm doing in the final project.
+
+5
+00:00:14,430 --> 00:00:18,540
+‫And like I said in the last video, a lot of times you'll get the design beforehand and you'll just
+
+6
+00:00:18,540 --> 00:00:22,200
+‫have to use it as a reference and create the HTML and CSS.
+
+7
+00:00:22,200 --> 00:00:24,090
+‫So we'll kind of take that approach.
+
+8
+00:00:24,090 --> 00:00:30,330
+‫And I'm also going to for now have the browser and the text editor open at the same time.
+
+9
+00:00:30,330 --> 00:00:36,120
+‫I don't like how narrow this is, but at the same time, I want you to to see to see them both.
+
+10
+00:00:37,110 --> 00:00:42,120
+‫If we get to a point where we're creating stuff like this and it doesn't look good when it's this narrow,
+
+11
+00:00:42,120 --> 00:00:43,710
+‫then I'll make it bigger.
+
+12
+00:00:44,430 --> 00:00:49,800
+‫So first thing we want to do is create a project folder so you can put that anywhere in your system.
+
+13
+00:00:49,800 --> 00:00:55,710
+‫I'm going to go to my desktop and I'm just going to call this folder.
+
+14
+00:00:55,860 --> 00:01:03,330
+‫Let's do hotel underscore website and we can open this in V's code.
+
+15
+00:01:03,330 --> 00:01:07,080
+‫So let's say open folder and we want hotel website.
+
+16
+00:01:09,690 --> 00:01:10,920
+‫It's completely empty.
+
+17
+00:01:10,920 --> 00:01:16,680
+‫And I'm going to create, first of all, a folder for our images and you can call this images or IMG
+
+18
+00:01:16,680 --> 00:01:19,740
+‫is another common convention, so I'm going to use that.
+
+19
+00:01:19,740 --> 00:01:25,410
+‫And then we want to get all the image resources that you downloaded in the first video of this section,
+
+20
+00:01:25,410 --> 00:01:27,270
+‫which I have right here.
+
+21
+00:01:27,270 --> 00:01:31,050
+‫And we want to put those into our IMG folder.
+
+22
+00:01:31,050 --> 00:01:35,670
+‫So let's go ahead and select all these and bring them into IMG.
+
+23
+00:01:38,360 --> 00:01:38,690
+‫Oops.
+
+24
+00:01:38,690 --> 00:01:39,320
+‫What happened?
+
+25
+00:01:40,100 --> 00:01:40,700
+‫There we go.
+
+26
+00:01:41,000 --> 00:01:41,360
+‫All right.
+
+27
+00:01:41,360 --> 00:01:45,950
+‫So now that those are in there, we can close these up and go back into VS code.
+
+28
+00:01:45,950 --> 00:01:48,470
+‫And now you can see I have all the images here.
+
+29
+00:01:49,370 --> 00:01:52,180
+‫So next thing we'll do is create our page structure.
+
+30
+00:01:52,190 --> 00:01:55,400
+‫As you can see, we have three pages home about in contact.
+
+31
+00:01:55,430 --> 00:02:01,820
+‫Now, remember, in the beginning of the the HTML basics section, I said that when you have a home
+
+32
+00:02:01,820 --> 00:02:08,930
+‫page of a website, you need to call it index HTML because when you go to something whatever dot com,
+
+33
+00:02:08,930 --> 00:02:11,720
+‫it's going to look for that file as the home page.
+
+34
+00:02:11,720 --> 00:02:14,930
+‫So let's say indexed HTML as a new new file.
+
+35
+00:02:14,930 --> 00:02:19,970
+‫I click to this icon and we might as well create the rest of the html pages.
+
+36
+00:02:19,970 --> 00:02:21,140
+‫So we'll do html.
+
+37
+00:02:21,770 --> 00:02:24,500
+‫About html dot html.
+
+38
+00:02:25,680 --> 00:02:29,330
+‫Let's do contact dot HTML.
+
+39
+00:02:30,110 --> 00:02:35,570
+‫And we're also going to need our CSS, our stylesheet and we're not going to be putting our our CSS
+
+40
+00:02:35,570 --> 00:02:38,210
+‫in the HTML like we did in the sandbox.
+
+41
+00:02:38,210 --> 00:02:39,920
+‫I only did that for convenience.
+
+42
+00:02:39,920 --> 00:02:44,960
+‫When you have a project, you want to create separate style sheets and generally you want a separate
+
+43
+00:02:44,960 --> 00:02:46,730
+‫folder that contains those.
+
+44
+00:02:46,730 --> 00:02:51,350
+‫So I'm going to click this folder icon and create a folder called CSS.
+
+45
+00:02:52,760 --> 00:02:57,680
+‫And then inside there I'm going to create a new file called Style CSS.
+
+46
+00:02:57,680 --> 00:03:04,220
+‫And the name style is it doesn't matter what you call this, but style main CSS.
+
+47
+00:03:04,220 --> 00:03:09,950
+‫These are common conventions for main style sheets, but it doesn't it doesn't really matter.
+
+48
+00:03:11,330 --> 00:03:15,050
+‫So now that we have that, that's basically our our website structure.
+
+49
+00:03:15,050 --> 00:03:21,140
+‫So we're going to head into the index HTML we can close up about and contact for now, but let's open
+
+50
+00:03:21,140 --> 00:03:22,760
+‫up our style sheet as well.
+
+51
+00:03:22,760 --> 00:03:27,170
+‫So we have these two files open and let's generate our head body tags.
+
+52
+00:03:27,170 --> 00:03:34,040
+‫So exclamation enter tab and we'll change the title here to let's say hotel beat.
+
+53
+00:03:34,280 --> 00:03:39,830
+‫And usually you'll have like some kind of separator, like a dash or a, or a pipe character.
+
+54
+00:03:39,830 --> 00:03:45,980
+‫And then if you're, if you're focused on search engines like you want to you want to rank for, let's
+
+55
+00:03:45,980 --> 00:03:50,930
+‫say, Boston Hotel, you might put something like that here as long as it makes sense.
+
+56
+00:03:51,770 --> 00:03:58,610
+‫But we're just going to put welcome because it's the home page and you'll probably want to put some
+
+57
+00:03:58,700 --> 00:04:01,340
+‫meta tags in here like description.
+
+58
+00:04:02,510 --> 00:04:06,650
+‫I'm not going to do this for every project we create, but I'll do it for this one just because it's
+
+59
+00:04:06,650 --> 00:04:07,430
+‫the first.
+
+60
+00:04:07,430 --> 00:04:14,390
+‫So let's say name, description and let's do content equals.
+
+61
+00:04:14,390 --> 00:04:21,080
+‫And then I'll just say Welcome to the most.
+
+62
+00:04:24,020 --> 00:04:27,410
+‫Extraordinary hotel in
+
+63
+00:04:29,840 --> 00:04:34,610
+‫Boston, Massachusetts.
+
+64
+00:04:35,090 --> 00:04:36,310
+‫So that's our description.
+
+65
+00:04:36,320 --> 00:04:37,640
+‫Let's do another meta tag.
+
+66
+00:04:37,640 --> 00:04:38,810
+‫This will be our keyword.
+
+67
+00:04:38,810 --> 00:04:47,270
+‫So we want to do name equals keywords and for the content you'd probably do something like hotel, whatever,
+
+68
+00:04:47,270 --> 00:04:48,170
+‫the location.
+
+69
+00:04:48,170 --> 00:04:56,600
+‫So something like Boston Hotel, New England Hotel and whatever it may be, whatever keywords.
+
+70
+00:04:56,600 --> 00:04:58,370
+‫Describe this page.
+
+71
+00:04:58,910 --> 00:04:59,240
+‫All right.
+
+72
+00:04:59,240 --> 00:05:02,270
+‫Now, in addition to that, we want to link our stylesheet.
+
+73
+00:05:02,270 --> 00:05:04,310
+‫So we use a link tag.
+
+74
+00:05:04,490 --> 00:05:11,060
+‫And if I use Emit, if I do link enter or link tab, it'll automatically put in the REL attribute.
+
+75
+00:05:11,270 --> 00:05:17,210
+‫So the REL is going to be equal to stylesheet because we're just telling it that we're importing a stylesheet
+
+76
+00:05:17,210 --> 00:05:22,100
+‫here, CSS file and then in the a ref, we want to point to that file.
+
+77
+00:05:22,100 --> 00:05:25,190
+‫Now remember we put it inside of a folder called CSS.
+
+78
+00:05:25,190 --> 00:05:28,880
+‫So we want to say CSS slash style CSS.
+
+79
+00:05:30,050 --> 00:05:30,510
+‫Och.
+
+80
+00:05:30,830 --> 00:05:34,280
+‫And then we can get started with the the body here.
+
+81
+00:05:34,790 --> 00:05:39,030
+‫Now it's important to mention that everyone has their own style.
+
+82
+00:05:39,050 --> 00:05:43,190
+‫Everyone has their own naming conventions and how they want to structure tags.
+
+83
+00:05:43,580 --> 00:05:48,500
+‫For instance, what I'm going to do is have a header tag, so I'll just put it in header.
+
+84
+00:05:49,070 --> 00:05:53,150
+‫And inside my header I want the navigation and the showcase.
+
+85
+00:05:53,150 --> 00:05:58,970
+‫I want this whole area to be the header, but it's fine if you would have just this inside the header
+
+86
+00:05:58,970 --> 00:06:05,180
+‫tag and then maybe have section for this, you're going to see you're going to see different styles
+
+87
+00:06:05,180 --> 00:06:10,580
+‫when you're looking at different HTML and you're going to develop your own style.
+
+88
+00:06:11,180 --> 00:06:17,030
+‫What I do here is just what I like to do and I like to think that it's, it's, it's okay.
+
+89
+00:06:17,030 --> 00:06:22,280
+‫And hopefully guys don't mind the way that I do things, but I just want to, I want, I want to make
+
+90
+00:06:22,280 --> 00:06:28,990
+‫it clear that every developer has their own style of doing things and not just HTML, any kind of programming,
+
+91
+00:06:29,000 --> 00:06:30,050
+‫anything like that.
+
+92
+00:06:30,410 --> 00:06:33,590
+‫So like I said, I want the nav the nav bar in here.
+
+93
+00:06:33,590 --> 00:06:39,830
+‫So I'm going to create a nav tag and I'm actually going to give this an ID of nav bar.
+
+94
+00:06:41,510 --> 00:06:48,290
+‫And inside the nav bar, we're going to have the logo, this right here, which is just an H one.
+
+95
+00:06:48,290 --> 00:06:53,180
+‫And then we're going to have our our navigation, which is our unordered list.
+
+96
+00:06:53,180 --> 00:06:58,760
+‫So let's put an H one, which I'm actually going to give a class of logo.
+
+97
+00:07:00,620 --> 00:07:06,650
+‫And that's another thing that is different depending on the developer is is how you use IDs in classes.
+
+98
+00:07:06,650 --> 00:07:10,160
+‫I could easily call this a class and this an ID.
+
+99
+00:07:10,160 --> 00:07:11,120
+‫That's fine.
+
+100
+00:07:11,150 --> 00:07:17,660
+‫The one major rule that I would say you should never break is don't have more than one ID like don't
+
+101
+00:07:17,660 --> 00:07:21,080
+‫have another idea of nav bar on the same page.
+
+102
+00:07:21,830 --> 00:07:24,830
+‫But I mean some people you will use just classes.
+
+103
+00:07:24,830 --> 00:07:31,880
+‫I tend to use IDs for stuff that I won't have duplicates of and that kind of surround everything else
+
+104
+00:07:31,880 --> 00:07:34,370
+‫that they're parents of other things.
+
+105
+00:07:34,370 --> 00:07:38,450
+‫For instance, we have the H one and the UL in here, the NAV surrounds them.
+
+106
+00:07:38,450 --> 00:07:40,130
+‫So I'm going to use an ID here.
+
+107
+00:07:40,700 --> 00:07:48,890
+‫So for the logo we're just going to do h, b, t, and usually you'll have your logo go to your home
+
+108
+00:07:48,890 --> 00:07:54,350
+‫page like you'll see if I click on if I hover over it, it's a link and it goes back to the home page.
+
+109
+00:07:54,350 --> 00:07:57,020
+‫So if I'm on a boat and I click that it take me back.
+
+110
+00:07:57,020 --> 00:08:04,040
+‫So we want to surround this in an a tag and we want this to go to index dot HTML.
+
+111
+00:08:05,240 --> 00:08:05,630
+‫All right.
+
+112
+00:08:05,630 --> 00:08:10,640
+‫Make sure that you're closing a tag is on the other side of the the beat.
+
+113
+00:08:11,480 --> 00:08:11,780
+‫All right.
+
+114
+00:08:11,780 --> 00:08:15,200
+‫I'm just going to close this sidebar up to give me some more room as well.
+
+115
+00:08:16,760 --> 00:08:17,780
+‫So that's our H one.
+
+116
+00:08:17,780 --> 00:08:20,420
+‫Now we want the UL right here.
+
+117
+00:08:20,420 --> 00:08:24,110
+‫So let's do UL list item.
+
+118
+00:08:24,110 --> 00:08:27,020
+‫And then in each list item, we'll have a link.
+
+119
+00:08:27,020 --> 00:08:31,130
+‫This is going to go to index dot HTML and this is going to be our home page.
+
+120
+00:08:31,130 --> 00:08:40,220
+‫I'm going to do a control option down or control all down on a Windows machine and let's do a bout and
+
+121
+00:08:40,220 --> 00:08:44,810
+‫say about HTML contact.
+
+122
+00:08:48,820 --> 00:08:49,900
+‫Contact.
+
+123
+00:08:50,290 --> 00:08:51,530
+‫So there's our nav bar.
+
+124
+00:08:51,550 --> 00:08:53,890
+‫Now let's open this in live server.
+
+125
+00:08:53,890 --> 00:08:57,330
+‫And it's going to look horrible because we have no CSS.
+
+126
+00:08:57,340 --> 00:09:00,700
+‫So that's what we're going to do now is we're going to jump to the CSS.
+
+127
+00:09:01,270 --> 00:09:07,960
+‫And that's another thing that that varies is sometimes you might do all of your HTML on the whole page
+
+128
+00:09:07,960 --> 00:09:15,250
+‫and then start your CSS or you can do what we're going to do and go by basically component by component.
+
+129
+00:09:15,250 --> 00:09:20,890
+‫So the nav bar, then we'll move to the showcase, then to this part, that part and so on.
+
+130
+00:09:21,190 --> 00:09:24,370
+‫So let's jump into Styles, CSS.
+
+131
+00:09:25,090 --> 00:09:31,420
+‫And in addition to the nav bar styling, I want to do just some of the core basic styling like the body
+
+132
+00:09:31,420 --> 00:09:33,030
+‫tag and stuff like that.
+
+133
+00:09:33,040 --> 00:09:36,100
+‫So I am going to add a CSS reset.
+
+134
+00:09:36,340 --> 00:09:42,070
+‫So I'm going to put an asterisk here, which means we're grabbing everything and we're going to clear
+
+135
+00:09:42,070 --> 00:09:47,950
+‫out the margin and padding the default margin and padding that the browser puts on every on a lot of
+
+136
+00:09:47,950 --> 00:09:49,050
+‫different elements.
+
+137
+00:09:49,060 --> 00:09:56,350
+‫As soon as I save that, you'll see that it changes the UL, the heading, that stuff, the margin goes
+
+138
+00:09:56,350 --> 00:09:56,830
+‫away.
+
+139
+00:09:56,830 --> 00:10:01,600
+‫And then I also want to add a box sizing property.
+
+140
+00:10:02,800 --> 00:10:03,260
+‫Oops.
+
+141
+00:10:05,110 --> 00:10:10,480
+‫And we're going to set that to border box because when we have boxes that have padding like this right
+
+142
+00:10:10,480 --> 00:10:14,920
+‫here, I don't want the padding to add to the actual width of the box.
+
+143
+00:10:15,250 --> 00:10:16,660
+‫So that's pretty important.
+
+144
+00:10:17,170 --> 00:10:19,750
+‫So next we'll have our main styling.
+
+145
+00:10:19,750 --> 00:10:27,850
+‫And what I mean by main is just like core elements like the body links, headings, paragraph, all
+
+146
+00:10:27,850 --> 00:10:31,930
+‫that stuff, anything that really doesn't have a class or an ID.
+
+147
+00:10:31,960 --> 00:10:38,920
+‫So for the body and a lot of times when you style the body, you'll put in the HTML as well.
+
+148
+00:10:38,920 --> 00:10:47,260
+‫So HTML body and then I'm just going to set the font family to I'm going to use one of these presets
+
+149
+00:10:47,260 --> 00:10:48,340
+‫for vs code.
+
+150
+00:10:48,340 --> 00:10:57,580
+‫We'll use this Segou UI to home a Geneva and then let's set the line height to I'm going to set it kind
+
+151
+00:10:57,580 --> 00:10:57,970
+‫of high.
+
+152
+00:10:58,000 --> 00:11:05,920
+‫So 1.7 M And now that I saved, you can see that there's a little more spacing in between the lines.
+
+153
+00:11:06,740 --> 00:11:08,650
+‫Next thing we'll do is the links.
+
+154
+00:11:09,010 --> 00:11:14,770
+‫I want all links by default unless unless the class or ID specifies.
+
+155
+00:11:14,770 --> 00:11:20,260
+‫Otherwise I want them to have a color of three, three, three and I also want to remove the underline.
+
+156
+00:11:20,260 --> 00:11:27,580
+‫So we'll do text decoration none and we'll save that also the headings.
+
+157
+00:11:27,580 --> 00:11:30,550
+‫So I'm going to say h one, h two, h three.
+
+158
+00:11:31,390 --> 00:11:33,640
+‫I want spacing underneath.
+
+159
+00:11:33,640 --> 00:11:39,790
+‫So if we look at our final project, so like right here, you can see the spacing here, spacing here
+
+160
+00:11:39,790 --> 00:11:44,980
+‫because we move, we remove the default margin and padding, there's not going to be any spacing.
+
+161
+00:11:44,980 --> 00:11:46,840
+‫So we need to add that ourselves.
+
+162
+00:11:46,840 --> 00:11:57,940
+‫So I'm actually going to do padding bottom 20 pixels and then for paragraphs, remember paragraphs by
+
+163
+00:11:57,940 --> 00:12:01,990
+‫default have a margin, but we just removed it with the reset.
+
+164
+00:12:01,990 --> 00:12:07,300
+‫So I'm just going to re add ten pixel margin on the top and bottom.
+
+165
+00:12:07,570 --> 00:12:11,380
+‫Remember, if we do it this way, this is top and bottom, this is left and right.
+
+166
+00:12:12,370 --> 00:12:14,590
+‫So those are the those are the core styles.
+
+167
+00:12:14,590 --> 00:12:17,350
+‫Now let's move on to the actual nav bar.
+
+168
+00:12:17,830 --> 00:12:20,860
+‫So what was it, an ID?
+
+169
+00:12:20,890 --> 00:12:21,280
+‫Yeah.
+
+170
+00:12:21,280 --> 00:12:23,080
+‫So we did ID nav bar.
+
+171
+00:12:23,260 --> 00:12:31,990
+‫Let's put a comment in here just to kind of organize things and we'll say nav bar, I'm going to set
+
+172
+00:12:31,990 --> 00:12:36,850
+‫the background color or background to three, three, three.
+
+173
+00:12:37,690 --> 00:12:40,390
+‫I'm going to set the color to white.
+
+174
+00:12:41,290 --> 00:12:44,170
+‫And let's see, what else are we going to do?
+
+175
+00:12:44,200 --> 00:12:51,010
+‫Let's do an overflow auto so that the background shows no matter what.
+
+176
+00:12:51,250 --> 00:12:56,980
+‫And we'll save that and notice that that we can't read the text even though we put color here, because
+
+177
+00:12:56,980 --> 00:12:59,290
+‫the all the text, it's all links.
+
+178
+00:12:59,290 --> 00:13:03,670
+‫And if you have links, you have to you have to add the colors specifically to those links.
+
+179
+00:13:03,910 --> 00:13:09,880
+‫So remember we have a logo, so I'm going to do nav bar class logo.
+
+180
+00:13:10,540 --> 00:13:15,460
+‫I want to style that link and then any other links in the nav bar.
+
+181
+00:13:15,460 --> 00:13:18,910
+‫So let's do comma nav bar.
+
+182
+00:13:20,380 --> 00:13:25,120
+‫Actually, you know what we'll just do just do nav bar a there's no need to do that.
+
+183
+00:13:27,970 --> 00:13:31,570
+‫And let's say color white and save.
+
+184
+00:13:31,570 --> 00:13:33,520
+‫And now we can actually see the text.
+
+185
+00:13:34,780 --> 00:13:35,830
+‫So let's see.
+
+186
+00:13:35,830 --> 00:13:44,800
+‫Next thing we want to do is align the logo to the left and we want the the UL to be on the right.
+
+187
+00:13:44,800 --> 00:13:47,680
+‫So let's add some floats for that.
+
+188
+00:13:47,680 --> 00:13:52,510
+‫And I would recommend using something like Flexbox, but we haven't gotten to that yet, so we're just
+
+189
+00:13:52,510 --> 00:13:53,730
+‫going to use floats.
+
+190
+00:13:53,740 --> 00:14:02,980
+‫So let's grab the nav bar h one and let's do float left.
+
+191
+00:14:04,630 --> 00:14:08,800
+‫I'm also going to add some padding to the top to push it down a little bit.
+
+192
+00:14:09,610 --> 00:14:11,470
+‫Let's do 20 pixels.
+
+193
+00:14:12,460 --> 00:14:13,510
+‫We'll save that.
+
+194
+00:14:13,510 --> 00:14:14,590
+‫Now the UL.
+
+195
+00:14:14,590 --> 00:14:16,120
+‫We also want to float that.
+
+196
+00:14:16,120 --> 00:14:18,820
+‫We want to float that to the right.
+
+197
+00:14:22,440 --> 00:14:25,980
+‫So let's say nav bah ul.
+
+198
+00:14:27,870 --> 00:14:29,280
+‫We're going to do a couple other things too.
+
+199
+00:14:29,310 --> 00:14:30,690
+‫We want to remove the bullets.
+
+200
+00:14:30,690 --> 00:14:38,700
+‫So let's say list style none and we'll set the margin to zero.
+
+201
+00:14:39,810 --> 00:14:42,690
+‫Pat Actually, we don't have to do that because we added the reset.
+
+202
+00:14:42,690 --> 00:14:48,240
+‫So let's just do float right and save.
+
+203
+00:14:48,240 --> 00:14:50,550
+‫And now that's floated over to the right.
+
+204
+00:14:51,930 --> 00:14:55,530
+‫So the list items right now are going vertical.
+
+205
+00:14:55,530 --> 00:14:57,360
+‫We want them to go horizontal.
+
+206
+00:14:57,360 --> 00:14:59,070
+‫So let's grab on to those.
+
+207
+00:14:59,070 --> 00:15:05,590
+‫We'll say nav bar ul ly or you could just do nab bar ly.
+
+208
+00:15:05,640 --> 00:15:06,240
+‫It's up to you.
+
+209
+00:15:06,240 --> 00:15:08,910
+‫I like to just keep it kind of organized like that.
+
+210
+00:15:09,510 --> 00:15:17,490
+‫So for the list items, we want to float them all to the left and save and then everything else that
+
+211
+00:15:17,490 --> 00:15:18,120
+‫we style.
+
+212
+00:15:18,120 --> 00:15:22,080
+‫As far as these links, it's going to be on the a tag inside.
+
+213
+00:15:22,410 --> 00:15:23,490
+‫So let's do that.
+
+214
+00:15:23,490 --> 00:15:25,020
+‫Let's say nav bar.
+
+215
+00:15:27,270 --> 00:15:29,490
+‫You ll see a.
+
+216
+00:15:31,980 --> 00:15:40,860
+‫And we want to display them as blocks so that we can add padding.
+
+217
+00:15:41,790 --> 00:15:45,390
+‫And we want to do 20 pixels all around.
+
+218
+00:15:46,440 --> 00:15:49,090
+‫If I save that, it kind of pushes them right into place.
+
+219
+00:15:49,110 --> 00:15:51,030
+‫We get 20 pixels all around.
+
+220
+00:15:51,930 --> 00:15:53,790
+‫Let's make sure there are lines centered.
+
+221
+00:15:53,790 --> 00:16:01,020
+‫So we'll say text a line center and what else do we want to do?
+
+222
+00:16:01,920 --> 00:16:02,910
+‫I think that's it.
+
+223
+00:16:04,050 --> 00:16:06,550
+‫Now, I do want to have a hover state.
+
+224
+00:16:06,570 --> 00:16:09,260
+‫Right now, if I hover over them, nothing happens.
+
+225
+00:16:09,270 --> 00:16:16,560
+‫So what we can do is take this and just add our pseudo selector of hover.
+
+226
+00:16:16,560 --> 00:16:17,820
+‫So colon hover.
+
+227
+00:16:18,120 --> 00:16:20,370
+‫And I'm going to say background.
+
+228
+00:16:20,790 --> 00:16:22,800
+‫Let's do four, four, four.
+
+229
+00:16:23,070 --> 00:16:35,040
+‫And let's also make the color a hexadecimal of F, let's do F, seven C, 08a, which is this light
+
+230
+00:16:35,310 --> 00:16:37,180
+‫brownish tarnish color.
+
+231
+00:16:37,200 --> 00:16:40,020
+‫So now if I hover over, it looks like that.
+
+232
+00:16:41,770 --> 00:16:46,510
+‫Now, another thing I want to do is depending on the page we're on, I want it to have that effect as
+
+233
+00:16:46,510 --> 00:16:46,750
+‫well.
+
+234
+00:16:46,750 --> 00:16:51,490
+‫If we look at look at the final project, you can see that the home page has that effect.
+
+235
+00:16:51,640 --> 00:16:59,560
+‫So what we can do is whatever page we're on in the nav bar here, we can add a special class and we're
+
+236
+00:16:59,560 --> 00:17:03,130
+‫going to add it to the link to the A tag.
+
+237
+00:17:03,130 --> 00:17:08,740
+‫So since we're on the home page here, let's say class equals and let's call this current.
+
+238
+00:17:10,750 --> 00:17:14,010
+‫So we'll go back and then I want it to have this same styling.
+
+239
+00:17:14,020 --> 00:17:15,670
+‫There's no sense in recreating it.
+
+240
+00:17:15,670 --> 00:17:24,610
+‫Let's just put a comma so that it affects both and we'll grab this and then just add the class of current.
+
+241
+00:17:25,090 --> 00:17:29,860
+‫And you usually want to put this on a new line just to keep it clean and save.
+
+242
+00:17:29,860 --> 00:17:32,650
+‫And now notice the home page has that.
+
+243
+00:17:33,610 --> 00:17:37,900
+‫Now, before we move on, I just want to show you one thing.
+
+244
+00:17:37,900 --> 00:17:45,220
+‫If we stretch this out really far, it's always on the very edge here, and I don't want that.
+
+245
+00:17:45,220 --> 00:17:48,940
+‫Usually what you'll do is you'll have a container and move it into the middle.
+
+246
+00:17:50,110 --> 00:17:55,390
+‫And we don't want to wrap a container around everything because then the black bar will actually get
+
+247
+00:17:55,390 --> 00:17:55,750
+‫mad.
+
+248
+00:17:55,750 --> 00:17:57,400
+‫Added push to the middle.
+
+249
+00:17:57,400 --> 00:18:02,260
+‫I want the black bar to go all the way across, but I want this stuff to be in the middle.
+
+250
+00:18:02,470 --> 00:18:09,340
+‫So to do that, what we'll do is add a container class within the nav because remember the nav, the
+
+251
+00:18:09,340 --> 00:18:12,640
+‫ID nav bar is where that background is.
+
+252
+00:18:12,640 --> 00:18:20,890
+‫So within that we want to have a container class and we want to move the H one and the UL into that
+
+253
+00:18:20,890 --> 00:18:24,520
+‫class and save and then we'll style it.
+
+254
+00:18:24,790 --> 00:18:26,410
+‫So let's add the container.
+
+255
+00:18:26,410 --> 00:18:31,930
+‫I'm actually going to put the container up top because it's kind of a utility class, meaning you can
+
+256
+00:18:31,930 --> 00:18:33,310
+‫use it all around.
+
+257
+00:18:33,310 --> 00:18:41,350
+‫So let's put a comment here and say we'll just say utilities or utility classes.
+
+258
+00:18:46,080 --> 00:18:48,060
+‫And we'll do container.
+
+259
+00:18:48,750 --> 00:18:51,090
+‫So remember margin auto.
+
+260
+00:18:51,780 --> 00:18:52,830
+‫I want to do that.
+
+261
+00:18:53,040 --> 00:18:54,420
+‫That's going to push it all to the middle.
+
+262
+00:18:54,420 --> 00:18:57,230
+‫But we need to have some kind of width.
+
+263
+00:18:57,240 --> 00:19:05,070
+‫So for the width we want to use max width because we want it to be somewhat responsive, as responsive
+
+264
+00:19:05,070 --> 00:19:09,570
+‫as we can make it without going into stuff we haven't talked about yet, like media queries.
+
+265
+00:19:10,170 --> 00:19:12,810
+‫And we're going to set that to 1100 pixels.
+
+266
+00:19:12,810 --> 00:19:14,340
+‫That'll be the max width.
+
+267
+00:19:15,180 --> 00:19:15,660
+‫All right.
+
+268
+00:19:15,660 --> 00:19:25,410
+‫And then let's see, let's add in overflow auto just so it always shows the background doesn't go outside
+
+269
+00:19:25,410 --> 00:19:25,920
+‫of it.
+
+270
+00:19:26,430 --> 00:19:30,300
+‫And then some padding I want to do padding.
+
+271
+00:19:32,210 --> 00:19:34,070
+‫Let's do zero, top and bottom.
+
+272
+00:19:34,070 --> 00:19:37,190
+‫And I just want left and right to have 20 pixels padding.
+
+273
+00:19:37,190 --> 00:19:41,720
+‫So let's save that and notice that now it's not right up against the edge.
+
+274
+00:19:41,720 --> 00:19:45,410
+‫And if I bring this, if I bring the browser out.
+
+275
+00:19:46,160 --> 00:19:47,270
+‫It's right.
+
+276
+00:19:47,270 --> 00:19:50,000
+‫When it hits 1100 pixels, it stops.
+
+277
+00:19:50,330 --> 00:19:51,860
+‫That's the max width.
+
+278
+00:19:52,400 --> 00:19:56,270
+‫And yet the black bar is still goes all the way across.
+
+279
+00:19:56,300 --> 00:20:01,400
+‫Now, I just want to show you something, and you guys don't have to do this, but if we had the container
+
+280
+00:20:02,240 --> 00:20:06,980
+‫on the outside of the nav bar, so have that.
+
+281
+00:20:06,980 --> 00:20:12,240
+‫And then the div the ending can div for the container outside of the nav bar and save.
+
+282
+00:20:12,260 --> 00:20:17,810
+‫Now the background doesn't reach all the way across because it's restricted inside the container.
+
+283
+00:20:18,590 --> 00:20:20,360
+‫And I don't like the way that that looks.
+
+284
+00:20:20,690 --> 00:20:26,540
+‫Websites from like you know like the early 2000s looked like that where everything was in this this
+
+285
+00:20:26,540 --> 00:20:29,910
+‫container and then you had some like funky background over here.
+
+286
+00:20:29,930 --> 00:20:34,640
+‫Nowadays, you want your backgrounds to extend all the way across and you want to just put your content
+
+287
+00:20:34,640 --> 00:20:36,140
+‫inside containers.
+
+288
+00:20:36,740 --> 00:20:41,330
+‫And that's another reason why it's a class and not an ID is because we're going to be using this container
+
+289
+00:20:41,330 --> 00:20:43,880
+‫class throughout throughout the site.
+
+290
+00:20:44,180 --> 00:20:44,540
+‫All right.
+
+291
+00:20:44,540 --> 00:20:49,360
+‫So let's just bring that back how it was that it's.
+
+292
+00:20:51,500 --> 00:20:52,610
+‫And there we go.
+
+293
+00:20:53,300 --> 00:20:54,140
+‫So that's it.
+
+294
+00:20:54,140 --> 00:20:55,210
+‫That's our nav bar.
+
+295
+00:20:55,220 --> 00:20:59,870
+‫So in the next video, we're going to start on the showcase area right here.
+

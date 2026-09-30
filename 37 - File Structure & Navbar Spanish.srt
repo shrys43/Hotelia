@@ -1,0 +1,1124 @@
+﻿1
+00:00:00,330 --> 00:00:04,950
+‫Muy bien, entonces vamos a seguir adelante y comenzar aquí ahora, voy a mantener
+
+2
+00:00:04,950 --> 00:00:08,910
+‫abierto el proyecto final solo como referencia para poder señalarlos a ustedes.
+
+3
+00:00:09,090 --> 00:00:14,450
+‫Como cuando estoy creando el acceso óptimo, puedo mostrarles exactamente lo que estoy haciendo en el proyecto final.
+
+4
+00:00:14,460 --> 00:00:18,570
+‫Y como dije en el último video, muchas veces obtendrás el diseño de antemano y
+
+5
+00:00:18,570 --> 00:00:22,040
+‫solo tendrás que usarlo como referencia y crear el acceso óptimo.
+
+6
+00:00:22,350 --> 00:00:23,870
+‫Así que tomaremos ese enfoque.
+
+7
+00:00:24,240 --> 00:00:30,390
+‫Y por ahora también voy a tener el navegador y el editor de texto abiertos al mismo tiempo.
+
+8
+00:00:30,390 --> 00:00:36,650
+‫No me gusta lo estrecho que es esto, pero al mismo tiempo, quiero que veas para verlos a ambos, ¿de acuerdo?
+
+9
+00:00:37,170 --> 00:00:42,150
+‫Si llegamos a un punto en el que estamos creando cosas como esta y no se ve bien cuando es tan
+
+10
+00:00:42,150 --> 00:00:43,560
+‫estrecho, lo haré más grande.
+
+11
+00:00:44,070 --> 00:00:49,830
+‫Bien, lo primero que queremos hacer es crear una carpeta de proyecto para que pueda ponerla en cualquier lugar de su sistema.
+
+12
+00:00:49,840 --> 00:00:58,980
+‫Voy a ir a mi escritorio y solo voy a llamar a esta carpeta ¿Qué es el sitio web de Hotel Underscore?
+
+13
+00:01:00,870 --> 00:01:03,330
+‫Y podemos abrir este código de inversión.
+
+14
+00:01:03,340 --> 00:01:06,900
+‫Es una carpeta abierta y queremos un sitio web de hotel.
+
+15
+00:01:09,430 --> 00:01:14,240
+‫De acuerdo, está completamente vacío, y voy a crear, en primer lugar, una carpeta para nuestras
+
+16
+00:01:14,240 --> 00:01:18,260
+‫imágenes y puedes llamar a estas imágenes o IMG es otra convención común.
+
+17
+00:01:18,260 --> 00:01:19,490
+‫Entonces voy a usar eso.
+
+18
+00:01:19,880 --> 00:01:25,160
+‫Y luego queremos obtener todos los recursos de imágenes que descargaste en el primer video de esta sección,
+
+19
+00:01:25,580 --> 00:01:27,080
+‫que tengo aquí mismo.
+
+20
+00:01:27,410 --> 00:01:30,860
+‫Y queremos ponerlos en nuestra carpeta IMG.
+
+21
+00:01:31,190 --> 00:01:35,480
+‫Así que sigamos y seleccionemos todos estos y traigamoslos a IMG.
+
+22
+00:01:38,290 --> 00:01:39,130
+‫Ups, que paso?
+
+23
+00:01:40,030 --> 00:01:40,540
+‫Aquí vamos.
+
+24
+00:01:40,960 --> 00:01:45,850
+‫Muy bien, ahora que están ahí, podemos cerrarlos y volver al código Vyas.
+
+25
+00:01:46,000 --> 00:01:48,330
+‫Y ahora puedes ver que tengo todas las imágenes aquí.
+
+26
+00:01:49,510 --> 00:01:52,210
+‫Entonces, lo siguiente que haremos es crear la estructura de nuestra página.
+
+27
+00:01:52,210 --> 00:01:55,240
+‫Como puede ver, tenemos tres páginas de inicio sobre incontact.
+
+28
+00:01:55,600 --> 00:02:02,410
+‫Ahora, recuerde, al comienzo de la sección Conceptos básicos de HTML, dije que cuando tiene una página de inicio de un
+
+29
+00:02:02,590 --> 00:02:08,290
+‫sitio web, debe llamarla index dot HTML, porque cuando va a algo, sea cual sea el punto
+
+30
+00:02:08,290 --> 00:02:11,720
+‫com, se verá para ese archivo como página de inicio.
+
+31
+00:02:11,740 --> 00:02:18,370
+‫Digamos que index dot html como un nuevo archivo nuevo, hago clic en este icono y también podríamos crear el resto
+
+32
+00:02:18,370 --> 00:02:19,990
+‫de las páginas HTML.
+
+33
+00:02:19,990 --> 00:02:24,370
+‫Así que haremos un equipo sobre HTML, dot, html.
+
+34
+00:02:25,710 --> 00:02:30,160
+‫Hablemos de contacto mañana, ¿de acuerdo?
+
+35
+00:02:30,210 --> 00:02:35,610
+‫También vamos a necesitar nuestro acceso, nuestra hoja de estilo, y no vamos a poner nuestro éxito en el TML
+
+36
+00:02:35,610 --> 00:02:38,070
+‫como lo hicimos en la caja de arena.
+
+37
+00:02:38,260 --> 00:02:39,960
+‫Solo lo hice por conveniencia.
+
+38
+00:02:39,960 --> 00:02:44,970
+‫Cuando tiene un proyecto, desea crear hojas de estilo separadas y, en general, desea una
+
+39
+00:02:44,970 --> 00:02:46,760
+‫carpeta separada que las contenga.
+
+40
+00:02:46,770 --> 00:02:51,140
+‫Entonces voy a hacer clic en este ícono de carpeta y crear una carpeta llamada Acceso.
+
+41
+00:02:52,290 --> 00:02:57,720
+‫Bien, y luego, dentro, voy a crear un nuevo archivo llamado Style Dot Access.
+
+42
+00:02:57,720 --> 00:03:00,090
+‫¿Y el estilo del nombre no es así?
+
+43
+00:03:00,090 --> 00:03:04,230
+‫No importa cómo lo llames, pero diseña el acceso a la placa base.
+
+44
+00:03:04,230 --> 00:03:07,770
+‫Estas son convenciones comunes para las hojas de estilo principales.
+
+45
+00:03:07,890 --> 00:03:09,780
+‫Pero no importa, realmente no importa.
+
+46
+00:03:10,980 --> 00:03:15,060
+‫Bien, ahora que tenemos eso, esa es básicamente la estructura de nuestro sitio web.
+
+47
+00:03:15,060 --> 00:03:17,550
+‫Así que nos dirigiremos al índice HTML.
+
+48
+00:03:17,910 --> 00:03:22,650
+‫Podemos cerrar sobre incontact por ahora, pero abramos también nuestra hoja de estilo.
+
+49
+00:03:22,800 --> 00:03:27,150
+‫Entonces tenemos estos dos archivos abiertos y generemos nuestra etiqueta de cuerpo de cabeza.
+
+50
+00:03:27,170 --> 00:03:33,840
+‫Entonces, el signo de exclamación ingresa a la pestaña y cambiaremos el título aquí a, digamos Hotel BTE.
+
+51
+00:03:34,380 --> 00:03:39,680
+‫Y normalmente tendrás una especie de separador, como un guión o un carácter de tubería.
+
+52
+00:03:39,960 --> 00:03:45,990
+‫Y luego, si está enfocado en los motores de búsqueda como lo desea, si desea clasificar para,
+
+53
+00:03:45,990 --> 00:03:50,670
+‫digamos, Boston Hotel, podría poner algo así aquí siempre que tenga sentido.
+
+54
+00:03:51,810 --> 00:03:55,940
+‫Pero solo vamos a poner bienvenido porque es la página de inicio, ¿de acuerdo?
+
+55
+00:03:56,400 --> 00:04:01,140
+‫Y probablemente querrá poner algunas metaetiquetas aquí como descripción.
+
+56
+00:04:02,350 --> 00:04:06,660
+‫No voy a hacer esto para cada proyecto que creamos, pero lo haré para este solo porque es
+
+57
+00:04:06,660 --> 00:04:07,290
+‫el primero.
+
+58
+00:04:07,560 --> 00:04:14,400
+‫Así que digamos la descripción del nombre y hagamos que el contenido sea igual.
+
+59
+00:04:14,400 --> 00:04:20,790
+‫Y luego les daré la bienvenida a la mayoría.
+
+60
+00:04:23,920 --> 00:04:30,750
+‫Hotel extraordinario en Boston.
+
+61
+00:04:33,280 --> 00:04:38,860
+‫Massachusetts, esa es nuestra descripción, hagamos otra metaetiqueta, estas serán nuestras palabras clave, por
+
+62
+00:04:38,860 --> 00:04:47,260
+‫lo que queremos que el nombre sea igual a palabras clave y para el contenido probablemente haría algo como hotel, cualquiera que sea
+
+63
+00:04:47,260 --> 00:04:48,160
+‫la ubicación.
+
+64
+00:04:48,170 --> 00:04:56,620
+‫Entonces, algo como Boston Hotel, New England Hotel y lo que sea, cualquier palabra clave.
+
+65
+00:04:56,620 --> 00:04:58,180
+‫Describe esta página.
+
+66
+00:04:58,900 --> 00:04:59,260
+‫Está bien.
+
+67
+00:04:59,260 --> 00:05:04,090
+‫Ahora, además de eso, queremos vincular nuestra hoja de estilo para que usemos una etiqueta de vínculo.
+
+68
+00:05:04,470 --> 00:05:10,840
+‫Y si utilizo Emet, si vinculo, ingreso o pestaña de vínculo, se colocará automáticamente en el atributo Réal.
+
+69
+00:05:11,350 --> 00:05:16,450
+‫Entonces, Rella será igual a la hoja de estilo porque solo le estamos diciendo que estamos
+
+70
+00:05:16,450 --> 00:05:21,910
+‫importando una hoja de estilo aquí, un archivo CSF y luego en el avión, queremos apuntar a ese archivo.
+
+71
+00:05:22,210 --> 00:05:25,210
+‫Ahora recuerde, lo colocamos dentro de una carpeta llamada Access.
+
+72
+00:05:25,210 --> 00:05:28,750
+‫Por eso queremos decir éxito, acceso al estilo.
+
+73
+00:05:29,890 --> 00:05:34,100
+‫Bien, y luego podemos empezar con el cuerpo aquí.
+
+74
+00:05:34,900 --> 00:05:39,020
+‫Ahora es importante mencionar que cada uno tiene su propio estilo.
+
+75
+00:05:39,070 --> 00:05:42,960
+‫Todos tienen sus propias convenciones de nomenclatura y cómo quieren estructurar las etiquetas.
+
+76
+00:05:43,630 --> 00:05:50,080
+‫Por ejemplo, lo que voy a hacer es tener una etiqueta de encabezado, así que simplemente la pondré en el encabezado y dentro
+
+77
+00:05:50,080 --> 00:05:53,200
+‫de mi cabeza, o quiero la navegación y el escaparate.
+
+78
+00:05:53,200 --> 00:05:58,960
+‫Quiero que toda esta área sea el encabezado, pero está bien si solo tuviera esto dentro
+
+79
+00:05:58,960 --> 00:06:05,230
+‫de la etiqueta del encabezado y luego tal vez tenga una sección para esto, verá que verá diferentes
+
+80
+00:06:05,230 --> 00:06:10,340
+‫estilos cuando esté mirando en HTML diferente y vas a desarrollar tu propio estilo.
+
+81
+00:06:11,260 --> 00:06:16,840
+‫Lo que hago aquí es lo que me gusta hacer y me gusta pensar que está bien.
+
+82
+00:06:17,050 --> 00:06:22,300
+‫Y espero que a ustedes no les importe la forma en que hago las cosas, pero solo quiero quiero
+
+83
+00:06:22,300 --> 00:06:29,010
+‫dejar en claro que cada desarrollador tiene su propio estilo de hacer las cosas y no solo HTML, cualquier tipo de programación, cualquier cosa
+
+84
+00:06:29,020 --> 00:06:29,880
+‫como ese.
+
+85
+00:06:30,550 --> 00:06:33,580
+‫Entonces, como dije, quiero la navegación, la barra de navegación aquí.
+
+86
+00:06:33,580 --> 00:06:42,610
+‫Así que voy a crear una etiqueta de navegación y de hecho le voy a dar una idea de la barra de navegación y dentro de la barra
+
+87
+00:06:42,610 --> 00:06:43,360
+‫de navegación.
+
+88
+00:06:43,360 --> 00:06:48,040
+‫Vamos a tener el logo aquí, que es solo un H1.
+
+89
+00:06:48,460 --> 00:06:52,960
+‫Y luego vamos a tener nuestra navegación, que es una lista desordenada.
+
+90
+00:06:53,350 --> 00:06:58,570
+‫Pongamos un H1, que de hecho le voy a dar una clase de logotipo.
+
+91
+00:07:00,670 --> 00:07:06,700
+‫Y esa es otra cosa que es diferente, dependiendo del desarrollador, es cómo usa las ID y las clases.
+
+92
+00:07:06,700 --> 00:07:10,180
+‫Fácilmente podría llamar a esto una clase y esto una identificación.
+
+93
+00:07:10,180 --> 00:07:10,930
+‫Esta bien.
+
+94
+00:07:11,260 --> 00:07:17,980
+‫La única regla principal que yo diría que nunca debería romperse es no tener más de una identificación, como no tener otra idea
+
+95
+00:07:17,980 --> 00:07:20,920
+‫de la barra de navegación en la misma página.
+
+96
+00:07:21,970 --> 00:07:24,850
+‫Pero me refiero a algunas personas a las que usarás solo clases.
+
+97
+00:07:24,850 --> 00:07:31,870
+‫Tiendo a usar identificaciones para cosas de las que no tendré duplicados y eso rodea todo lo demás de lo
+
+98
+00:07:31,870 --> 00:07:34,210
+‫que son padres de otras cosas.
+
+99
+00:07:34,540 --> 00:07:38,470
+‫Por ejemplo, tenemos el H1 en la U. S. aquí, el NAV los rodea.
+
+100
+00:07:38,470 --> 00:07:40,020
+‫Entonces voy a usar una identificación aquí.
+
+101
+00:07:40,840 --> 00:07:48,670
+‫Entonces, para el logotipo, vamos a hacer HB T, y por lo general, su logotipo irá a su página de inicio, como verá si hago
+
+102
+00:07:48,670 --> 00:07:53,800
+‫clic en si paso el cursor sobre él, es un enlace y vuelve a la página de
+
+103
+00:07:53,800 --> 00:07:54,390
+‫inicio.
+
+104
+00:07:54,400 --> 00:07:56,890
+‫Entonces, si estoy en un bote y hago clic en eso, llévame de regreso.
+
+105
+00:07:57,130 --> 00:08:03,850
+‫Entonces queremos rodear esto en una etiqueta A y queremos que esto vaya al índice HTML de punto.
+
+106
+00:08:05,200 --> 00:08:05,650
+‫Está bien.
+
+107
+00:08:05,650 --> 00:08:09,320
+‫Asegúrese de que está cerrando una etiqueta en el otro lado de la cabeza.
+
+108
+00:08:09,400 --> 00:08:09,670
+‫Los.
+
+109
+00:08:11,430 --> 00:08:11,800
+‫Está bien.
+
+110
+00:08:11,800 --> 00:08:15,040
+‫Solo voy a cerrar esta barra lateral para darme más espacio también.
+
+111
+00:08:16,410 --> 00:08:17,800
+‫Bien, eso es nuestro cada uno.
+
+112
+00:08:17,800 --> 00:08:20,230
+‫Ahora queremos que todo esté bien aquí.
+
+113
+00:08:20,560 --> 00:08:24,130
+‫Así que hagámoslo bien en la lista de elementos.
+
+114
+00:08:24,130 --> 00:08:26,830
+‫Y luego, en cada elemento de la lista, tendremos un enlace.
+
+115
+00:08:27,070 --> 00:08:30,910
+‫Esto irá al índice DOT HTML y esta será nuestra página de inicio.
+
+116
+00:08:31,210 --> 00:08:35,350
+‫Voy a hacer la opción de control hacia abajo o controlar alt hacia abajo en una máquina con Windows.
+
+117
+00:08:36,010 --> 00:08:44,560
+‫Y hablemos y digamos sobre el contacto HTML.
+
+118
+00:08:48,810 --> 00:08:49,590
+‫Contactos.
+
+119
+00:08:49,920 --> 00:08:55,710
+‫Bien, entonces está nuestra barra de navegación, abramos esto en el servidor en vivo, y se verá horrible
+
+120
+00:08:55,710 --> 00:08:57,080
+‫porque no tenemos acceso.
+
+121
+00:08:57,480 --> 00:09:01,170
+‫Entonces eso es lo que vamos a hacer ahora, vamos a saltar al éxito, ¿de acuerdo?
+
+122
+00:09:01,310 --> 00:09:07,980
+‫Y esa otra cosa que varía es que a veces puede hacer todo su HTML en toda la
+
+123
+00:09:07,980 --> 00:09:15,240
+‫página y luego comenzar su éxito o puede hacer lo que vamos a hacer y pasar básicamente componente por componente.
+
+124
+00:09:15,250 --> 00:09:20,740
+‫Entonces el Navar se trasladará a la vitrina, luego a esta parte, a esa parte y así sucesivamente.
+
+125
+00:09:21,330 --> 00:09:24,210
+‫Así que pasemos al acceso con estilo.
+
+126
+00:09:25,140 --> 00:09:31,410
+‫Y además del estilo de la barra de navegación, quiero hacer solo algunos de los estilos básicos básicos, como la etiqueta del
+
+127
+00:09:31,410 --> 00:09:32,760
+‫cuerpo y cosas así.
+
+128
+00:09:33,210 --> 00:09:40,020
+‫Así que voy a agregar un conjunto de accesorios, así que voy a poner un asterisco aquí, lo que significa que
+
+129
+00:09:40,020 --> 00:09:45,780
+‫estamos tomando todo y vamos a borrar el margen y rellenar el margen predeterminado y el relleno que
+
+130
+00:09:45,780 --> 00:09:48,870
+‫el navegador pone en cada en muchos elementos diferentes.
+
+131
+00:09:49,140 --> 00:09:51,960
+‫Tan pronto como guarde eso, verás que cambia.
+
+132
+00:09:52,440 --> 00:09:56,760
+‫Está bien, el título, esas cosas, el margen desaparece.
+
+133
+00:09:56,910 --> 00:10:01,380
+‫Y luego también quiero agregar una propiedad de tamaño de caja y vamos a
+
+134
+00:10:05,160 --> 00:10:10,500
+‫establecer eso en la caja de borde, porque cuando tenemos cajas que tienen un relleno como este aquí,
+
+135
+00:10:10,500 --> 00:10:14,670
+‫no quiero que el relleno se agregue al ancho real de la caja.
+
+136
+00:10:14,970 --> 00:10:16,470
+‫Bien, eso es muy importante.
+
+137
+00:10:17,280 --> 00:10:19,770
+‫A continuación, tendremos nuestro estilo principal.
+
+138
+00:10:19,770 --> 00:10:27,840
+‫Y lo que quiero decir con principal es como elementos centrales, como los enlaces del cuerpo, los encabezados, el párrafo, todo eso, está bien,
+
+139
+00:10:27,840 --> 00:10:31,740
+‫cualquier cosa que realmente no tenga una clase o una identificación.
+
+140
+00:10:32,130 --> 00:10:38,940
+‫Entonces, para el cuerpo y muchas veces cuando él diseña el cuerpo, también pones el HTML.
+
+141
+00:10:38,940 --> 00:10:47,280
+‫Entonces, el cuerpo HTML y luego solo voy a configurar la familia de fuentes. Voy a usar uno de estos ajustes preestablecidos para el
+
+142
+00:10:47,280 --> 00:10:48,360
+‫código de voz.
+
+143
+00:10:48,360 --> 00:10:57,600
+‫Usaremos esta interfaz de usuario de Segou para Haoma Geneva y luego establezcamos la altura de la línea en la que voy a establecer un poco
+
+144
+00:10:57,600 --> 00:10:57,990
+‫alta.
+
+145
+00:10:57,990 --> 00:11:04,980
+‫Entonces, a las siete de la mañana y ahora que salvé, pueden ver que hay un poco más de espacio entre
+
+146
+00:11:04,980 --> 00:11:05,700
+‫las líneas.
+
+147
+00:11:06,420 --> 00:11:08,430
+‫Bien, lo siguiente que haré son los enlaces.
+
+148
+00:11:09,000 --> 00:11:16,020
+‫Quiero todos los enlaces de forma predeterminada a menos que la clase o ID especifique lo contrario, quiero que tengan un
+
+149
+00:11:16,020 --> 00:11:17,730
+‫color de tres, tres, tres.
+
+150
+00:11:18,180 --> 00:11:20,250
+‫Y también quiero eliminar el subrayado.
+
+151
+00:11:20,250 --> 00:11:24,510
+‫Así que no haremos decoración de texto ninguno y lo guardaremos.
+
+152
+00:11:25,800 --> 00:11:26,210
+‫está bien.
+
+153
+00:11:26,520 --> 00:11:27,600
+‫También los títulos.
+
+154
+00:11:27,600 --> 00:11:33,650
+‫Entonces voy a decir H1, H2, H3, quiero espacio debajo.
+
+155
+00:11:33,660 --> 00:11:39,630
+‫Entonces, si miramos nuestro proyecto final, como aquí, puede ver el espacio aquí, el espacio aquí porque
+
+156
+00:11:39,930 --> 00:11:43,410
+‫nos movemos, eliminamos el margen y el relleno predeterminados.
+
+157
+00:11:43,590 --> 00:11:45,000
+‫No habrá ningún espacio.
+
+158
+00:11:45,000 --> 00:11:46,710
+‫Así que debemos agregar eso nosotros mismos.
+
+159
+00:11:46,980 --> 00:11:51,990
+‫Así que en realidad voy a rellenar los veinte píxeles inferiores.
+
+160
+00:11:53,190 --> 00:11:55,410
+‫OK, y luego cuatro párrafos.
+
+161
+00:11:56,700 --> 00:12:02,070
+‫Recuerde, los párrafos por defecto tienen un margen, pero lo eliminamos con los reinicios.
+
+162
+00:12:02,070 --> 00:12:07,310
+‫Así que solo voy a agregar un margen de diez píxeles en la parte superior e inferior.
+
+163
+00:12:07,320 --> 00:12:10,020
+‫Bien, recuerde que si lo hacemos de esta manera, esto es arriba y abajo.
+
+164
+00:12:10,050 --> 00:12:11,190
+‫Esto es de izquierda y derecha.
+
+165
+00:12:12,480 --> 00:12:14,630
+‫Entonces esos son los estilos centrales.
+
+166
+00:12:14,640 --> 00:12:17,190
+‫Ahora pasemos a la barra de navegación real.
+
+167
+00:12:17,940 --> 00:12:20,570
+‫Entonces, ¿qué era, una identificación?
+
+168
+00:12:20,940 --> 00:12:21,750
+‫Si lo hicimos.
+
+169
+00:12:21,750 --> 00:12:26,430
+‫Nunca pondría un comentario aquí solo para organizar las cosas.
+
+170
+00:12:27,330 --> 00:12:36,660
+‫Y diremos, ahora, barra, voy a poner el fondo, colorear su fondo, dos, tres, tres, tres.
+
+171
+00:12:37,680 --> 00:12:44,130
+‫Voy a establecer el color en blanco y veamos qué más vamos a hacer.
+
+172
+00:12:44,220 --> 00:12:50,790
+‫Hagamos un desbordamiento automático para que el fondo se muestre pase lo que pase.
+
+173
+00:12:51,360 --> 00:12:56,970
+‫Y lo guardaremos y notaremos que no podemos leer el texto a pesar de que ponemos color aquí, porque
+
+174
+00:12:56,970 --> 00:12:59,130
+‫todo el texto, son todos enlaces.
+
+175
+00:12:59,340 --> 00:13:03,480
+‫Y si tiene enlaces, debe agregar el color específicamente a esos enlaces.
+
+176
+00:13:04,050 --> 00:13:09,660
+‫Así que recuerde, tenemos un logotipo, así que voy a hacer el logotipo de la clase de la barra de navegación.
+
+177
+00:13:10,530 --> 00:13:15,480
+‫Quiero darle estilo a ese enlace y luego a cualquier otro enlace en la barra de navegación.
+
+178
+00:13:15,480 --> 00:13:24,030
+‫Así que comamos ahora var, ya sabes qué, solo haremos Navarra, sabes que no hay necesidad de hacer
+
+179
+00:13:24,030 --> 00:13:24,930
+‫eso.
+
+180
+00:13:27,840 --> 00:13:36,180
+‫Y digamos color blanco y guardar, y ahora podemos ver el texto, así que lo siguiente que
+
+181
+00:13:36,180 --> 00:13:44,560
+‫queremos hacer es alinear el logo a la izquierda y queremos que lo habitual esté a la derecha.
+
+182
+00:13:44,910 --> 00:13:47,430
+‫Así que agreguemos algunos flotadores para eso.
+
+183
+00:13:47,820 --> 00:13:51,960
+‫Y recomendaría usar algo como bloques flexibles, pero aún no hemos llegado a eso.
+
+184
+00:13:51,970 --> 00:13:53,460
+‫Entonces solo usaremos flotadores.
+
+185
+00:13:53,910 --> 00:14:02,730
+‫Así que agarremos el Navar H1 y flotemos a la izquierda.
+
+186
+00:14:04,650 --> 00:14:08,580
+‫También voy a agregar un poco de relleno en la parte superior para empujarlo un poco hacia abajo.
+
+187
+00:14:09,590 --> 00:14:11,280
+‫Es a 20 píxeles.
+
+188
+00:14:12,120 --> 00:14:13,340
+‫Bien, lo guardaremos.
+
+189
+00:14:13,620 --> 00:14:16,140
+‫Ahora, también queremos flotar eso.
+
+190
+00:14:16,140 --> 00:14:18,630
+‫Queremos flotar eso hacia la derecha.
+
+191
+00:14:22,500 --> 00:14:25,140
+‫Entonces es un bar.
+
+192
+00:14:25,290 --> 00:14:29,290
+‫Bueno, también vamos a hacer un par de cosas más.
+
+193
+00:14:29,310 --> 00:14:30,750
+‫Queremos eliminar las balas.
+
+194
+00:14:30,750 --> 00:14:38,460
+‫Entonces, digamos estilo de vida, ninguno, y estableceremos el margen en cero.
+
+195
+00:14:39,780 --> 00:14:42,410
+‫Y, de hecho, no tenemos que hacer eso porque agregamos el reinicio.
+
+196
+00:14:42,810 --> 00:14:48,000
+‫Así que vamos a flotar, a la derecha, y guardar.
+
+197
+00:14:48,360 --> 00:14:50,390
+‫Y ahora eso flota hacia la derecha.
+
+198
+00:14:52,080 --> 00:14:55,530
+‫Entonces, los elementos de la lista en este momento se están volviendo verticales.
+
+199
+00:14:55,530 --> 00:14:57,180
+‫Queremos que se vuelvan horizontales.
+
+200
+00:14:57,450 --> 00:15:00,300
+‫Así que vayamos a los que dirán barra de navegación.
+
+201
+00:15:00,660 --> 00:15:05,240
+‫Mentirás o podrías simplemente hacer Navar.
+
+202
+00:15:05,240 --> 00:15:06,270
+‫Ally, depende de ti.
+
+203
+00:15:06,270 --> 00:15:08,700
+‫Me gusta mantenerlo organizado de esa manera.
+
+204
+00:15:09,600 --> 00:15:17,490
+‫Entonces, para los elementos de la lista, queremos hacerlos flotar todos a la izquierda y guardar y luego todo lo demás que apliquemos en cuanto a
+
+205
+00:15:17,490 --> 00:15:21,870
+‫estilo en lo que respecta a estos enlaces, estará en la etiqueta interna.
+
+206
+00:15:22,470 --> 00:15:23,520
+‫Así que hagámoslo.
+
+207
+00:15:23,520 --> 00:15:24,840
+‫Digamos barra de navegación.
+
+208
+00:15:27,320 --> 00:15:29,270
+‫Tu l l i a.
+
+209
+00:15:31,960 --> 00:15:43,930
+‫Y queremos mostrarlos como bloques, de acuerdo, para que podamos agregar relleno y queremos hacer 20 píxeles alrededor, de acuerdo, si
+
+210
+00:15:44,290 --> 00:15:49,110
+‫se guardan, eso los coloca en su lugar.
+
+211
+00:15:49,120 --> 00:15:50,850
+‫Teníamos 20 píxeles por todas partes.
+
+212
+00:15:52,000 --> 00:15:53,830
+‫Asegurémonos de que estén alineados, centrados.
+
+213
+00:15:53,830 --> 00:15:57,990
+‫Así que diremos enviar un mensaje de texto al centro de una línea.
+
+214
+00:15:58,750 --> 00:16:00,790
+‫¿Y qué más queremos hacer?
+
+215
+00:16:01,900 --> 00:16:02,680
+‫Creo que eso es todo.
+
+216
+00:16:04,120 --> 00:16:07,090
+‫Ahora, quiero tener un estado flotante en este momento.
+
+217
+00:16:07,090 --> 00:16:09,070
+‫Si coloco el cursor sobre ellos, no pasa nada.
+
+218
+00:16:09,430 --> 00:16:16,540
+‫Entonces, lo que podemos hacer es tomar esto y simplemente agregar nuestro pseudo selector de hover.
+
+219
+00:16:16,570 --> 00:16:20,140
+‫Entonces Colen Hover y yo vamos a decir antecedentes.
+
+220
+00:16:20,780 --> 00:16:22,600
+‫Hagamos cuatro, cuatro, cuatro.
+
+221
+00:16:23,170 --> 00:16:34,810
+‫Y también hagamos que el color sea un hexadecimal de F hagamos F siete C cero ocho A, que es este color marrón
+
+222
+00:16:35,410 --> 00:16:36,980
+‫claro, bronceado.
+
+223
+00:16:37,360 --> 00:16:39,860
+‫Así que ahora, si coloco el cursor sobre él, se verá así.
+
+224
+00:16:41,860 --> 00:16:46,780
+‫Ahora, otra cosa que quiero hacer es dependiendo de la página o en, quiero que también tenga ese efecto.
+
+225
+00:16:46,780 --> 00:16:51,290
+‫Si miramos el proyecto final, puede ver que la página de inicio tiene ese efecto.
+
+226
+00:16:51,760 --> 00:16:59,590
+‫Entonces, lo que podemos hacer es cualquier página en la que se encuentre en la barra de navegación aquí, podemos agregar una
+
+227
+00:16:59,590 --> 00:17:03,180
+‫clase especial y la agregaremos al enlace de los ataques.
+
+228
+00:17:03,200 --> 00:17:08,530
+‫Entonces, dado que estamos en la página de inicio aquí, digamos que la clase es igual y llamemos a esto actual.
+
+229
+00:17:10,430 --> 00:17:15,680
+‫Bien, entonces volveremos y luego quería tener el mismo estilo, no tiene sentido recrearlo.
+
+230
+00:17:15,680 --> 00:17:25,090
+‫Pongamos una coma para que afecte a ambos y tomaremos esto y luego agreguemos la clase de corriente, ¿de acuerdo?
+
+231
+00:17:25,100 --> 00:17:29,900
+‫Y por lo general, desea poner esto en una nueva línea solo para mantenerlo limpio y guardar.
+
+232
+00:17:29,900 --> 00:17:32,450
+‫Y ahora observe que la página de inicio tiene eso.
+
+233
+00:17:33,710 --> 00:17:37,910
+‫Ahora, antes de continuar, solo quiero mostrarte una cosa.
+
+234
+00:17:37,910 --> 00:17:40,010
+‫Si alargamos esto realmente lejos.
+
+235
+00:17:41,260 --> 00:17:46,750
+‫Siempre está en el borde aquí, y no quiero eso, por lo general lo que harás es tener
+
+236
+00:17:46,750 --> 00:17:48,790
+‫un contenedor y moverlo al medio.
+
+237
+00:17:49,660 --> 00:17:55,210
+‫Está bien, y no queremos envolver todo en un recipiente porque entonces la barra negra realmente se enojará,
+
+238
+00:17:55,210 --> 00:17:57,400
+‫ya sabes, empujada hacia el medio.
+
+239
+00:17:57,410 --> 00:18:02,080
+‫Quiero que la barra negra atraviese por completo, pero quiero que estas cosas estén en el medio.
+
+240
+00:18:02,620 --> 00:18:08,890
+‫Entonces, para hacer eso, lo que haremos es agregar una clase de contenedor dentro del NAV porque recuerde, el nombre de
+
+241
+00:18:09,130 --> 00:18:12,520
+‫las barras de navegación de ID es donde está ese fondo.
+
+242
+00:18:12,790 --> 00:18:20,890
+‫Entonces, dentro de eso, queremos tener una clase de contenedor y queremos eliminar el H1 en la U. S. en esa clase y
+
+243
+00:18:20,890 --> 00:18:24,310
+‫guardar y luego le aplicaremos estilo.
+
+244
+00:18:24,850 --> 00:18:26,430
+‫Entonces agreguemos el contenedor.
+
+245
+00:18:26,440 --> 00:18:31,930
+‫De hecho, voy a poner el contenedor en la parte superior porque es una especie de clase de utilidad, lo que significa que
+
+246
+00:18:31,930 --> 00:18:33,130
+‫puede usarlo en todas partes.
+
+247
+00:18:33,430 --> 00:18:41,110
+‫Así que pongamos un comentario aquí y digamos que solo diremos utilidades o clases de utilidad.
+
+248
+00:18:46,010 --> 00:18:54,440
+‫Y el contenedor, así que recuerde, margin auto quiere hacer eso, eso lo empujará todo al medio, pero necesitamos
+
+249
+00:18:54,440 --> 00:18:57,230
+‫tener algún tipo de ancho.
+
+250
+00:18:57,240 --> 00:19:05,090
+‫Entonces, para el ancho con el que queremos usar Mac porque queremos que sea algo receptivo, tan receptivo como podamos hacerlo sin entrar en
+
+251
+00:19:05,090 --> 00:19:09,380
+‫cosas de las que aún no hemos hablado, como las consultas de medios.
+
+252
+00:19:10,220 --> 00:19:12,830
+‫Y vamos a establecer eso en 100 píxeles.
+
+253
+00:19:12,830 --> 00:19:14,210
+‫Ese será el máximo con.
+
+254
+00:19:15,080 --> 00:19:15,670
+‫Está bien.
+
+255
+00:19:15,680 --> 00:19:24,860
+‫Y luego veamos, agreguemos un desbordamiento automático para que siempre muestre que el fondo no se sale de
+
+256
+00:19:24,860 --> 00:19:25,730
+‫él.
+
+257
+00:19:26,540 --> 00:19:27,740
+‫Y luego algo de relleno.
+
+258
+00:19:28,670 --> 00:19:30,110
+‫Quiero hacer acolchado.
+
+259
+00:19:32,220 --> 00:19:34,070
+‫Hagamos cero arriba y abajo.
+
+260
+00:19:34,070 --> 00:19:37,190
+‫Y solo quiero que la izquierda y la derecha tengan un relleno de 20 píxeles.
+
+261
+00:19:37,190 --> 00:19:41,720
+‫Así que guardemos eso y observemos que ahora no está justo al borde.
+
+262
+00:19:41,720 --> 00:19:45,230
+‫Y si traigo esto, si saco el navegador.
+
+263
+00:19:46,180 --> 00:19:50,030
+‫Está bien, cuando alcanza los 1100 píxeles, se detiene.
+
+264
+00:19:50,350 --> 00:19:56,080
+‫Ese es el ancho máximo y, sin embargo, la barra negra sigue siendo transversal.
+
+265
+00:19:56,440 --> 00:20:01,240
+‫Ahora, solo quiero mostrarles algo, y ustedes no tienen que hacer esto, pero si tuviéramos
+
+266
+00:20:02,290 --> 00:20:08,320
+‫el contenedor en el exterior de la barra de navegación, está bien, así que tenga eso y luego Divx el final.
+
+267
+00:20:08,320 --> 00:20:12,270
+‫Can d'Hiv para el contenedor fuera de la barra de navegación y guardar.
+
+268
+00:20:12,280 --> 00:20:17,630
+‫Ahora el fondo no llega completamente porque está restringido dentro del contenedor.
+
+269
+00:20:18,200 --> 00:20:23,740
+‫Bien, y no me gusta la forma en que se ve y los sitios web de, ya sabes, como a principios
+
+270
+00:20:23,740 --> 00:20:28,150
+‫de la década de 2000 se veían así, donde todo estaba en este, este contenedor y luego
+
+271
+00:20:28,150 --> 00:20:29,760
+‫tenías un fondo funky aquí.
+
+272
+00:20:30,040 --> 00:20:34,660
+‫Hoy en día, desea que sus fondos se extiendan por todos lados y solo desea colocar
+
+273
+00:20:34,660 --> 00:20:36,780
+‫su contenido dentro de contenedores, ¿de acuerdo?
+
+274
+00:20:36,790 --> 00:20:41,320
+‫Y esa es otra razón por la que es una clase y no una idea, porque usaremos
+
+275
+00:20:41,320 --> 00:20:43,720
+‫esta clase de contenedor en todo el sitio.
+
+276
+00:20:44,170 --> 00:20:44,560
+‫Está bien.
+
+277
+00:20:44,570 --> 00:20:48,810
+‫Así que traigamos de vuelta cómo fue eso.
+
+278
+00:20:51,460 --> 00:20:52,420
+‫Y ahí vamos.
+
+279
+00:20:52,960 --> 00:20:54,160
+‫OK, eso es todo.
+
+280
+00:20:54,160 --> 00:20:55,210
+‫Esa es nuestra barra NAV.
+
+281
+00:20:55,240 --> 00:20:59,740
+‫Entonces, en el siguiente video, comenzaremos en el área de exhibición aquí mismo.
+

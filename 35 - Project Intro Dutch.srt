@@ -1,0 +1,280 @@
+﻿1
+00:00:00,300 --> 00:00:04,680
+‫Oké, jongens, dus we gaan ons eerste project starten en het wordt een
+
+2
+00:00:04,680 --> 00:00:10,470
+‫kleine hotelwebsite genaamd Hotel AHO of BTE, en we gaan alles gebruiken wat we tot nu toe hebben
+
+3
+00:00:10,470 --> 00:00:10,840
+‫geleerd.
+
+4
+00:00:10,840 --> 00:00:16,920
+‫Dus alles van de TEMEL in de sandbox, ik ga er geen extra technologieën in gooien, zoals
+
+5
+00:00:16,920 --> 00:00:20,760
+‫het rastersysteem of of mediaquery's om het responsief te maken.
+
+6
+00:00:20,880 --> 00:00:23,400
+‫Ik wil alleen dingen behandelen die we al hebben geleerd.
+
+7
+00:00:23,400 --> 00:00:28,080
+‫Zodra we die andere dingen leren, zullen we projecten bouwen met die andere dingen.
+
+8
+00:00:28,130 --> 00:00:34,140
+‫Oké, dus als iemand van jullie meer ervaren is en je zegt, wel, waarom heb je ons hier niet voor
+
+9
+00:00:34,140 --> 00:00:34,590
+‫gezien?
+
+10
+00:00:34,710 --> 00:00:36,300
+‫Want dat hebben we nog niet geleerd.
+
+11
+00:00:36,330 --> 00:00:40,530
+‫OK, merk nu op dat er enkele achtergrondafbeeldingen in dit project zijn.
+
+12
+00:00:40,830 --> 00:00:46,080
+‫Er zal in deze lezing in de downloads een zip-bestand staan genaamd Image Resources.
+
+13
+00:00:46,290 --> 00:00:50,340
+‫En het zal alle afbeeldingen bevatten die in dit project zijn opgenomen.
+
+14
+00:00:50,550 --> 00:00:55,860
+‫En waar ik meestal mijn afbeeldingen krijg, zijn pixels, dotcom, PBX, eells.
+
+15
+00:00:56,520 --> 00:01:01,070
+‫Com, en er zijn massa's gratis, echt, echt hoge kwaliteit stockfoto's.
+
+16
+00:01:01,620 --> 00:01:07,890
+‫Dus wat ik deed, is dat ik gewoon naar een hotel zocht en ik mijn afbeeldingen hier vond en als je er op klikt,
+
+17
+00:01:07,890 --> 00:01:09,260
+‫kun je verschillende formaten downloaden.
+
+18
+00:01:09,270 --> 00:01:10,800
+‫Het is dus een geweldige bron.
+
+19
+00:01:10,800 --> 00:01:16,810
+‫Het is helemaal gratis en de foto's zijn van net zo hoge kwaliteit als premium foto's.
+
+20
+00:01:17,400 --> 00:01:19,050
+‫Dus laten we eens kijken naar het project.
+
+21
+00:01:19,060 --> 00:01:23,010
+‫Dus bovenaan hebben we een navigatiebalk, we hebben een logo.
+
+22
+00:01:23,010 --> 00:01:24,420
+‫We gebruiken hier gewoon een H1.
+
+23
+00:01:24,420 --> 00:01:26,440
+‫Maar je zou gemakkelijk een afbeelding kunnen gebruiken als je wilde.
+
+24
+00:01:26,610 --> 00:01:32,640
+‫We hebben een home over contact met achtergrond en hover-effect en wat de huidige pagina ook is, het
+
+25
+00:01:32,640 --> 00:01:34,530
+‫zal ook de achtergrond hebben.
+
+26
+00:01:34,830 --> 00:01:37,470
+‫Dan hebben we een showcasegebied met een achtergrondafbeelding.
+
+27
+00:01:37,740 --> 00:01:43,530
+‫Nu, deze achtergrondafbeelding, heb ik geopend in Photoshop en ik heb hem een beetje vervaagd, zodat de
+
+28
+00:01:43,620 --> 00:01:45,170
+‫tekst beter leesbaar was.
+
+29
+00:01:45,510 --> 00:01:49,440
+‫Nu kun je dit doen met alleen toegang, maar daar hebben we het nog niet over gehad.
+
+30
+00:01:49,440 --> 00:01:52,740
+‫Dus dat gaan we doen in een ander project.
+
+31
+00:01:53,250 --> 00:01:55,740
+‫Maar voor nu gaan we gewoon de vervaagde afbeelding gebruiken.
+
+32
+00:01:56,220 --> 00:01:57,870
+‫Oké, dus we hebben hier wat tekst over.
+
+33
+00:01:57,870 --> 00:01:59,790
+‫We hebben een link in de vorm van een knop.
+
+34
+00:02:00,060 --> 00:02:02,520
+‫Dan hebben we hier beneden wat zwevende dozen.
+
+35
+00:02:02,520 --> 00:02:04,380
+‫We hebben een afbeelding, jij hebt hier wat tekst.
+
+36
+00:02:04,620 --> 00:02:07,650
+‫En dan hebben we hier drie vakken met enkele pictogrammen.
+
+37
+00:02:07,860 --> 00:02:10,020
+‫Nu hebben we het nog niet gehad over pictogrammen.
+
+38
+00:02:10,230 --> 00:02:17,100
+‫En de manier waarop we deze gebruiken, is met een externe service genaamd Font Awesome, wat echt geweldig
+
+39
+00:02:17,100 --> 00:02:17,640
+‫is.
+
+40
+00:02:17,640 --> 00:02:19,020
+‫En het is erg populair.
+
+41
+00:02:19,020 --> 00:02:20,130
+‫Het wordt de hele tijd gebruikt.
+
+42
+00:02:20,820 --> 00:02:26,520
+‫En eigenlijk hoeven we alleen maar hun stijlblad op te nemen, hun succes, en we kunnen gewoon klassen
+
+43
+00:02:26,520 --> 00:02:32,520
+‫aan elementen toevoegen en we kunnen deze cool uitziende pictogrammen krijgen en we kunnen ze zelfs verkleinen met bepaalde
+
+44
+00:02:32,520 --> 00:02:33,170
+‫klassen, enzovoort.
+
+45
+00:02:33,570 --> 00:02:33,990
+‫Oke.
+
+46
+00:02:33,990 --> 00:02:34,650
+‫Dus dat gaan we doen.
+
+47
+00:02:34,650 --> 00:02:37,020
+‫En dan hebben we een simpele footer met copyright.
+
+48
+00:02:37,410 --> 00:02:39,570
+‫En dan hebben we op de over-pagina wat tekst.
+
+49
+00:02:39,570 --> 00:02:44,730
+‫We hebben een afbeelding afgerond met een randradius en dan hebben we een achtergrondafbeelding met enkele getuigenissen waar
+
+50
+00:02:44,730 --> 00:02:49,770
+‫we de afbeeldingen in de tekst laten zweven en dan hebben we op de contactpagina een formulier
+
+51
+00:02:49,770 --> 00:02:54,670
+‫dat we gaan stylen en dan enkele pictogrammen hier beneden met locatie, telefoonnummer en adres.
+
+52
+00:02:55,050 --> 00:03:00,060
+‫Zoals ik al eerder zei, je kunt een contactformulier niet laten werken met alleen HTML.
+
+53
+00:03:00,060 --> 00:03:05,400
+‫Je moet een soort server-side taal hebben, zoals HP of iets dergelijks, wat buiten het bestek van
+
+54
+00:03:05,400 --> 00:03:06,710
+‫deze cursus valt.
+
+55
+00:03:07,050 --> 00:03:15,300
+‫Nu, aan het einde van deze cursus, kan ik een video of een verwijzing naar een video toevoegen waarvan je weet dat ik je laat zien
+
+56
+00:03:15,300 --> 00:03:20,070
+‫hoe je een script of iets dergelijks gebruikt om een contactformulier in te dienen.
+
+57
+00:03:20,640 --> 00:03:25,980
+‫Maar weet gewoon dat het indienen van een formulier buiten het bestek van deze cursus valt.
+
+58
+00:03:26,550 --> 00:03:29,590
+‫OK, dus dat zijn de drie pagina's die zullen worden gemaakt.
+
+59
+00:03:29,850 --> 00:03:33,060
+‫Nu is deze site niet volledig responsive.
+
+60
+00:03:33,060 --> 00:03:35,130
+‫Je zult zien of ik heel klein naar beneden ga.
+
+61
+00:03:35,130 --> 00:03:39,900
+‫Ik bedoel, het ziet er goed uit wat betreft het menu hier, dit ziet er zelfs goed uit.
+
+62
+00:03:40,200 --> 00:03:43,560
+‫Deze moet eigenlijk gestapeld worden en niet in drie rijen.
+
+63
+00:03:43,560 --> 00:03:47,250
+‫Ik vind ze te smal, maar dat gaan we nu nog niet doen.
+
+64
+00:03:47,250 --> 00:03:53,130
+‫Misschien doen we het later als we in de media komen en dit soort dingen ziet er niet echt goed uit.
+
+65
+00:03:53,550 --> 00:03:54,690
+‫Contact pagina.
+
+66
+00:03:54,690 --> 00:03:56,020
+‫Contactpagina ziet er goed uit.
+
+67
+00:03:56,040 --> 00:03:59,130
+‫Nogmaals, deze moeten worden gestapeld, maar daar komen we later op terug.
+
+68
+00:03:59,130 --> 00:04:01,980
+‫Ik wil niet beginnen met dingen te doen waar we het nog niet over hebben gehad.
+
+69
+00:04:02,440 --> 00:04:04,110
+‫OK, dus dat is het jongens.
+
+70
+00:04:04,110 --> 00:04:05,760
+‫Laten we beginnen met het project.
+
